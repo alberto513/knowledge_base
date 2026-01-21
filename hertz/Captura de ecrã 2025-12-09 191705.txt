@@ -1,0 +1,13 @@
+Qual gráfico temporal deve ser inserido no Hertz para obter o número
+adequado para o Buy and Hold?
+
+Buy and Hold é uma estratégia em que as operações são iniciadas em um
+dia e permanecem abertas por pelo menos 5 anos.
+
+Assim como no Swing Trade, não há consenso único entre referências
+literárias para a escolha de um tempo gráfico fixo no Buy and Hold.
+Normalmente, utilizam-se gráficos Mensais, Semanais ou Diários.
+
+Na FPLEME, não temos uma padronização para o tempo gráfico no Buy
+and Hold, então recomendamos que seja utilizado o que é amplamente
+padronizado no mercado: Mensal, Semanal ou Diário.

@@ -1,0 +1,12 @@
+iii
+Observação: Existem vários gráficos atemporais, mas por que utilizamos o
+Renko?
+
+Resposta: Dentro das possibilidades de gráficos atemporais, utilizamos o
+gráfico Renko porque ele possui apenas duas representações visuais:
+movimento para cima ou para baixo. Diferentemente do gráfico "P”, por
+exemplo, que também é um gráfico atemporal e é usado na leitura de fluxo.
+O gráfico "P* apresenta representações laterais, além dos movimentos para
+cima e para baixo. Na análise de fluxo, essa lateralização é comumente
+chamada de “gráfico de canal”. Essa característica não é ideal para a
+máquina, pois adiciona uma variável a mais para ser calculada.

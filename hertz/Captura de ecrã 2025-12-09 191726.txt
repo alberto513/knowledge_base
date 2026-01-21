@@ -1,0 +1,12 @@
+Voltando ao Hertz: além das funcionalidades já citadas, ele também é
+utilizado para minimizar as lateralizações, chamadas de “ziperes”,
+permitindo visualizar um gráfico mais limpo e direcional. Por isso, não
+utilizamos qualquer Renko, mas sim o Renko ajustado pelo Hertz para ser
+utilizado.
+Além disso, o Hertz também oferece uma visão da velocidade do ativo, um
+conceito que será explicado mais adiante no tópico de usabilidade.
+HERTZ: NOMENCLATURA
+Ao adicionar o Hertz a qualquer gráfico temporal, ele fornece três
+informações representadas no lado direito da ferramenta:
+
+Hertz na plataforma Profit

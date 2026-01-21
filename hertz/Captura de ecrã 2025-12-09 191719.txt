@@ -1,0 +1,6 @@
+O Hertz é uma ferramenta que transforma o gráfico temporal em um
+gráfico atemporal. Isso facilita para a máquina probabilizar o mercado,
+pois os dados são contínuos e não estão limitados a uma barra temporal
+Exemplo:
+CR |
+a

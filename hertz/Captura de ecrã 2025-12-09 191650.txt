@@ -1,0 +1,13 @@
+O gráfico perpétuo, aqueles com final FUT, era, inicialmente, utilizado
+apenas para estudos e análises. Antigamente, não era possível operar
+diretamente por ele. Contudo, hoje, isso já é possível. Para isso, basta clicar
+com o botão direito do mouse e ativar a opção Cross Order. Com essa
+opção ativada, você pode visualizar o contrato FUT e operar no contrato
+vigente. No exemplo da imagem abaixo, o contrato vigente é o WINZ24.
+(Imagem 3)
+
+É importante destacar que, apesar do exemplo mostrado ser no INDFUT,
+essas configurações e ensinamentos se aplicam a TODOS os ativos
+futuros, como DOLFUT, INDFUT, DIFUT, entre outros
+
+Imagem 3

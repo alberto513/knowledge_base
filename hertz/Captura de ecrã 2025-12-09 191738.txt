@@ -1,0 +1,31 @@
+Assim como na linha Intermediária, no final da linha Inferior há um número
+dentro de uma etiqueta. No exemplo da imagem, o número apresentado é
+9. Este valor também muda conforme a movimentação do mercado.
+
+Se você quiser operar usando a Frequência Sniper, basta usar o número
+exibido na etiqueta laranja. Por exemplo, se o número for 9, você
+configurará o 9R no Renko.
+
+Compreendendo a Linha Superior (Frequência Macro):
+
+A linha superior, localizada acima da linha intermediária, é chamada de
+Frequência Macro. Essa frequência é destinada a quem busca uma visão
+“macroscópica” do movimento, sendo ideal para analisar regiões no mapa
+de forma mais ampla.
+
+Observação: Essa leitura é especialmente útil para identificar os extremos
+dos ativos, já que os extremos no gráfico macro tendem a ser mais
+“duradouros” devido à sua visão de longo prazo.
+
+No final da linha, também há um número dentro de uma etiqueta. No
+exemplo da imagem, o número exibido é 23. Esse valor não é fixo e muda
+conforme a negociação do mercado.
+
+Importante: A desvantagem da Frequência Macro é que o Renko se torna
+maior, o que implica stops e alvos também maiores. Por isso, ela
+raramente é usada para entradas e saídas, sendo mais comum utilizarmos
+para mapeamentos.
+
+Se você optar por usar a Frequência Macro, utilize o número exibido na
+etiqueta. Por exemplo, se o número for 23, você configurará o 23R no
+Renko.

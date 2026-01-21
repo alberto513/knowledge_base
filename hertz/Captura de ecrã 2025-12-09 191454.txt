@@ -1,0 +1,24 @@
+O número do Hertz traz uma percepção muito importante, que vai além de
+simplesmente indicar qual Renko devemos utilizar
+
+Essa informação também é diretamente proporcional à volatilidade do
+mercado. Mas o que isso significa?
+
+Quanto maior for o número do Hertz, mais volátil é aquele ativo.
+
+Vamos comparar a seguinte sequência de ativos: Dólar, Indice, SEP500 e
+NASDAQ, utlizando o gráfico de 5 minutos.
+TE
+
+f =
+Y
+
+Anotando as frequências no Dólar
+
+Frequência Macro: 168 er
+
+Frequência Conforto: 10R am
+
+Frequência Sniper: 6R
+
+O

@@ -1,0 +1,27 @@
+Compreendendo a Linha Intermediária (Frequência de Conforto):
+
+A linha intermediária, localizada entre as linhas superior e inferior, é
+chamada de Frequência de Conforto. Essa frequência representa a melhor
+“tradução” do tempo gráfico que você escolheu. Por exemplo, se você optar
+por um gráfico de 5 minutos, a Frequência de Conforto reflete essa
+sensação ao operar no tempo selecionado.
+
+No final da linha, há um número dentro de um retângulo, semelhante a uma
+etiqueta. No exemplo da imagem, o número apresentado é 14. Este número
+não é fixo e muda conforme a negociação (volatilidade) do mercado.
+
+Esse número é o valor que você deve configurar no gráfico Renko. Por
+exemplo, se o número mostrado for 14, você usará o 14R para operar.
+Compreendendo a Linha Inferior (Frequência Sniper):
+
+A linha inferior, localizada abaixo da linha intermediária, é chamada de
+Frequência Sniper. Ela é ideal para quem busca uma visão mais
+“microscópica” do mercado.
+
+Observação: Isso não quer dizer que um renko pequeno vai ser rápido, o
+que acontece é que diminuindo o renko vocé está fragmentando o
+movimento em renkos menores, logo está tendo essa a sensação que
+mercado está andando mais. Por exemplo: existem Small caps que o renko
+é pequeno, mas o preço da ação não anda quase nada. Então uma coisa
+não está associada a outra, falaremos mais sobre isso no tópico de
+considerações.

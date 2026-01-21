@@ -1,0 +1,6 @@
+Imagem 3
+
+Agora, o gráfico está configurado na frequência indicada, em Renko, e com
+o Cross Order ativado. Depois que o gráfico já estiver ajustado para Renko,
+não há mais necessidade de consultar o Hertz novamente, pois sua função
+já terá sido concluída.

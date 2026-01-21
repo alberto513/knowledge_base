@@ -1,0 +1,29 @@
+Quando se trata de mercado futuro (como Dólar, Índice, DI, SEP500,
+NASDAQ Ouro, Gás ou moedas gerais listadas na CME), que possui um alto
+grau de alavancagem, operar qualquer ativo pode se tornar bastante
+desafiador quando o Hertz aponta mais de 30R na Frequência de Conforto.
+no gráfico de 5 minutos,
+
+Caso um ativo apresente uma Frequência de Conforto acima de 30R no
+gráfico de 5 minutos, nossa recomendação é simples:
+
+Mude de ativo naquele dia. Escolha um ativo mais tranquilo. Existem
+dezenas de ativos operáveis que podem oferecer o mesmo potencial
+financeiro e a mesma leitura, mas de forma mais fácil e segura para extrair
+dinheiro do mercado.
+
+Observação:
+
+Cuidado ao tentar “enganar” o Hertz. Uma forma de reduzir o Renko de um
+ativo é alterar a medição de 5 minutos para 1 minuto. Dessa forma, o
+conjunto das frequências será reduzido,
+
+Entretanto, é preciso cautela. Alterar o gráfico, por exemplo, de S6R para
+24R, para encontrar um Renko menor, não significa que o mercado ficará
+mais lento. O mercado continuará volátil pois, no gráfico de 5 minutos, a
+Frequência de Conforto permanece alta.
+
+Portanto, reduzir o tempo de medição de 5 minutos para 1 minuto pode
+ajudar a encontrar um Renko mais adequado ao seu stop. Contudo, isso
+não elimina o principal alerta que o Hertz está indicando: Cuidado, este
+ativo está muito volátil e complexo para ser operado neste momento.

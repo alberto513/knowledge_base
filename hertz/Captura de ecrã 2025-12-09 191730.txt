@@ -1,0 +1,7 @@
+Hertz na plataforma Profit
+eee . —
+ee |
+Hertz na plataforma Ninja Trader
+Observe que a ferramenta é composta por 3 linhas, uma superior, uma
+intermediária e uma inferior. Vamos agora entender cada uma delas e o
+que elas representam.

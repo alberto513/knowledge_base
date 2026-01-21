@@ -1,0 +1,9 @@
+Dúvida: O número do Hertz mudou enquanto eu estava em operação. O
+que fazer?
+
+Resposta: Não há problema. Essa mudança pontual não comprometerá
+sua leitura, pois o Hertz possui uma tolerância para essas variações.
+Contudo, assim que possível, atualize o gráfico para a frequência correta.
+Na próxima aula, falaremos sobre a usabilidade do Hertz.
+
+Bons estudos!

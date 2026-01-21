@@ -1,0 +1,27 @@
+LL. ———_—r——vas
+Magro Ateo Ros cura com cor: 001957 50-81
+
+HERTZ; USABILIDADE
+Como vimos anteriormente, uma das funções do Hertz é converter o
+gráfico temporal em gráfico atemporal.
+Qual gráfico temporal deve ser inserido no Hertz para ele fornecer o
+número ideal para o Day Trade?
+Day Trade consiste em operações que são iniciadas e encerradas no
+mesmo dia.
+Embora existam várias referências literárias, não há um consenso único
+sobre qual tempo fixo deve ser usado para o Day Trade. Geralmente,
+utilizam-se intervalos entre 1 minuto e 15 minutos.
+Para padronizar a leitura e a linguagem na FPLEME, recomendamos o uso
+do gráfico de 5 minutos para operações de Day Trade.
+Observação: As frequências mais utilizadas no Day Trade são a Frequência
+de Conforto e a Frequência Sniper.
+Exemplo: Índice (INDFUT) no gráfico de 5 minutos utilizando a Frequência
+de Conforto.
+Nota importante: No mercado brasileiro, geralmente utilizamos o contrato
+perpétuo (também conhecido como "série histórica") para regular o Hertz
+de ativos futuros. Os contratos perpétuos são aqueles que terminam com
+*FUT”, como, por exemplo, INDFUT e DOLFUT.
+Além disso, geralmente utilizamos o contrato cheio para regular o Hertz.
+Por isso, no exemplo da imagem 1, o ativo selecionado é o INDFUT, e não o
+WINFUT. Essa escolha ocorre porque o cálculo no contrato cheio é mais
+rápido, facilitando o processamento para a maioria dos computadores.

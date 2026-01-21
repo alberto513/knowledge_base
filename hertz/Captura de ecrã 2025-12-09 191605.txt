@@ -1,0 +1,33 @@
+==
+para ar seg
+ah pr
+po av ~ weeny
+ay
+À ev =
+My
+a
+
+Anotando as frequências no Nasdaq zw
+
+Frequéncia Macro: 71R
+
+Frequéncia Conforto: 44R cn
+
+Frequência Sniper: 27R » |
+
+O que é possível notar comparando Dólar, Índice, S&P500 e NASDAQ,
+respectivamente?
+
+É possível perceber que esses ativos estão em uma sequência na qual o
+Hertz aumenta gradativamente a cada ativo. Esse aumento ocorre no
+conjunto inteiro das frequências, ou seja, todas as frequências (conforto,
+macro e sniper) aumentam conforme o ativo muda. Por exemplo, ao
+comparar a Frequência de Conforto do Dólar com a do Índice, você notará
+que a frequência do Índice é maior. Da mesma forma, ao comparar as
+frequências macro ou sniper, verá que elas também são maiores.
+
+Quanto maior for o número apresentado no conjunto indicado pelo Hertz,
+mais volátil será o ativo. Em algumas situações, ativos com o Hertz muito
+alto tornam-se praticamente inoperáveis. Isso ocorre porque eles se
+tornam extremamente voláteis, e o stop calculado com base em um Renko
+de 30R, por exemplo, pode ficar muito grande.

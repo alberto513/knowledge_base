@@ -1,0 +1,8 @@
+Observação: No mercado global, utilizando a plataforma Ninja Trader, não
+é necessário ativar a opção Cross Order, pois essa funcionalidade já é
+configurada automaticamente. Assim, você não verá o contrato FUT no
+mercado global.
+
+Ainda assim, isso não é um problema. No exemplo mostrado, o contrato de
+dezembro de 2024 está em uso. Mesmo assim, é possível visualizar meses
+anteriores, assim como em um gráfico perpétuo.

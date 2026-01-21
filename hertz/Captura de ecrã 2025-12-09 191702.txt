@@ -1,0 +1,16 @@
+anteriores, assim como em um gráfico perpétuo.
+dy ry
+WK , mE
+O re
+pp
+
+Qual gráfico temporal deve ser inserido no Hertz para obter o número
+adequado para o Swing Trade?
+Swing Trade refere-se a operações que se iniciam em um dia e são
+encerradas em dias, semanas, meses ou até mesmo em até 4 anos.
+Embora existam diversas referências literárias, não há consenso sobre qual
+tempo gráfico fixo utilizar no Swing Trade. Geralmente, o intervalo mais
+usado varia entre gráficos de 1440 minutos (equivalente a 1 dia) e 60
+minutos.
+Para padronizar a leitura e a linguagem na FPLEME, recomendamos o uso
+do gráfico de 60 minutos para operações de Swing Trade.
