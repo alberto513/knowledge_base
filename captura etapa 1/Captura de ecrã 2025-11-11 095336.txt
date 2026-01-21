@@ -1,0 +1,11 @@
+TIMING DE ENTRADA - ETAPA 1
+Quando isso acontece, existe um atalho visual que indica que a Etapa 1
+ocorreu. Esse atalho é representado por um Post-it retangular verde
+destacado.
+12,00
+6,00
+lo - “4,00
+\
+\
+VARA 600
+-12,00

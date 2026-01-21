@@ -1,0 +1,8 @@
+Isso ocorre porque o mercado tentou entrar em Etapa 1, mas a linha do
+Shark ainda estava azul
+d FZ 12,00
+» a
+400
+-4,00
+-6,00
+-8,00

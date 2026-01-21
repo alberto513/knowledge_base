@@ -1,0 +1,24 @@
+Etapa 2
+A Etapa 2 é uma estratégia de timing de mercado que pode ser identificada
+por meio da ferramenta FPLEME. Seu objetivo é permitir uma entrada após
+o início de um novo ciclo de mercado. Ou seja, se você não conseguiu
+entrar na Etapa 1 ou prefere operar com mais confirmações antes de tomar
+uma decisão, a Etapa 2 pode ser uma excelente alternativa
+Talvez você esteja se perguntando: Se essa etapa ocorre depois da Etapa 1,
+ela não seria uma entrada "atrasada"?
+Nós também já pensamos assim. No entanto, com o tempo e estudos mais
+aprofundados, percebemos que essa ideia não se sustenta. Na verdade, a
+Etapa 2 pode ser uma ótima estratégia desde que aplicada no contexto
+certo.
+Nesta aula, vamos explorar em detalhes como funciona a Etapa 2 e quais
+são os cenários mais favoráveis para utilizá-la
+Visualização:
++ Etapa 2 Compradora: A Etapa 2 Compradora ocorre quando a
+ferramenta sai do nível 4,00 (já positivo) e consegue fechar um box que
+faz a linha do FPLEME alcançar o nível 8,00.
+12,00
+<a
+—— IE
+y 4,00
+“8,00
+-12,00

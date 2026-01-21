@@ -1,0 +1,18 @@
+Segunda opção de Timing de mercado para Etapa 2
+Existe uma alternativa de Timing de mercado na Etapa 2 com um estilo
+operacional um pouco menos conservador, chamada de Etapa 2.2.
+Em momentos de maior volatilidade, especialmente em ativos naturalmente
+mais voláteis, como o Nasdaq, pode fazer sentido aplicar o Timing da Etapa
+22
+Essa segunda opção consiste em se posicionar na base do próprio box que
+confirmou a Etapa 2, em vez de se posicionar na base do box anterior.
+Exemplo: ES
+pd 4!
+1º - Etapa 2 identificada - a td Y
+ty =
+yl
+pa
+laren
+TAS
+cat it
+oi i Iris 7

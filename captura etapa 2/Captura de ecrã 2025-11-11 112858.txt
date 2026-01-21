@@ -1,0 +1,32 @@
+Se você nunca alterou essas configurações no seu FPLEME, pode ficar
+tranquilo, pois já estará configurado exatamente como nas representações
+apresentadas.
+
+Reforçando:
+
++ Existe Etapa 2 Compradora com o FPLEME indo do nível 8,00 para o
+nível 12,00?
+
+Resposta: Não. Nesse caso, não se trata de uma Etapa, pois só pode ser
+considerada Etapa 2 quando o FPLEME sai do nível 4,00 e vai para o nível
+8,00.
+
++ Existe Etapa 2 Compradora com o FPLEME indo do nível 0,00 para o
+nível 4,00?
+
+Resposta: Não. Da mesma forma, não se trata de uma Etapa, pois só pode
+ser considerada Etapa 2 quando o FPLEME sai do nível 4,00 e vai para o
+nível 8,00.
+
+Posicionamento de Ordem na Etapa 2 de Compra
+
+Diferentemente da Etapa 1, em que sabemos que a confirmação ocorrerá no
+segundo ou terceiro box positivo, a Etapa 2 é mais difícil de prever com
+antecedência. Só conseguimos identificá-la no momento em que, de fato,
+acontece.
+
+Assim como na Etapa 1, NUNCA compramos no fechamento do box. O que
+devemos fazer é identificar que houve uma Etapa 2, planejar a entrada no
+trade e posicionar a ordem de forma estratégica.
+
+Veja o passo a passo no exemplo:

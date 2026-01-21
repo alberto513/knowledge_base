@@ -1,0 +1,17 @@
+Se você nunca alterou essas configurações no seu FPLEME, fique tranquilo
+pois ele já estará configurado exatamente como mostrado nas
+representações.
+
+Reforço: Existe Etapa 1 com o FPLEME no nivel de +12,00 ou +8,00?
+Resposta: Não. Nesses casos, não há Etapa alguma, pois não é possível qu
+o FPLEME saia do nivel +12,00 ou +8,00 e atinja o nivel 0,00 com apenas 1
+box.
+
+A condição para ser considerada uma Etapa 1 é o FPLEME alcançar o nível
+0,00.
+
+Portante, quando estiver planejando fazer uma venda, não a realize em
+qualquer box negativo. O ideal é que seja em um box negativo que tenha
+chance de, pelo menos, se tornar uma Etapa 1.
+
+Veja, então, exemplos de boxes negativos que não têm chance de virar

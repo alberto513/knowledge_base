@@ -1,0 +1,13 @@
+TIMING DE ENTRADA - ETAPA 1
+
+Importante:
+
+Uma Etapa 1 dentro de um cenário será sempre mais segura do que uma
+Etapa 1 isolada.
+
+Como assim?
+
+Foque em realizar Etapas 1 que estejam dentro dos cenários de PPM ou
+MM.
+
+Exemplo: Qual das operações é mais segura? Opção 1 ou Opção 2?

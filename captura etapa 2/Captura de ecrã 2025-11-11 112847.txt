@@ -1,0 +1,19 @@
+Além dessa condição, um complemento importante para a leitura é: para
+ser considerada Etapa 2 Compradora, o Shark também deve estar azul. Na
+maioria das vezes, quando o mercado estiver em Etapa 2 Compradora, o
+Shark já estará azul, mas é sempre bom conferir. Caso você tenha entrado
+pela Etapa 2 e o Shark fique vermelho, isso serve como um atalho visual
+para avaliar a saída da operação.
+12,00
+6,00
+iw
+1 — QU
+| -2,00
+LAO
+- \ -6,00
+-- \ ? E -8,00
+Observação:
+Os pontos e condições apresentados aqui estão baseados na leitura do
+FPLEME com os parâmetros originais, sem nenhuma alteração — ou seja,
+no "padrão de fábrica”, com XR desativado e Modo Rápido desligado (XR ->
+Não e Modo Rápido -> Não)

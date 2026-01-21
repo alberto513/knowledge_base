@@ -1,0 +1,7 @@
+TIMING DE ENTRADA - ETAPA 2
+Legenda:
++ Traço verde: indica o local mais recomendado para posicionar a ordem
+de entrada.
++ Topo, base e sombra do box positivo:
+Topo
+Base

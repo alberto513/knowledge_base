@@ -1,0 +1,23 @@
+TIMING DE ENTRADA - ETAPA 1
+
+Resposta:
+
+A Op.2 é mais segura do que a Op.1, pois a Op.2 é uma entrada de Etapa 1
+dentro de um cenário de Progressão de Preço em MAP (PPM), enquanto a
+Op.1 é apenas um movimento de alta isolado e sem contexto.
+
+Essa informação é extremamente valiosa, pois é o que ajudará você a
+identificar boas entradas. O segredo de um trade bem-sucedido está no
+contexto do cenário.
+
+No exemplo abaixo, o cenário está dentro de um PPM na venda. Entradas
+compradoras, nesse caso, ficam fora de contexto e resultam,
+frequentemente, em movimentos curtos e de menor probabilidade de
+sucesso. Além disso, o último movimento de compra, indicado por duas
+setas vermelhas, tinha a The Wall na cor rosa (magenta/fúcsia), que é mais
+um indicador de segurança mostrando que ainda não há possibilidade de
+compras seguras.
+
+Ou seja, no exemplo abaixo, era muito mais inteligente e seguro realizar uma
+Etapa 1 na venda do que tentar uma Etapa 1 na compra, pois o cenário é de
+Progresso de Preço em MAP na venda.

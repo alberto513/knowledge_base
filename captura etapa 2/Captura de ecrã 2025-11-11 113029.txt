@@ -1,0 +1,13 @@
+Resposta: A Op.2 é mais segura do que a Op.1, pois representa uma entrada
+de Etapa 2 dentro de um cenário de Progressão de Preço em MAP (PPM),
+enquanto a Op.1 ocorre em um movimento isolado qualquer.
+
+Essa informação é valiosa, pois é essencial para escolher uma boa entrada.
+O segredo de um trade bem-sucedido está no cenário.
+
+Veja novamente:
+
+Na Op.1, não havia um cenário definido. Além disso, o preço ainda não tinha
+rompido a The. Wall, o que significa que ela não poderia estar verde para
+complementar a leitura. Também não existia uma Progressão de Preço em
+MAP favorável à compra. A]

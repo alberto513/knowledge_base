@@ -1,0 +1,18 @@
+PIMING DE ENTRADA - ETAPA 1
+Agora que finalizamos a explicação sobre a Etapa 1 compradora, é hora de
+virar a página e falar sobre a Etapa 1 vendedora.
+A lógica segue o mesmo princípio, mas com foco nas operações de venda.
+Vamos explorar os detalhes e ajustes necessários para aproveitar esse tipo
+de oportunidade de mercado.
++ Etapa 1 Vendedora: É considerada Etapa 1 vendedora o momento em
+que a ferramenta sai da linha de +4,00 e consegue fechar um box que
+faz a linha do FPLEME alcançar o nível 0,00.
+12,00
+a >
+/ ae
+Mi oo
+|——— ——— 0,00
+-4,00
+-6,00
+-8,00
+-12,00

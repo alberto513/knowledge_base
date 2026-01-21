@@ -1,0 +1,18 @@
+TIMING DE ENTRADA - ETAPA 1
+
+Se você nunca alterou essas configurações no seu FPLEME, fique tranquilo,
+pois ele já estará configurado exatamente como nas representações
+apresentadas.
+
+Reforço:
+
+Existe Etapa 1 com o FPLEME nos níveis -12,00 ou -8,00?
+
+Resposta: Não. Nesse caso, não se trata de nenhuma Etapa, porque não é
+possível o FPLEME sair do nível -12,00 ou -8,00 e alcançar o nível 0,00 com
+apenas 1 box. Para o FPLEME ser considerado Etapa 1, ele precisa
+obrigatoriamente alcançar o nível 0,00.
+
+Portanto, ao pensar em realizar uma compra, não é possivel fazê-la em
+qualquer box positivo. O ideal é que seja um box positivo com chance real
+de se transformar em uma Etapa 1.

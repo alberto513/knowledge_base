@@ -1,0 +1,5 @@
+Identificação visual:
+
+Quando isso acontece, existe um atalho visual indicando que a Etapa 1
+ocorreu. Esse atalho é mostrado através de um Post-it (retangular) vermelho
+destacado.

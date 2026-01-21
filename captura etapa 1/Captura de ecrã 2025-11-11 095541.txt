@@ -1,0 +1,11 @@
+TIMING DE ENTRADA - ETAPA 1
+
+Importante:
+
+Sempre uma Etapa 1 dentro de um cenário será mais segura do que uma
+Etapa 1 isolada.
+
+Como assim?
+
+Priorize realizar Etapas 1 que estejam dentro de cenários de PPM
+(Progressão de Preço em MAP) ou MM (MAP com MAP).

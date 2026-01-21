@@ -1,0 +1,12 @@
+TIMING DE ENTRADA - ETAPA 1
+
+Quando o Shark ainda está vermelho, os preços tendem a lateralizar, a
+
+menos que a linha do Shark mude para azul futuramente.
+
+Compare: o movimento de Etapa 1 com o Post-it em verde acinzentado
+
+(opaco) foi mais lateralizado, enquanto a operação de Etapa 1 com o verde
+
+destacado resultou em um movimento mais fluido:
+in

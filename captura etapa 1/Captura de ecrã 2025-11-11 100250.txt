@@ -1,0 +1,21 @@
+TIMING DE ENTRADA - ETAPA 1
+
+Resposta: A Opção 2 é mais segura, pois representa uma entrada de Etapa 1
+dentro de um CENÁRIO de MAP com MAP (MM), enquanto a Opção 1 é uma
+baixa em um movimento isolado.
+
+Essa informação é valiosa porque ela ajuda a escolher a entrada correta. O
+segredo de um trade certo está no cenário.
+
+Por exemplo:
+
+No exemplo abaixo, o cenário é claramente de Progressão de Preço em
+MAP na compra. Nesse caso, vendas ficam fora de contexto e acabam se
+tornando movimentos curtos.
+
+Além disso, o último movimento de venda (indicado com duas setas verdes)
+apresentava a The Wall na cor verde, o que é mais um indicador de
+segurança, mostrando que ainda não há possibilidades seguras de venda.
+Ou seja, no exemplo abaixo, seria muito mais inteligente e seguro realizar
+uma Etapa 1 na compra do que na venda, pois o CENÁRIO é de Progressão
+de Preço em MAP na compra.

@@ -1,0 +1,24 @@
+> mar ——
+
+A VIO
+FPLEMESE
+
+TIMING DE ENTRADA - ETAPA 1
+
+Etapa
+
+A Etapa 1 é um estilo de timing de entrada visualizado por meio da
+
+ferramenta FPLEME. Ela serve para identificar oportunidades de
+
+posicionamento no início de um ciclo de mercado, proporcionando um
+
+gerenciamento de risco bem definido, baseado nas informações fomecidas
+
+pelas ferramentas.
+
+Além disso, a Etapa 1 tem como objetivo filtrar os boxes, sejam positivos
+
+ou negativos, que não têm chances de iniciar um movimento. Esse
+
+processo será detalhado com as imagens a seguir

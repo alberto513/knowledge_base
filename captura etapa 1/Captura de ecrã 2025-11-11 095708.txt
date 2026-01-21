@@ -1,0 +1,16 @@
+TIMING DE ENTRADA - ETAPA 1
+Isso favorece o possível movimento, pois há um alinhamento entre as
+forças: a Etapa e o Ciclo estão alinhados.
+No entanto, há outro atalho visual que também indica a Etapa 1, mas, nesse
+caso, com um Postit vermelho acinzentado (vermelho opaco):
+12,00
+E 4,00
+-4,00
+-6,00
+-8,00
+Nesse caso, o Post-it vermelho acinzentado (opaco) também representa a
+Etapa 1, pois o FPLEME saiu do nível +4,00 e alcançou o nivel 0,00. No
+entanto, essa condigáo apresenta uma menor chance de iniciar um ciclo
+vendedor.
+Isso ocorre porque o mercado tentou entrar em Etapa 1, mas a linha do
+Shark ainda estava azul
