@@ -1,0 +1,496 @@
+                           TIMING DE                            ETAPA 2
+
+
+
+                           ENTRADA
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+             Etapa 2
+
+             A Etapa 2 é uma estratégia de timing de mercado que pode ser identificada
+             por meio da ferramenta FPLEME. Seu objetivo é permitir uma entrada após
+             o início de um novo ciclo de mercado. Ou seja, se você não conseguiu
+             entrar na Etapa 1 ou prefere operar com mais confirmações antes de tomar
+             uma decisão, a Etapa 2 pode ser uma excelente alternativa.
+
+             Talvez você esteja se perguntando: Se essa etapa ocorre depois da Etapa 1,
+             ela não seria uma entrada "atrasada"?
+
+             Nós também já pensamos assim. No entanto, com o tempo e estudos mais
+             aprofundados, percebemos que essa ideia não se sustenta. Na verdade, a
+             Etapa 2 pode ser uma ótima estratégia desde que aplicada no contexto
+             certo.
+
+             Nesta aula, vamos explorar em detalhes como funciona a Etapa 2 e quais
+             são os cenários mais favoráveis para utilizá-la.
+
+             Visualização:
+
+                   Etapa 2 Compradora: A Etapa 2 Compradora ocorre quando a
+                   ferramenta sai do nível 4,00 (já positivo) e consegue fechar um box que
+                   faz a linha do FPLEME alcançar o nível 8,00.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+             Além dessa condição, um complemento importante para a leitura é: para
+             ser considerada Etapa 2 Compradora, o Shark também deve estar azul. Na
+             maioria das vezes, quando o mercado estiver em Etapa 2 Compradora, o
+             Shark já estará azul, mas é sempre bom conferir. Caso você tenha entrado
+             pela Etapa 2 e o Shark fique vermelho, isso serve como um atalho visual
+             para avaliar a saída da operação.
+
+
+
+
+             Observação:
+             Os pontos e condições apresentados aqui estão baseados na leitura do
+             FPLEME com os parâmetros originais, sem nenhuma alteração — ou seja,
+             no "padrão de fábrica", com XR desativado e Modo Rápido desligado (XR ->
+             Não e Modo Rápido -> Não).
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+
+
+
+                            Imagem: XR -> Não
+
+
+
+
+                            Imagem: Modo Rápido-> Não
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+            Se você nunca alterou essas configurações no seu FPLEME, pode ficar
+            tranquilo, pois já estará configurado exatamente como nas representações
+            apresentadas.
+
+            Reforçando:
+            🔹  Existe Etapa 2 Compradora com o FPLEME indo do nível 8,00 para o
+            nível 12,00?
+            Resposta: Não. Nesse caso, não se trata de uma Etapa, pois só pode ser
+            considerada Etapa 2 quando o FPLEME sai do nível 4,00 e vai para o nível
+            8,00.
+
+            🔹 Existe Etapa 2 Compradora com o FPLEME indo do nível 0,00 para o
+            nível 4,00?
+            Resposta: Não. Da mesma forma, não se trata de uma Etapa, pois só pode
+            ser considerada Etapa 2 quando o FPLEME sai do nível 4,00 e vai para o
+            nível 8,00.
+
+            Posicionamento de Ordem na Etapa 2 de Compra
+
+            Diferentemente da Etapa 1, em que sabemos que a confirmação ocorrerá no
+            segundo ou terceiro box positivo, a Etapa 2 é mais difícil de prever com
+            antecedência. Só conseguimos identificá-la no momento em que, de fato,
+            acontece.
+
+            Assim como na Etapa 1, NUNCA compramos no fechamento do box. O que
+            devemos fazer é identificar que houve uma Etapa 2, planejar a entrada no
+            trade e posicionar a ordem de forma estratégica.
+
+            Veja o passo a passo no exemplo:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+            1º - Etapa 2 identificada:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+            2° - Se você está pensando em compra NUNCA deve comprar no topo do
+            box:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+            3° - Então se posicione o mais próximo possível da base do box positivo
+            anterior.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+            Legenda:
+
+                  Traço verde: indica o local mais recomendado para posicionar a ordem
+                  de entrada.
+
+
+
+                  Topo, base e sombra do box positivo:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+            Novo exemplo:
+
+            1° - Etapa 2 identificada:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+            2º - Se você está pensando na compra NUNCA deve comprar no topo do
+            box:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+            3º - Então se posicione o mais próximo possível da base do box positivo
+            anterior:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+            Segunda opção de Timing de mercado para Etapa 2
+
+            Existe uma alternativa de Timing de mercado na Etapa 2 com um estilo
+            operacional um pouco menos conservador, chamada de Etapa 2.2.
+
+            Em momentos de maior volatilidade, especialmente em ativos naturalmente
+            mais voláteis, como o Nasdaq, pode fazer sentido aplicar o Timing da Etapa
+            2.2.
+
+            Essa segunda opção consiste em se posicionar na base do próprio box que
+            confirmou a Etapa 2, em vez de se posicionar na base do box anterior.
+
+            Exemplo:
+
+            1° - Etapa 2 identificada:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+            Até este momento, nada mudou, pois a identificação da Etapa 2 continua a
+            mesma: ocorre quando o FPLEME sai do nível 4,00 e alcança o nível 8,00.
+
+            2º - Se você está pensando na compra NUNCA deve comprar no topo do
+            box:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+            Até este momento, nada mudou, pois, independentemente da opção, você
+            nunca deve comprar no topo do box.
+
+            3º - Então se posicione o mais próximo possível da base do próprio box
+            positivo que confirmou a Etapa 2:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+            Importante: Uma Etapa 2 dentro de um cenário sempre será mais segura do
+            que uma Etapa 2 isolada. Mas o que isso significa?
+
+            Priorize operar a Etapa 2 quando ela estiver dentro dos cenários de PPM ou
+            MM, desde que o preço já tenha rompido a The_Wall dentro desse cenário. O
+            ideal é que a The_Wall esteja na cor da tendência que você deseja seguir.
+
+            Exemplo: Qual das operações é mais segura? Op. 1 ou Op. 2?
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+            Resposta: A Op.2 é mais segura do que a Op.1, pois representa uma entrada
+            de Etapa 2 dentro de um cenário de Progressão de Preço em MAP (PPM),
+            enquanto a Op.1 ocorre em um movimento isolado qualquer.
+
+            Essa informação é valiosa, pois é essencial para escolher uma boa entrada.
+            O segredo de um trade bem-sucedido está no cenário.
+
+            Veja novamente:
+
+            Na Op.1, não havia um cenário definido. Além disso, o preço ainda não tinha
+            rompido a The_Wall, o que significa que ela não poderia estar verde para
+            complementar a leitura. Também não existia uma Progressão de Preço em
+            MAP favorável à compra.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+            Na Op.2, há uma maior probabilidade de continuidade do movimento. Isso
+            não é um setup e não significa que sempre funcionará exatamente dessa
+            forma.
+
+            No entanto, é um excelente filtro, ajudando-nos a buscar trades com uma
+            frequência consistente e uma boa taxa de acerto, o que contribui para um
+            bom gerenciamento de risco. A maioria das vezes em que buscamos a
+            Etapa 2 é porque temos um perfil voltado para trades de tendência, dentro
+            de uma leitura mais conservadora. Por isso, é essencial que o cenário esteja
+            alinhado com nossa perspectiva de timing de mercado.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+            Consideração: É importante ter cautela ao operar em Etapa 2 de compra em
+            regiões de sobrepreço. Isso porque, nessas áreas, as tendências podem
+            desacelerar e até encontrar obstáculos que podem interromper o
+            movimento.
+
+            Como posicionar o Stop em Trades de Etapa 2?
+            Para trades em Etapa 2 compradora, independentemente de você escolher
+            entrar no timing de mercado usando o modelo clássico de Etapa 2 ou o
+            timing da Etapa 2.2, o stop deve ser posicionado na base de dois corpos de
+            boxes positivos anteriores.
+
+            Exemplo com Timing de Etapa 2 "clássico" (quando se posiciona na base do
+            box anterior ao box que confirmou a Etapa 2), fazendo a contagem a partir
+            do melhor ponto de entrada.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+            O mesmo exemplo, mas agora com Timing de etapa 2.2 ( se posicionando
+            na base do próprio box que fez a confirmação da Etapa 2), fazendo a
+            contagem a partir do ponto do melhor ponto de entrada.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+            Repare nas imagens anteriores que a regra para o stop não mudou. Ele
+            sempre será posicionado na base de dois corpos de boxes positivos
+            anteriores.
+
+            Considerações: Também é possível posicionar o STOP contando dois boxes
+            anteriores + 1 tick (tick é a variação mínima do ativo. Por exemplo, no índice,
+            que se move em incrementos de 5 pontos, o tick do índice é 5).
+
+            Exemplo STOP 2 box + 1 tick:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+            Essa opção é usada por algumas pessoas, pois o segundo box contrário à
+            posição só fechará negativo se ultrapassar a mínima do segundo box
+            positivo + 1 tick.
+
+            Curiosidade:
+               1 tick no dólar é 0,50
+               1 tick no Nasdaq é 0,25
+               1 tick no Ouro é 0,10
+
+            Agora, vamos analisar a Etapa 2 vendedora:
+            Para a Etapa 2 vendedora, aplicam-se exatamente os mesmos conceitos,
+            mas agora considerando o lado vendedor da força. Vamos revisar:
+
+            Etapa 2 vendedora: É considerada uma Etapa 2 vendedora quando a
+            ferramenta sai da linha de -4,00 (já negativa) e consegue fechar um box que
+            faz a linha do FPLEME alcançar o nível -8,00.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+            Além da condição anterior, um complemento para a leitura é: para ser
+            considerada uma etapa 2 vendedora, o Shark também deve estar vermelho.
+            Praticamente todas as vezes que o mercado estiver em etapa 2 vendedora,
+            o Shark estará vermelho. No entanto, é sempre bom conferir. Caso você
+            tenha entrado na operação por etapa 2 e o Shark fique azul, isso é um atalho
+            visual para você sair da operação.
+
+
+
+
+            Posicionamento de Ordem em Etapa 2 de Venda:
+
+            Diferentemente da Etapa 1, em que sabemos que a confirmação ocorre no
+            segundo ou terceiro box negativo, a Etapa 2 é mais difícil de prever com
+            antecedência. Ou seja, só saberemos que estamos em Etapa 2 quando ela
+            de fato acontecer.
+
+            Assim como na Etapa 1, NUNCA vamos vender no fechamento do box. O
+            que devemos fazer é: visualizar que a Etapa 2 ocorreu e planejar nossa
+            entrada no trade, pendurando a ordem. Veja o passo a passo no exemplo:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+            1° - Etapa 2 identificada:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+            2º - Se você está pensando na venda NUNCA deve vender no fundo(base)
+            do box:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+            3º - Então se posicione o mais próximo possível do topo do box negativo
+            anterior:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+            4º - Em relação ao STOP, ele deve ser posicionado no topo de dois corpos
+            de box negativos anteriores, contando a partir do melhor ponto de entrada.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+            5º - E como ficariam a entrada e o posicionamento do STOP na opção de
+            Etapa 2.2?
+
+            Dica: A diferença é que a entrada ocorre no topo do próprio box negativo
+            que confirmou a Etapa 2, enquanto o STOP deve ser posicionado no topo de
+            dois corpos de box negativos anteriores, contando a partir do melhor ponto
+            de entrada.
+
+            Exemplo:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+            Considerações: Também é possível utilizar o STOP considerando dois
+            boxes negativos anteriores + 1 tick.
+
+            Legenda:
+
+                  Sobre o traço vermelho: O traço vermelho indica o local mais adequado
+                  para posicionar a ordem de entrada.
+
+
+
+                  Sobre o que é topo, base (fundo) e sombra do box negativo:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+            Importante: Uma Etapa 2 dentro de um cenário sempre será mais segura do
+            que uma Etapa 2 isolada. Mas por quê?
+
+            Priorize realizar as Etapas 2 dentro dos cenários de PPM ou MM, desde que
+            o preço já tenha rompido a The_wall dentro desse cenário. O ideal é que a
+            The_wall esteja na cor da tendência que você deseja operar.
+
+            Exemplo: Qual das operações é mais segura? Op. 1 ou Op. 2?
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 2
+
+            A Op. 2 é mais segura, pois já está dentro de um cenário PPM, com o preço
+            abaixo da The_wall e com a The_wall na cor correspondente ao cenário de
+            venda.
+
+            Conclusão: Em resumo, a Etapa 2 pode ser uma excelente oportunidade
+            dentro de um cenário bem estruturado, desde que respeite os critérios de
+            confirmação e alinhamento com a tendência. O segredo está em utilizar os
+            filtros corretos, evitar operações isoladas e sempre priorizar a segurança na
+            entrada. Com esse conhecimento, você terá mais clareza para tomar
+            decisões estratégicas e melhorar sua performance no mercado.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             DÚVIDAS?
+
+             É só entrar em contato com o nosso suporte, ele funciona de segunda a
+             sexta das 9h às 18h.
+
+             Os canais oficiais do nosso suporte são:
+
+             WhatsApp: +55 16 99772 1929
+
+             E-mail: suporte@fpleme.com.br
+
+             Estamos à disposição para te atender!
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+

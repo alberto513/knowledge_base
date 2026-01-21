@@ -1,0 +1,1 @@
+i E possivel identificar quando a The_Wall do grafico esta ultrapassando uma MAP por meio da The_Wall do VX.

@@ -1,0 +1,662 @@
+#region Using declarations
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
+using System.Globalization;
+using System.IO;
+using System.Windows.Media;
+using NinjaTrader.Cbi;
+using NinjaTrader.Gui;
+using NinjaTrader.Gui.Chart;
+using NinjaTrader.NinjaScript;
+using NinjaTrader.NinjaScript.DrawingTools;
+using NinjaTrader.NinjaScript.Indicators;
+#endregion
+
+namespace NinjaTrader.NinjaScript.Indicators
+{
+	public class MFSScalpIndicator : Indicator
+	{
+		#region Variables
+		// MAP tracking
+		private int lastMapIndex = 0;
+		private int cycleRefMapIndex = 0;
+		private int cycle2MapIndex = 0;
+		private bool cycleRefValid = false;
+		private bool cycle2Valid = false;
+		private int cycleDirection = 0; // 1=alcista, -1=bajista
+		
+		// Swing tracking (Renko)
+		private double lastSwingHigh = double.NaN;
+		private double lastSwingLow = double.NaN;
+		private int lastSwingHighBar = -1;
+		private int lastSwingLowBar = -1;
+		
+		// SHARK (confirmador de ciclo - FPLEME philosophy)
+		private double sharkRaw = 0;
+		private double sharkEma1 = 0;
+		private double sharkEma2 = 0;
+		private double sharkValue = 0;
+		private int sharkState = 0; // 1=bullish, -1=bearish, 0=neutral
+		private List<double> sharkHistory;
+		private const int SHARK_CLOSE_OFFSET = 5;
+		private const double SHARK_EMA1_ALPHA = 2.0 / 6.0; // EMA(5)
+		private const double SHARK_EMA2_ALPHA = 2.0 / 3.0; // EMA(2)
+		private const double SHARK_MULTIPLIER = 1.877;
+		private const int SHARK_NORM_PERIOD = 500;
+		
+		// Signal state
+		private bool signalArmed = false;
+		private int signalDirection = 0;
+		private int signalArmedBar = -1;
+		private int signalArmedMapIndex = 0;
+		
+		// Trade tracking
+		private int totalTrades = 0;
+		private int wins = 0;
+		private int losses = 0;
+		private bool inTrade = false;
+		private double entryPrice = 0;
+		private int tradeDirection = 0;
+		private int entryBar = -1;
+		private int lastExitBar = -1;
+		
+		// Parameters
+		private int tpTicks = 40;
+		private int slTicks = 40;
+		private bool enableSharkFilter = true;
+		
+		// Logging
+		private StreamWriter logWriter;
+		private string logPath;
+		private bool logEnabled = true;
+		#endregion
+		
+		protected override void OnStateChange()
+		{
+			if (State == State.SetDefaults)
+			{
+				Description = "MFS Scalp - Minimalista para NQ";
+				Name = "MFSScalp";
+				Calculate = Calculate.OnBarClose;
+				IsOverlay = true;
+				DisplayInDataBox = true;
+				DrawOnPricePanel = true;
+				ScaleJustification = ScaleJustification.Right;
+				IsSuspendedWhileInactive = true;
+				
+				TpTicks = 40;
+				SlTicks = 40;
+			}
+			else if (State == State.Configure)
+			{
+			}
+			else if (State == State.DataLoaded)
+			{
+				sharkHistory = new List<double>();
+				InitializeLog();
+			}
+			else if (State == State.Terminated)
+			{
+				CloseLog();
+			}
+		}
+		
+		protected override void OnBarUpdate()
+		{
+			if (CurrentBar < 20)
+				return;
+			
+			// 1. Calcular SHARK (confirmador de ciclo)
+			UpdateShark();
+			
+			// 2. Detectar swings Renko
+			DetectRenkoSwings();
+			
+			// 3. Actualizar ciclos
+			UpdateCycles();
+			
+			// 4. Detectar señales
+			DetectSignals();
+			
+			// 5. Gestionar trades
+			ManageTrades();
+			
+			// 6. Dibujar panel
+			DrawPanel();
+		}
+		
+		private void UpdateShark()
+		{
+			// SHARK: Confirmador de ciclo basado en constantes FPLEME
+			// Formula: (Close[0] - Close[5]) → EMA(5) → EMA(2) → × 1.877 → NORMALIZAR [-12, +12]
+			
+			int offset = Math.Min(SHARK_CLOSE_OFFSET, CurrentBar);
+			sharkRaw = Close[0] - Close[offset];
+			
+			// EMA(5) - primera suavización
+			if (CurrentBar == 0)
+			{
+				sharkEma1 = sharkRaw;
+			}
+			else
+			{
+				sharkEma1 = SHARK_EMA1_ALPHA * sharkRaw + (1 - SHARK_EMA1_ALPHA) * sharkEma1;
+			}
+			
+			// EMA(2) - segunda suavización
+			if (CurrentBar == 0)
+			{
+				sharkEma2 = sharkEma1;
+			}
+			else
+			{
+				sharkEma2 = SHARK_EMA2_ALPHA * sharkEma1 + (1 - SHARK_EMA2_ALPHA) * sharkEma2;
+			}
+			
+			// Aplicar multiplicador FPLEME
+			double sharkRawValue = sharkEma2 * SHARK_MULTIPLIER;
+			
+			// Guardar historial para normalización
+			sharkHistory.Add(sharkRawValue);
+			if (sharkHistory.Count > SHARK_NORM_PERIOD)
+				sharkHistory.RemoveAt(0);
+			
+			// NORMALIZACIÓN FPLEME: [-12, +12] basado en min/max de últimos 500 valores
+			if (sharkHistory.Count >= 20) // Mínimo para normalizar
+			{
+				double minShark = double.MaxValue;
+				double maxShark = double.MinValue;
+				
+				foreach (double val in sharkHistory)
+				{
+					if (val < minShark) minShark = val;
+					if (val > maxShark) maxShark = val;
+				}
+				
+				double range = maxShark - minShark;
+				if (range > 0.0001)
+				{
+					// Normalizar a [-12, +12]
+					sharkValue = ((sharkRawValue - minShark) / range) * 24.0 - 12.0;
+					
+					// Clamp
+					if (sharkValue > 12.0) sharkValue = 12.0;
+					if (sharkValue < -12.0) sharkValue = -12.0;
+				}
+				else
+				{
+					sharkValue = 0;
+				}
+			}
+			else
+			{
+				sharkValue = 0; // No hay suficiente historial
+			}
+			
+			// Estado del SHARK: Umbrales FPLEME (±4 = cambio de ciclo)
+			// SHARK > +4 = ciclo comprador fuerte
+			// SHARK < -4 = ciclo vendedor fuerte
+			if (sharkValue > 4.0)
+				sharkState = 1;  // BULL
+			else if (sharkValue < -4.0)
+				sharkState = -1; // BEAR
+			else
+				sharkState = 0;  // NEUTRAL
+		}
+		
+		private void DetectRenkoSwings()
+		{
+			// Swing High: barra actual es menor que la anterior (Renko bajó)
+			if (CurrentBar > 0 && High[0] < High[1])
+			{
+				lastSwingHigh = High[1];
+				lastSwingHighBar = CurrentBar - 1;
+			}
+			
+			// Swing Low: barra actual es mayor que la anterior (Renko subió)
+			if (CurrentBar > 0 && Low[0] > Low[1])
+			{
+				lastSwingLow = Low[1];
+				lastSwingLowBar = CurrentBar - 1;
+			}
+		}
+		
+		private void UpdateCycles()
+		{
+			// Calcular MAP index simple (basado en distancia desde precio medio)
+			double midPrice = (High[0] + Low[0]) / 2;
+			double sma20 = SMA(20)[0];
+			double atr = ATR(14)[0];
+			
+			if (atr <= 0)
+				return;
+			
+			// MAP index: cuántas ATRs está el precio del SMA
+			int currentMapIndex = (int)Math.Round((midPrice - sma20) / atr);
+			lastMapIndex = currentMapIndex;
+			
+			// Detectar nuevo swing high
+			if (lastSwingHighBar == CurrentBar - 1)
+			{
+				if (!cycleRefValid)
+				{
+					// Primer swing: establecer CycleRef
+					cycleRefValid = true;
+					cycleRefMapIndex = currentMapIndex;
+					cycle2Valid = false;
+					cycleDirection = -1; // Bajista
+				}
+				else if (cycleDirection < 0 && !cycle2Valid)
+				{
+					// Segundo swing bajista: establecer Cycle2
+					cycle2Valid = true;
+					cycle2MapIndex = currentMapIndex;
+				}
+				else if (cycleDirection > 0 && cycle2Valid)
+				{
+					// Swing opuesto: reiniciar ciclo
+					cycleRefValid = true;
+					cycleRefMapIndex = currentMapIndex;
+					cycle2Valid = false;
+					cycleDirection = -1;
+				}
+			}
+			
+			// Detectar nuevo swing low
+			if (lastSwingLowBar == CurrentBar - 1)
+			{
+				if (!cycleRefValid)
+				{
+					// Primer swing: establecer CycleRef
+					cycleRefValid = true;
+					cycleRefMapIndex = currentMapIndex;
+					cycle2Valid = false;
+					cycleDirection = 1; // Alcista
+				}
+				else if (cycleDirection > 0 && !cycle2Valid)
+				{
+					// Segundo swing alcista: establecer Cycle2
+					cycle2Valid = true;
+					cycle2MapIndex = currentMapIndex;
+				}
+				else if (cycleDirection < 0 && cycle2Valid)
+				{
+					// Swing opuesto: reiniciar ciclo
+					cycleRefValid = true;
+					cycleRefMapIndex = currentMapIndex;
+					cycle2Valid = false;
+					cycleDirection = 1;
+				}
+			}
+		}
+		
+		private void DetectSignals()
+		{
+			if (!cycleRefValid || !cycle2Valid)
+				return;
+			
+			// Determinar escenario
+			bool isPPM = (cycleDirection > 0 && cycle2MapIndex > cycleRefMapIndex) ||
+			             (cycleDirection < 0 && cycle2MapIndex < cycleRefMapIndex);
+			
+			bool isMM = cycle2MapIndex == cycleRefMapIndex;
+			
+			if (!isPPM && !isMM)
+				return;
+			
+			// FILTRO SHARK: Solo operar si SHARK alineado con ciclo (FPLEME philosophy)
+			if (enableSharkFilter)
+			{
+				// LONG: requiere SHARK bullish (> +4)
+				if (cycleDirection > 0 && sharkState <= 0)
+					return;
+				
+				// SHORT: requiere SHARK bearish (< -4)
+				if (cycleDirection < 0 && sharkState >= 0)
+					return;
+			}
+			
+			// SEÑAL SIMPLE: Precio cruza 1 MAP band en dirección del ciclo
+			int mapMovement = lastMapIndex - cycleRefMapIndex;
+			
+			// LONG: ciclo alcista + precio subió al menos 1 MAP
+			if (cycleDirection > 0 && mapMovement >= 1 && !signalArmed && !inTrade)
+			{
+				signalArmed = true;
+				signalDirection = 1;
+				signalArmedBar = CurrentBar;
+				signalArmedMapIndex = lastMapIndex;
+			}
+			
+			// SHORT: ciclo bajista + precio bajó al menos 1 MAP
+			if (cycleDirection < 0 && mapMovement <= -1 && !signalArmed && !inTrade)
+			{
+				signalArmed = true;
+				signalDirection = -1;
+				signalArmedBar = CurrentBar;
+				signalArmedMapIndex = lastMapIndex;
+			}
+			
+			// CONFIRMAR: swing en dirección
+			if (signalArmed && CurrentBar > signalArmedBar)
+			{
+				bool confirm = false;
+				
+				if (signalDirection > 0 && lastSwingLowBar == CurrentBar - 1)
+					confirm = true;
+				
+				if (signalDirection < 0 && lastSwingHighBar == CurrentBar - 1)
+					confirm = true;
+				
+				if (confirm)
+				{
+					// ENTRAR
+					totalTrades++;
+					inTrade = true;
+					entryPrice = Close[0];
+					tradeDirection = signalDirection;
+					entryBar = CurrentBar;
+					
+					// Log entrada
+					string currentScenario = GetScenario();
+					LogTrade("ENTRY", tradeDirection > 0 ? "LONG" : "SHORT", entryPrice, 
+						currentScenario, lastMapIndex, cycleDirection);
+					
+					// Dibujar señal
+					string tag = "Signal_" + CurrentBar;
+					if (tradeDirection > 0)
+					{
+						Draw.ArrowUp(this, tag, false, 0, Low[0] - 2 * TickSize, Brushes.Lime);
+					}
+					else
+					{
+						Draw.ArrowDown(this, tag, false, 0, High[0] + 2 * TickSize, Brushes.Red);
+					}
+					
+					// Reset armed
+					signalArmed = false;
+					signalDirection = 0;
+				}
+			}
+		}
+		
+		private void ManageTrades()
+		{
+			if (!inTrade)
+				return;
+			
+			double tpDistance = tpTicks * TickSize;
+			double slDistance = slTicks * TickSize;
+			
+			if (tradeDirection > 0)
+			{
+				// LONG
+				double tp = entryPrice + tpDistance;
+				double sl = entryPrice - slDistance;
+				
+				if (High[0] >= tp)
+				{
+					// TP hit
+					wins++;
+					double pnl = (tp - entryPrice) / TickSize;
+					LogTrade("EXIT", "WIN", tp, "", lastMapIndex, cycleDirection, pnl, CurrentBar - entryBar);
+					inTrade = false;
+					lastExitBar = CurrentBar;
+					Draw.Text(this, "TP_" + CurrentBar, "TP", 0, High[0] + 2 * TickSize, Brushes.Lime);
+				}
+				else if (Low[0] <= sl)
+				{
+					// SL hit
+					losses++;
+					double pnl = (sl - entryPrice) / TickSize;
+					LogTrade("EXIT", "LOSS", sl, "", lastMapIndex, cycleDirection, pnl, CurrentBar - entryBar);
+					inTrade = false;
+					lastExitBar = CurrentBar;
+					Draw.Text(this, "SL_" + CurrentBar, "SL", 0, Low[0] - 2 * TickSize, Brushes.Red);
+				}
+			}
+			else
+			{
+				// SHORT
+				double tp = entryPrice - tpDistance;
+				double sl = entryPrice + slDistance;
+				
+				if (Low[0] <= tp)
+				{
+					// TP hit
+					wins++;
+					double pnl = (entryPrice - tp) / TickSize;
+					LogTrade("EXIT", "WIN", tp, "", lastMapIndex, cycleDirection, pnl, CurrentBar - entryBar);
+					inTrade = false;
+					lastExitBar = CurrentBar;
+					Draw.Text(this, "TP_" + CurrentBar, "TP", 0, Low[0] - 2 * TickSize, Brushes.Lime);
+				}
+				else if (High[0] >= sl)
+				{
+					// SL hit
+					losses++;
+					double pnl = (entryPrice - sl) / TickSize;
+					LogTrade("EXIT", "LOSS", sl, "", lastMapIndex, cycleDirection, pnl, CurrentBar - entryBar);
+					inTrade = false;
+					lastExitBar = CurrentBar;
+					Draw.Text(this, "SL_" + CurrentBar, "SL", 0, High[0] + 2 * TickSize, Brushes.Red);
+				}
+			}
+		}
+		
+		private string GetScenario()
+		{
+			if (!cycleRefValid || !cycle2Valid)
+				return "None";
+			
+			bool isPPM = (cycleDirection > 0 && cycle2MapIndex > cycleRefMapIndex) ||
+			             (cycleDirection < 0 && cycle2MapIndex < cycleRefMapIndex);
+			bool isMM = cycle2MapIndex == cycleRefMapIndex;
+			
+			if (isPPM) return "PPM";
+			if (isMM) return "MM";
+			return "None";
+		}
+		
+		private void DrawPanel()
+		{
+			double wr = totalTrades > 0 ? (double)wins / totalTrades * 100 : 0;
+			string scenario = GetScenario();
+			string sharkStatus = sharkState > 0 ? "BULL" : (sharkState < 0 ? "BEAR" : "NEUTRAL");
+			Brush sharkColor = sharkState > 0 ? Brushes.Lime : (sharkState < 0 ? Brushes.Red : Brushes.Yellow);
+			
+			string text = string.Format(
+				"MFS SCALP v2 (SHARK)\n" +
+				"Trades: {0} | W: {1} | L: {2} | WR: {3:F1}%\n" +
+				"MAP: {4} | Cycle: {5} | Scenario: {6}\n" +
+				"SHARK: {7} ({8:F2}) | Aligned: {9}\n" +
+				"CycleRef: {10} | Cycle2: {11}\n" +
+				"Armed: {12} | InTrade: {13}",
+				totalTrades, wins, losses, wr,
+				lastMapIndex,
+				cycleDirection > 0 ? "UP" : (cycleDirection < 0 ? "DOWN" : "NONE"),
+				scenario,
+				sharkStatus,
+				sharkValue,
+				IsSharkAligned() ? "YES" : "NO",
+				cycleRefValid ? "Y" : "N",
+				cycle2Valid ? "Y" : "N",
+				signalArmed ? "Y" : "N",
+				inTrade ? "Y" : "N"
+			);
+			
+			Draw.TextFixed(this, "Panel", text, TextPosition.TopLeft, 
+				Brushes.White, new Gui.Tools.SimpleFont("Arial", 10), 
+				Brushes.Transparent, Brushes.Transparent, 0);
+		}
+		
+		private bool IsSharkAligned()
+		{
+			if (cycleDirection > 0 && sharkState > 0) return true;
+			if (cycleDirection < 0 && sharkState < 0) return true;
+			return false;
+		}
+		
+		private void InitializeLog()
+		{
+			if (!logEnabled)
+				return;
+			
+			try
+			{
+				string ntFolder = NinjaTrader.Core.Globals.UserDataDir;
+				string logFolder = Path.Combine(ntFolder, "logs", "MFSScalp");
+				
+				if (!Directory.Exists(logFolder))
+					Directory.CreateDirectory(logFolder);
+				
+				logPath = Path.Combine(logFolder, "MFSScalp_TradeLog.csv");
+				bool fileExists = File.Exists(logPath);
+				
+				logWriter = new StreamWriter(logPath, true, System.Text.Encoding.UTF8);
+				logWriter.AutoFlush = true;
+				
+				if (!fileExists)
+				{
+					logWriter.WriteLine("Timestamp,Instrument,Type,Direction,Price,Scenario,MapIdx,CycleDir,PnL,Bars");
+				}
+				
+				Print(string.Format("MFSScalp Log: {0}", logPath));
+			}
+			catch (Exception ex)
+			{
+				Print("Error initializing log: " + ex.Message);
+				logWriter = null;
+			}
+		}
+		
+		private void CloseLog()
+		{
+			if (logWriter != null)
+			{
+				try
+				{
+					logWriter.Close();
+					logWriter = null;
+				}
+				catch { }
+			}
+		}
+		
+		private void LogTrade(string type, string direction, double price, 
+			string scenario, int mapIdx, int cycleDir, double pnl = 0, int bars = 0)
+		{
+			if (!logEnabled || logWriter == null)
+				return;
+			
+			try
+			{
+				string line = string.Format(CultureInfo.InvariantCulture,
+					"{0},{1},{2},{3},{4:F2},{5},{6},{7},{8:F1},{9}",
+					DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss", CultureInfo.InvariantCulture),
+					Instrument.FullName,
+					type,
+					direction,
+					price,
+					scenario,
+					mapIdx,
+					cycleDir,
+					pnl,
+					bars);
+				
+				logWriter.WriteLine(line);
+			}
+			catch (Exception ex)
+			{
+				Print("Error writing log: " + ex.Message);
+			}
+		}
+		
+		#region Properties
+		[NinjaScriptProperty]
+		[Range(1, 1000)]
+		[Display(Name = "TP Ticks", Order = 1, GroupName = "Parameters")]
+		public int TpTicks
+		{
+			get { return tpTicks; }
+			set { tpTicks = value; }
+		}
+		
+		[NinjaScriptProperty]
+		[Range(1, 1000)]
+		[Display(Name = "SL Ticks", Order = 2, GroupName = "Parameters")]
+		public int SlTicks
+		{
+			get { return slTicks; }
+			set { slTicks = value; }
+		}
+		
+		[NinjaScriptProperty]
+		[Display(Name = "Enable SHARK Filter", Description = "Require SHARK alignment (FPLEME philosophy)", Order = 3, GroupName = "Parameters")]
+		public bool EnableSharkFilter
+		{
+			get { return enableSharkFilter; }
+			set { enableSharkFilter = value; }
+		}
+		#endregion
+	}
+}
+
+#region NinjaScript generated code. Neither change nor remove.
+
+namespace NinjaTrader.NinjaScript.Indicators
+{
+	public partial class Indicator : NinjaTrader.Gui.NinjaScript.IndicatorRenderBase
+	{
+		private MFSScalpIndicator[] cacheMFSScalpIndicator;
+		public MFSScalpIndicator MFSScalpIndicator(int tpTicks, int slTicks, bool enableSharkFilter)
+		{
+			return MFSScalpIndicator(Input, tpTicks, slTicks, enableSharkFilter);
+		}
+
+		public MFSScalpIndicator MFSScalpIndicator(ISeries<double> input, int tpTicks, int slTicks, bool enableSharkFilter)
+		{
+			if (cacheMFSScalpIndicator != null)
+				for (int idx = 0; idx < cacheMFSScalpIndicator.Length; idx++)
+					if (cacheMFSScalpIndicator[idx] != null && cacheMFSScalpIndicator[idx].TpTicks == tpTicks && cacheMFSScalpIndicator[idx].SlTicks == slTicks && cacheMFSScalpIndicator[idx].EnableSharkFilter == enableSharkFilter && cacheMFSScalpIndicator[idx].EqualsInput(input))
+						return cacheMFSScalpIndicator[idx];
+			return CacheIndicator<MFSScalpIndicator>(new MFSScalpIndicator(){ TpTicks = tpTicks, SlTicks = slTicks, EnableSharkFilter = enableSharkFilter }, input, ref cacheMFSScalpIndicator);
+		}
+	}
+}
+
+namespace NinjaTrader.NinjaScript.MarketAnalyzerColumns
+{
+	public partial class MarketAnalyzerColumn : MarketAnalyzerColumnBase
+	{
+		public Indicators.MFSScalpIndicator MFSScalpIndicator(int tpTicks, int slTicks, bool enableSharkFilter)
+		{
+			return indicator.MFSScalpIndicator(Input, tpTicks, slTicks, enableSharkFilter);
+		}
+
+		public Indicators.MFSScalpIndicator MFSScalpIndicator(ISeries<double> input , int tpTicks, int slTicks, bool enableSharkFilter)
+		{
+			return indicator.MFSScalpIndicator(input, tpTicks, slTicks, enableSharkFilter);
+		}
+	}
+}
+
+namespace NinjaTrader.NinjaScript.Strategies
+{
+	public partial class Strategy : NinjaTrader.Gui.NinjaScript.StrategyRenderBase
+	{
+		public Indicators.MFSScalpIndicator MFSScalpIndicator(int tpTicks, int slTicks, bool enableSharkFilter)
+		{
+			return indicator.MFSScalpIndicator(Input, tpTicks, slTicks, enableSharkFilter);
+		}
+
+		public Indicators.MFSScalpIndicator MFSScalpIndicator(ISeries<double> input , int tpTicks, int slTicks, bool enableSharkFilter)
+		{
+			return indicator.MFSScalpIndicator(input, tpTicks, slTicks, enableSharkFilter);
+		}
+	}
+}
+
+#endregion

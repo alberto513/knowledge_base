@@ -1,0 +1,1222 @@
+{
+  "metadata": {
+    "version": "4.0",
+    "created_date": "2026-01-18",
+    "current_winrate": 54.9,
+    "target_winrate": ">58%",
+    "status": "NO_RENTABLE",
+    "project_name": "MFSScalpIndicator",
+    "platform": "NinjaTrader 8",
+    "bar_type": "RenkoBRZ",
+    "purpose": "Consolidación completa de conocimiento para desarrollo de indicador basado en filosofía FPLEME"
+  },
+
+  "indicator_current": {
+    "name": "MFSScalpIndicator",
+    "version": "2.0 con SHARK",
+    "description": "Indicador de scalping minimalista basado en detección de ciclos y swings de Renko con filtro SHARK",
+    "file_path": "c:\\Users\\PC\\Documents\\CICLES\\MFSScalpIndicator.cs",
+    
+    "parameters": {
+      "TpTicks": {
+        "type": "int",
+        "default": 40,
+        "range": "1-1000",
+        "description": "Ticks de Take Profit"
+      },
+      "SlTicks": {
+        "type": "int",
+        "default": 40,
+        "range": "1-1000",
+        "description": "Ticks de Stop Loss"
+      },
+      "EnableSharkFilter": {
+        "type": "bool",
+        "default": true,
+        "description": "Requiere alineación de SHARK con ciclo"
+      }
+    },
+
+    "key_components": {
+      "map_tracking": {
+        "description": "Sistema de seguimiento de MAP simplificado",
+        "variables": [
+          "lastMapIndex: Índice MAP actual",
+          "cycleRefMapIndex: MAP de referencia del ciclo",
+          "cycle2MapIndex: MAP del segundo swing",
+          "cycleDirection: Dirección del ciclo (1=up, -1=down)"
+        ],
+        "logic": "Calcula MAP como: (midPrice - SMA20) / ATR14"
+      },
+
+      "swing_detection": {
+        "description": "Detección de swings en barras Renko",
+        "variables": [
+          "lastSwingHigh: Último swing alto",
+          "lastSwingLow: Último swing bajo",
+          "lastSwingHighBar: Barra del último swing alto",
+          "lastSwingLowBar: Barra del último swing bajo"
+        ],
+        "logic": "SwingHigh cuando High[0] < High[1], SwingLow cuando Low[0] > Low[1]"
+      },
+
+      "shark_filter": {
+        "description": "Filtro de confirmación de ciclo (derivado de SHARK original)",
+        "calculation": {
+          "step1": "sharkRaw = Close[0] - Close[5]",
+          "step2": "sharkEma1 = EMA(sharkRaw, alpha=2/6)",
+          "step3": "sharkEma2 = EMA(sharkEma1, alpha=2/3)",
+          "step4": "sharkRawValue = sharkEma2 * 1.877",
+          "step5": "sharkValue = Normalizar(sharkRawValue, -12 a +12, usando últimos 500 valores)"
+        },
+        "thresholds": {
+          "bullish": ">4.0",
+          "bearish": "<-4.0",
+          "neutral": "entre -4.0 y +4.0"
+        },
+        "states": [
+          "1 = bullish (SHARK > 4)",
+          "-1 = bearish (SHARK < -4)",
+          "0 = neutral (entre -4 y +4)"
+        ]
+      },
+
+      "cycle_detection": {
+        "description": "Detección de ciclos basada en swings y MAP",
+        "logic": [
+          "SwingHigh detectado → Establece/actualiza ciclo bajista",
+          "SwingLow detectado → Establece/actualiza ciclo alcista",
+          "Ciclo requiere cycleRef válido y cycle2 válido",
+          "PPM: cycle2MAP progresando en dirección del ciclo",
+          "MM: cycle2MAP igual a cycleRefMAP (divergencia)"
+        ]
+      },
+
+      "signal_detection": {
+        "description": "Detección de señales de entrada",
+        "conditions": [
+          "1. cycleRefValid y cycle2Valid deben estar activos",
+          "2. Escenario PPM o MM detectado",
+          "3. MAP debe haber avanzado >= 1 nivel desde cycleRef",
+          "4. SHARK filter opcional (según parámetro)",
+          "5. Señal se ARM en movimiento MAP",
+          "6. Señal se CONFIRMA en swing opuesto (retroceso)"
+        ],
+        "logic": "Armed cuando MAP avanza, confirmado cuando aparece swing de retroceso"
+      },
+
+      "trade_management": {
+        "description": "Gestión de trades con TP/SL fijos",
+        "entry": "Al confirmar señal (swing de retroceso tras movimiento MAP)",
+        "exit_conditions": [
+          "TP alcanzado: High[0] >= entryPrice + TpTicks*TickSize (LONG)",
+          "SL alcanzado: Low[0] <= entryPrice - SlTicks*TickSize (LONG)",
+          "Simétrico para SHORT"
+        ],
+        "fix_applied": "NO evaluar TP/SL en la misma barra de entrada (bug corregido)"
+      }
+    },
+
+    "architecture": {
+      "calculation_mode": "Calculate.OnBarClose",
+      "is_overlay": true,
+      "execution_flow": [
+        "1. UpdateShark() - Actualiza cálculo de SHARK",
+        "2. DetectRenkoSwings() - Detecta swings en Renko",
+        "3. UpdateCycles() - Actualiza ciclos y MAP",
+        "4. DetectSignals() - Detecta señales de entrada",
+        "5. ManageTrades() - Gestiona trades activos",
+        "6. DrawPanel() - Dibuja panel informativo"
+      ]
+    },
+
+    "logging": {
+      "enabled": true,
+      "file_path": "NinjaTrader\\logs\\MFSScalp\\MFSScalp_TradeLog.csv",
+      "format": "CSV con columnas: Timestamp, Instrument, Type, Direction, Price, Scenario, MapIdx, CycleDir, PnL, Bars"
+    }
+  },
+
+  "fpleme_philosophy": {
+    "core_thinking": "Flow → Cycle → Context → Signal",
+    "description": "FPLEME no mira el precio aislado, sino el FLUJO del mercado convertido en CICLOS. Cada ciclo tiene un inicio, desarrollo y fin. Las señales solo son válidas en el CONTEXTO correcto.",
+    
+    "fundamental_concepts": {
+      "flow_over_price": {
+        "principle": "El FLUJO es más importante que el precio",
+        "explanation": "Observar solo si el box de Renko es positivo o negativo NO es suficiente. FPLEME lee el flujo y lo transforma en ciclos identificables.",
+        "implication": "No operar en boxes individuales, sino en ciclos completos"
+      },
+      
+      "cycle_detection": {
+        "principle": "Todo movimiento es parte de un ciclo",
+        "components": [
+          "INICIO: ETAPA 1 (salida de +-4 hacia 0)",
+          "DESARROLLO: ETAPA 2 (progresión de +4 a +8 o -4 a -8)",
+          "FIN: Llegada a extremos (+-8, +-12) o cambio de ciclo"
+        ],
+        "key_levels": {
+          "+12.00": "Extremo alto - NO puede iniciar ciclo vendedor",
+          "+8.00": "Nivel alto - precaución",
+          "+4.00": "Confirmación de ciclo comprador",
+          "0.00": "Equilibrio - punto de cambio de ciclo",
+          "-4.00": "Confirmación de ciclo vendedor",
+          "-8.00": "Nivel bajo - precaución",
+          "-12.00": "Extremo bajo - NO puede iniciar ciclo comprador"
+        }
+      },
+
+      "context_over_signal": {
+        "principle": "El contexto determina la calidad de la señal",
+        "contexts": {
+          "PPM_buy": {
+            "description": "Progressão de Preço em MAP - Convergencia compradora",
+            "quality": "ALTA para señales LONG, BAJA para SHORT",
+            "characteristics": "MAP progresando alcistamente, cycle2MAP > cycleRefMAP"
+          },
+          "PPM_sell": {
+            "description": "Progressão de Preço em MAP - Convergencia vendedora",
+            "quality": "ALTA para señales SHORT, BAJA para LONG",
+            "characteristics": "MAP progresando bajistamente, cycle2MAP < cycleRefMAP"
+          },
+          "MM": {
+            "description": "MAP com MAP - Divergencia",
+            "quality": "MEDIA, requiere confirmación adicional con SHARK",
+            "characteristics": "cycle2MAP == cycleRefMAP, movimiento lateral o consolidación"
+          },
+          "no_scenario": {
+            "description": "Sin escenario claro",
+            "quality": "BAJA - evitar operar",
+            "characteristics": "Ciclos no establecidos, MAP errático"
+          }
+        }
+      },
+
+      "timing_precision": {
+        "principle": "El timing es crítico - no adelantarse ni retrasarse",
+        "etapa1_timing": {
+          "description": "Entrada en inicio de ciclo",
+          "ideal_entry": "En el 2º o 3er box del nuevo ciclo, tras confirmar llegada a 0.00",
+          "placement": {
+            "LONG": "En la base del box positivo anterior al de confirmación",
+            "SHORT": "En el topo del box negativo anterior al de confirmación"
+          },
+          "avoid": "NO comprar en topo de box positivo, NO vender en base de box negativo"
+        },
+        "etapa2_timing": {
+          "description": "Entrada reactiva tras progresión del ciclo",
+          "trigger": "Movimiento rápido de +4 a +8 (o -4 a -8) en un solo box",
+          "modes": {
+            "classic": "Entrada en base/topo del box anterior al de confirmación",
+            "mode_2_2": "Entrada en base/topo del box que confirmó"
+          }
+        }
+      },
+
+      "confirmation_layers": {
+        "description": "FPLEME usa capas de confirmación para filtrar señales",
+        "layers": [
+          {
+            "layer": "1. FPLEME Value",
+            "role": "Indica dirección del ciclo y fuerza",
+            "check": "¿Está en niveles válidos para entrada (no extremos)?"
+          },
+          {
+            "layer": "2. SHARK Alignment",
+            "role": "Confirma que el ciclo es real, no lateral",
+            "check": "¿SHARK está alineado con FPLEME (mismo color)?"
+          },
+          {
+            "layer": "3. MAP Context (PPM/MM)",
+            "role": "Valida que hay progresión o equilibrio",
+            "check": "¿Estamos en escenario PPM favorable o MM?"
+          },
+          {
+            "layer": "4. The_Wall Filter",
+            "role": "Seguridad final - no operar contra la fuerza dominante",
+            "check": "¿The_Wall no está en contra de nuestra dirección?"
+          }
+        ],
+        "quality_mapping": {
+          "4_layers_ok": "Calidad ALTA - PAT (Perfect Alignment Trigger)",
+          "3_layers_ok": "Calidad MEDIA - operable con precaución",
+          "2_or_less": "Calidad BAJA - evitar"
+        }
+      }
+    },
+
+    "tools": {
+      "FPLEME_M7_II": {
+        "description": "Indicador principal que mide fuerza direccional",
+        "range": "-12.00 a +12.00",
+        "visual": "Línea fina que cambia grosor según fuerza",
+        "colors_ninjatrader": {
+          "buyer_cycle": "Azul (no verde)",
+          "seller_cycle": "Rosa/Magenta (no rojo)"
+        },
+        "key_features": [
+          "Post-its en +-4 para marcar inicio de ciclo",
+          "Grosor de línea indica intensidad de fuerza",
+          "Detecta ETAPA 1 y ETAPA 2 automáticamente",
+          "Paint bars opcional para colorear barras"
+        ],
+        "configuration": {
+          "PAINT_BARS": true,
+          "FAST_MODE": false,
+          "TRACK_RECORD": false,
+          "SHOW_ETAPA_1": true,
+          "SHOW_ETAPA_2": true,
+          "SHOW_STOP": true,
+          "XR_ENABLED": false,
+          "note": "Usar configuración de fábrica (XR=false, Modo Rápido=false)"
+        }
+      },
+
+      "SHARK": {
+        "description": "Línea gruesa que confirma cambios de ciclo",
+        "visual": "Línea más gruesa que FPLEME",
+        "colors": {
+          "buyer": "Azul/Verde",
+          "seller": "Rojo/Magenta",
+          "equilibrium": "Amarillo"
+        },
+        "function": [
+          "Confirmar que el ciclo de FPLEME es real",
+          "Post-its amarillos indican equilibrio (posible cambio)",
+          "Alineación con FPLEME = movimiento fluido",
+          "Desalineación = movimiento lateralizado"
+        ],
+        "relationship_with_fpleme": "Complementaria - ambas deben estar alineadas para señal de alta calidad"
+      },
+
+      "MAPS_M7": {
+        "description": "Sistema de mapeo inteligente - el 80% del éxito",
+        "importance": "80% del éxito (destino/ruta), vs 20% de herramientas cuantitativas",
+        "components": {
+          "MAP0": {
+            "description": "Precio Justo - línea central de referencia",
+            "colors": {
+              "azul": "Precio debajo de MAP0",
+              "naranja": "Precio arriba de MAP0"
+            }
+          },
+          "lines_S": {
+            "description": "Líneas superiores - sobreprecio",
+            "S1_S4": "Amarillas, siempre visibles, sobreprecio progresivo",
+            "S5_S8": "Rojas, gruesas, solo en alta volatilidad, sobreprecio extremo"
+          },
+          "lines_i": {
+            "description": "Líneas inferiores - subprecio",
+            "i1_i4": "Amarillas, siempre visibles, subprecio progresivo",
+            "i5_i8": "Verdes, gruesas, solo en alta volatilidad, subprecio extremo"
+          },
+          "The_Wall": {
+            "description": "Muro de líneas paralelas dinámicas - dispositivo de seguridad",
+            "colors": {
+              "verde": "Alta fuerza de compra - NUNCA vender",
+              "rosa_magenta": "Alta fuerza de venta - NUNCA comprar",
+              "amarillo": "Consolidación o equilibrio"
+            },
+            "rules": [
+              "Nunca operar contra The_Wall",
+              "The_Wall verde + ciclo comprador = alineación perfecta",
+              "The_Wall rosa + ciclo vendedor = alineación perfecta"
+            ]
+          },
+          "Range_Lines": {
+            "description": "Líneas gruesas que delimitan amplitud del movimiento",
+            "function": "Soporte/resistencia dinámicos basados en volatilidad"
+          },
+          "Problines": {
+            "description": "Flechas de colores indicando próximas líneas fuertes",
+            "activation": "Cuando precio supera S4 o i4 (cambio abrupto en volatilidad)",
+            "colors": {
+              "amarillas": "S4-S5 o i4-i5",
+              "verdes": "S5-S6 o i5-i6",
+              "blancas": "S6-S7-S8 o i6-i7-i8"
+            }
+          },
+          "Pullback_Lines": {
+            "description": "Líneas de compradores (verde) y vendedores (rojo)",
+            "function": "Identificar zonas de interés del mercado",
+            "limitation": "NO determinan si van a actuar - solo FPLEME confirma"
+          }
+        },
+        "configuration": {
+          "CENTRAIS": true,
+          "INTERMEDIARIOS": true,
+          "CLEAN_MODE": false,
+          "THE_WALL": true,
+          "FORCE_LINES": false,
+          "PULLBACKS": false
+        },
+        "scenarios": {
+          "PPM": {
+            "name": "Progressão de Preço em MAP - Convergencia",
+            "detection": "Precio progresando en dirección definida entre MAPs",
+            "implications": "Alta calidad para trades en dirección del PPM, baja para contra-tendencia"
+          },
+          "MM": {
+            "name": "MAP com MAP - Divergencia",
+            "detection": "Precio oscilando entre mismo nivel MAP",
+            "implications": "Requiere confirmación adicional de SHARK"
+          }
+        }
+      },
+
+      "VX_M7": {
+        "description": "Vista alternativa de MAPS - análisis cuantitativo de rompimientos",
+        "components": {
+          "The_Wall_VX": {
+            "description": "Misma herramienta que The_Wall de MAPS, diferente perspectiva",
+            "colors": {
+              "verde": "The_Wall inclinada hacia arriba vs MAP",
+              "rosa_magenta": "The_Wall inclinada hacia abajo vs MAP"
+            },
+            "post_its_amarillos": "Indican cambio de dirección de The_Wall"
+          },
+          "vertical_bars": {
+            "cian_azul_claro": "Arriba de MAP0 - agresión compradora",
+            "rojo": "Abajo de MAP0 - agresión vendedora",
+            "azul_oscuro": "Movimiento de contra-tendencia"
+          },
+          "horizontal_lines": {
+            "function": "Niveles críticos - se engrosan cuando barras las rompen",
+            "breakout_indicator": "Línea gruesa = rompimiento confirmado"
+          }
+        },
+        "configuration": {
+          "THE_WALL": true,
+          "FORCE_LINES": true,
+          "PULLBACKS": false
+        },
+        "function": "Identificar rompimientos de MAP mediante análisis de agresión"
+      },
+
+      "HERTZ_N_DEFAULT": {
+        "description": "Herramienta complementaria (detalles no especificados en docs)",
+        "note": "Documentación incompleta - no crítico para implementación básica"
+      },
+
+      "STOP_ABS_DEFAULT": {
+        "description": "Sistema de gestión de stops",
+        "configuration": {
+          "ShowAbs": true,
+          "ShowStops": true,
+          "Check": true
+        },
+        "note": "Complementa gestión de riesgo"
+      },
+
+      "RENKOBRZ": {
+        "description": "Tipo de barra Renko especial usado por FPLEME",
+        "importance": "Crítico - todas las herramientas están optimizadas para RenkoBRZ",
+        "characteristics": [
+          "Filtra ruido del mercado",
+          "Cada box representa movimiento de precio fijo",
+          "Swings son más claros y definidos",
+          "Facilita detección de ciclos"
+        ]
+      }
+    },
+
+    "operational_principles": {
+      "1_never_against_the_wall": {
+        "rule": "NUNCA operar contra The_Wall",
+        "examples": [
+          "The_Wall verde → NO SHORT",
+          "The_Wall rosa/magenta → NO LONG"
+        ],
+        "reason": "Ir contra The_Wall es ir contra la fuerza dominante del mercado"
+      },
+
+      "2_context_first": {
+        "rule": "SIEMPRE validar contexto antes de señal",
+        "checklist": [
+          "¿En qué escenario estamos? (PPM Buy/Sell, MM, o ninguno)",
+          "¿The_Wall alineado con dirección deseada?",
+          "¿FPLEME y SHARK alineados?",
+          "¿No estamos en niveles extremos (+-8, +-12)?"
+        ]
+      },
+
+      "3_wait_for_confirmation": {
+        "rule": "NO adelantarse al ciclo",
+        "wrong": "Ver box positivo → comprar inmediatamente",
+        "right": "Esperar confirmación de ciclo (ETAPA 1 o ETAPA 2) con contexto favorable"
+      },
+
+      "4_quality_over_quantity": {
+        "rule": "Menos trades de alta calidad > muchos trades de baja calidad",
+        "problem_identified": "MFSScalp genera 858 trades (5.7/día) - demasiados",
+        "solution": "Filtrar con PAT (Perfect Alignment Trigger) para reducir cantidad y aumentar calidad"
+      },
+
+      "5_scenarios_are_critical": {
+        "rule": "ETAPA 1 dentro de escenario > ETAPA 1 aislada",
+        "priority": [
+          "ALTA: ETAPA 1 dentro de PPM favorable + The_Wall alineado",
+          "MEDIA: ETAPA 1 dentro de MM + SHARK alineado",
+          "BAJA: ETAPA 1 aislada sin contexto"
+        ]
+      },
+
+      "6_volatile_assets_exception": {
+        "rule": "En activos muy volátiles (NQ/MNQ), color de línea > Post-its",
+        "reason": "Ciclo puede cambiar de color antes que Post-it aparezca",
+        "action": "Priorizar coloración de línea sobre esperar Post-its"
+      },
+
+      "7_stops_and_invalidation": {
+        "etapa1_long": {
+          "stop_min": "Debajo del último fondo del ciclo",
+          "stop_max": "1 box negativo debajo de entrada",
+          "invalidation": "FPLEME rompe 0 hacia abajo y alcanza -4"
+        },
+        "etapa1_short": {
+          "stop_min": "Arriba del último tope del ciclo",
+          "stop_max": "1 box positivo arriba de entrada",
+          "invalidation": "FPLEME rompe 0 hacia arriba y alcanza +4"
+        }
+      }
+    }
+  },
+
+  "version_history": [
+    {
+      "version": "1.0",
+      "description": "Versión inicial básica",
+      "features": [
+        "Detección simple de swings en Renko",
+        "Seguimiento básico de MAP",
+        "Señales PPM/MM sin filtros"
+      ],
+      "winrate": "~50%",
+      "problems": [
+        "Demasiadas señales falsas",
+        "No consideraba contexto",
+        "TP/SL evaluado en barra de entrada"
+      ]
+    },
+    {
+      "version": "2.0 (actual)",
+      "description": "Agregado filtro SHARK y corrección de bug TP/SL",
+      "features": [
+        "Filtro SHARK para confirmar ciclos",
+        "Corrección: TP/SL NO evaluado en barra de entrada",
+        "Panel informativo con métricas en tiempo real"
+      ],
+      "winrate": "54.9%",
+      "problems": [
+        "Aún insuficiente (objetivo >58%)",
+        "Demasiados trades (858 en 150 días = 5.7/día)",
+        "No implementa PAT (Perfect Alignment Trigger)",
+        "No detecta escenarios PPM/MM correctamente",
+        "No integra The_Wall como filtro",
+        "Genera señales al final del movimiento",
+        "Desperdicia inicio claro de ciclos"
+      ]
+    }
+  ],
+
+  "bugs_fixed": [
+    {
+      "bug_id": "BUG001",
+      "description": "TP/SL evaluado en misma barra de entrada",
+      "severity": "CRÍTICO",
+      "discovered": "2025-12",
+      "fixed_in_version": "2.0",
+      "explanation": "En OnBarClose, cuando se genera entrada, CurrentBar == entryBar. Al evaluar TP/SL en misma iteración, el indicador revisaba High[0]/Low[0] de la barra de entrada, causando resultados incorrectos.",
+      "solution": "Agregado check: if (CurrentBar == entryBar) return; antes de evaluar TP/SL",
+      "impact": "Mejora significativa en precisión de backtest - resultados ahora reflejan realidad"
+    }
+  ],
+
+  "performance_analysis": {
+    "current_metrics": {
+      "period": "150 días",
+      "total_trades": 858,
+      "wins": 471,
+      "losses": 387,
+      "winrate": "54.9%",
+      "pnl_ticks": 3363,
+      "pnl_usd": 4204,
+      "profit_factor": 1.23,
+      "expectancy_ticks": 3.92,
+      "z_score": 1.86,
+      "avg_trades_per_day": 5.7,
+      "r_to_r_ratio": "1:1 (40 ticks TP / 40 ticks SL)"
+    },
+
+    "problems_identified": [
+      {
+        "problem": "Winrate insuficiente",
+        "description": "54.9% es apenas positivo, no compensa comisiones reales",
+        "target": ">58% mínimo para ser rentable con comisiones",
+        "severity": "CRÍTICO"
+      },
+      {
+        "problem": "Demasiados trades",
+        "description": "858 trades en 150 días = 5.7 trades/día es excesivo para scalping",
+        "target": "2-3 trades/día de alta calidad",
+        "severity": "ALTA",
+        "impact": "Aumenta costos de comisiones y slippage"
+      },
+      {
+        "problem": "R:R insuficiente",
+        "description": "1:1 (40:40) no compensa comisiones + slippage",
+        "target": "Mínimo 1.5:1, idealmente 2:1",
+        "severity": "ALTA",
+        "impact": "Necesita >60% WR para ser rentable con R:R 1:1"
+      },
+      {
+        "problem": "Señales tardías",
+        "description": "Genera muchas señales al terminar el movimiento",
+        "evidence": "Feedback del trader: 'desperdicia comienzo claro de ciclos'",
+        "severity": "CRÍTICA",
+        "cause": "No detecta ETAPA 1 correctamente, no usa timing FPLEME"
+      },
+      {
+        "problem": "No piensa como FPLEME",
+        "description": "No detecta ciclos ni lee flujo del mercado",
+        "evidence": "Trader: 'No es que deba ser selectivo, debe detectar ciclos, debe leer el flujo del mercado'",
+        "severity": "FUNDAMENTAL",
+        "cause": "Lógica simplificada no implementa filosofía FPLEME completa"
+      },
+      {
+        "problem": "Sin filtro PAT",
+        "description": "No implementa Perfect Alignment Trigger (FPLEME + SHARK + MAPS + The_Wall)",
+        "severity": "ALTA",
+        "impact": "Opera sin validar contexto completo"
+      },
+      {
+        "problem": "Detección MAP incorrecta",
+        "description": "Cálculo MAP simplificado no coincide con MAPS_M7 real",
+        "severity": "MEDIA",
+        "impact": "Escenarios PPM/MM no se detectan correctamente"
+      },
+      {
+        "problem": "Sin integración de The_Wall",
+        "description": "No usa The_Wall como filtro de seguridad",
+        "severity": "ALTA",
+        "impact": "Opera contra fuerza dominante del mercado"
+      }
+    ],
+
+    "trader_feedback": [
+      {
+        "date": "2026-01",
+        "feedback": "No se como explicarte que lo que quiero es que el indicador piense como fpleme",
+        "interpretation": "El trader quiere filosofía FPLEME completa, no solo cálculos simplificados",
+        "action_needed": "Implementar detección de ciclos, ETAPA 1, ETAPA 2, escenarios PPM/MM"
+      },
+      {
+        "date": "2026-01",
+        "feedback": "No es que deba ser selectivo, debe detectar ciclos, debe leer el flujo del mercado",
+        "interpretation": "Problema no es cantidad de filtros, sino ENTENDER el flujo como ciclos",
+        "action_needed": "Transformar flujo de precio en ciclos identificables con inicio/desarrollo/fin"
+      },
+      {
+        "date": "2026-01",
+        "feedback": "Genera muchas señales al terminar el movimiento, desperdicia comienzo claro de ciclos",
+        "interpretation": "Timing es tardío - debe detectar inicio de ciclo (ETAPA 1), no fin",
+        "action_needed": "Implementar detección de ETAPA 1 (salida de +-4 hacia 0)"
+      }
+    ],
+
+    "comparative_analysis": {
+      "mfs_vs_fpleme": {
+        "philosophy": {
+          "MFS": "Reacciona a swings y MAP simplificado",
+          "FPLEME": "Lee flujo de mercado y lo transforma en ciclos"
+        },
+        "timing": {
+          "MFS": "Señal al detectar patrón (puede ser tardío)",
+          "FPLEME": "ETAPA 1 al INICIO del ciclo, ETAPA 2 en desarrollo"
+        },
+        "context": {
+          "MFS": "PPM/MM básico sin validación de The_Wall",
+          "FPLEME": "PPM/MM + SHARK + The_Wall + validación de niveles extremos"
+        },
+        "quality_control": {
+          "MFS": "Filtro SHARK opcional",
+          "FPLEME": "PAT (4 capas de confirmación) para calidad máxima"
+        },
+        "signal_generation": {
+          "MFS": "Muchas señales de calidad variable (858 en 150 días)",
+          "FPLEME": "Pocas señales de alta calidad (prioriza ETAPA 1 en escenarios)"
+        }
+      }
+    }
+  },
+
+  "improvement_roadmap": {
+    "immediate_actions": [
+      {
+        "priority": 1,
+        "title": "Implementar detección de ETAPA 1 real",
+        "description": "Detectar cuando FPLEME sale de +-4 y alcanza 0 en 2º o 3er box",
+        "implementation": [
+          "Trackear valor previo y actual de FPLEME",
+          "Contar boxes positivos/negativos consecutivos",
+          "Validar que no viene de extremos (+-8, +-12)",
+          "Confirmar alineación con SHARK",
+          "Generar señal en base del box anterior (timing correcto)"
+        ],
+        "expected_impact": "Reducir señales tardías, capturar inicio de ciclos",
+        "effort": "MEDIO",
+        "risk": "BAJO"
+      },
+      {
+        "priority": 2,
+        "title": "Implementar filtro PAT (Perfect Alignment Trigger)",
+        "description": "Solo operar cuando hay alineación perfecta de todos los componentes",
+        "implementation": [
+          "Validar FPLEME en niveles correctos (no extremos)",
+          "Validar SHARK alineado (mismo color que FPLEME)",
+          "Validar escenario PPM o MM favorable",
+          "Validar The_Wall NO en contra (crítico)",
+          "Solo generar señal si todos OK"
+        ],
+        "expected_impact": "Reducir trades de baja calidad, aumentar winrate",
+        "effort": "ALTO",
+        "risk": "MEDIO"
+      },
+      {
+        "priority": 3,
+        "title": "Integrar The_Wall como filtro de seguridad",
+        "description": "Nunca operar contra The_Wall",
+        "implementation": [
+          "Acceder a MAPS_M7 o VX_M7 para obtener color de The_Wall",
+          "Bloquear señales LONG si The_Wall rosa/magenta",
+          "Bloquear señales SHORT si The_Wall verde",
+          "Permitir señales solo con The_Wall alineado o amarillo"
+        ],
+        "expected_impact": "Eliminar trades contra fuerza dominante del mercado",
+        "effort": "MEDIO",
+        "risk": "BAJO"
+      },
+      {
+        "priority": 4,
+        "title": "Mejorar detección de escenarios PPM/MM",
+        "description": "Detectar correctamente convergencia (PPM) y divergencia (MM)",
+        "implementation": [
+          "Trackear múltiples swings y sus MAPs",
+          "PPM: Validar progresión de MAP (cycle2MAP vs cycleRefMAP)",
+          "MM: Detectar cuando cycle2MAP == cycleRefMAP",
+          "Asignar calidad de señal según escenario"
+        ],
+        "expected_impact": "Priorizar trades en contextos favorables",
+        "effort": "MEDIO",
+        "risk": "MEDIO"
+      },
+      {
+        "priority": 5,
+        "title": "Ajustar R:R a mínimo 1.5:1",
+        "description": "Aumentar TP o reducir SL para compensar comisiones",
+        "implementation": [
+          "Opción 1: TP 60 ticks, SL 40 ticks (1.5:1)",
+          "Opción 2: TP 80 ticks, SL 40 ticks (2:1)",
+          "Opción 3: TP dinámico basado en distancia a próximo nivel MAP"
+        ],
+        "expected_impact": "Mejorar rentabilidad incluso con WR similar",
+        "effort": "BAJO",
+        "risk": "MEDIO (puede afectar WR)"
+      }
+    ],
+
+    "strategic_improvements": [
+      {
+        "title": "Implementar ETAPA 2 (reactiva)",
+        "description": "Detectar movimientos rápidos de +4 a +8 (o -4 a -8) en un box",
+        "benefit": "Capturar movimientos de continuación de tendencia",
+        "priority": "MEDIA",
+        "effort": "MEDIO"
+      },
+      {
+        "title": "Sistema de calidad de señal graduada",
+        "description": "Asignar HIGH/MEDIUM/LOW según capas de confirmación",
+        "implementation": [
+          "HIGH: PAT completo (4 capas OK)",
+          "MEDIUM: 3 capas OK",
+          "LOW: 2 o menos capas"
+        ],
+        "benefit": "Permitir filtrado flexible según apetito de riesgo",
+        "priority": "MEDIA",
+        "effort": "BAJO"
+      },
+      {
+        "title": "Integración completa con FPLEME_M7_II",
+        "description": "Acceder directamente a propiedades de FPLEME_M7_II en lugar de calcular SHARK manualmente",
+        "benefit": "Usar valores exactos de FPLEME profesional",
+        "priority": "ALTA",
+        "effort": "ALTO",
+        "challenge": "Requiere reverse engineering o acceso a API de FPLEME_M7_II"
+      },
+      {
+        "title": "Stops dinámicos basados en ciclo",
+        "description": "Stop en último fondo/tope del ciclo en lugar de fijo",
+        "benefit": "Stops más inteligentes, menos stops prematuros",
+        "priority": "MEDIA",
+        "effort": "MEDIO"
+      },
+      {
+        "title": "TP dinámico basado en próximo nivel MAP",
+        "description": "TP en próxima línea S/i de MAPS en lugar de fijo",
+        "benefit": "TPs más realistas según contexto del mercado",
+        "priority": "MEDIA",
+        "effort": "MEDIO"
+      },
+      {
+        "title": "Filtro de volatilidad (Problines)",
+        "description": "Ajustar agresividad según si líneas S5-S8/i5-i8 están activas",
+        "benefit": "Adaptarse a diferentes regímenes de volatilidad",
+        "priority": "BAJA",
+        "effort": "MEDIO"
+      }
+    ],
+
+    "research_needed": [
+      {
+        "question": "¿Cómo acceder a valores reales de FPLEME_M7_II desde código?",
+        "importance": "CRÍTICA",
+        "approach": [
+          "Investigar API pública de FPLEME_M7_II",
+          "Revisar código decompilado para propiedades expuestas",
+          "Alternativa: Replicar cálculo exacto (complejo)"
+        ]
+      },
+      {
+        "question": "¿Cómo acceder a color/estado de The_Wall de MAPS_M7 o VX_M7?",
+        "importance": "ALTA",
+        "approach": [
+          "Revisar propiedades públicas de MAPS_M7",
+          "Alternativa: Usar VX_M7 y leer barras verticales",
+          "Última opción: Calcular The_Wall independientemente"
+        ]
+      },
+      {
+        "question": "¿Cuál es el cálculo exacto de MAP en MAPS_M7?",
+        "importance": "ALTA",
+        "approach": [
+          "Comparar cálculo actual (midPrice - SMA20) / ATR14 con output de MAPS_M7",
+          "Ajustar si hay discrepancias",
+          "Validar con datos históricos"
+        ]
+      },
+      {
+        "question": "¿Qué R:R es óptimo para este sistema en RenkoBRZ?",
+        "importance": "MEDIA",
+        "approach": [
+          "Backtest con diferentes R:R (1:1, 1.5:1, 2:1, 3:1)",
+          "Analizar trade-off entre WR y expectancy",
+          "Considerar TP dinámico basado en MAPs"
+        ]
+      },
+      {
+        "question": "¿Timing Classic o Mode 2.2 para ETAPA 2?",
+        "importance": "BAJA",
+        "approach": [
+          "Implementar ambos como parámetro",
+          "Backtest y comparar resultados",
+          "Feedback del trader"
+        ]
+      }
+    ]
+  },
+
+  "technical_glossary": {
+    "FPLEME": "Indicador que oscila entre -12 y +12, representa fuerza direccional del mercado",
+    "SHARK": "Confirmador de ciclos, línea gruesa que valida cambios en FPLEME",
+    "MAP": "Mapeamento - distancia del precio respecto a precio justo, medida en unidades de ATR",
+    "MAP0": "Precio Justo - línea central de referencia de MAPS",
+    "The_Wall": "Muro de líneas paralelas dinámicas, dispositivo de seguridad de MAPS/VX",
+    "PPM": "Progressão de Preço em MAP - convergencia, precio progresando en dirección definida",
+    "MM": "MAP com MAP - divergencia, precio oscilando en mismo nivel MAP",
+    "ETAPA 1": "Inicio de ciclo - FPLEME sale de +-4 y alcanza 0 en 2º/3er box",
+    "ETAPA 2": "Continuación de ciclo - FPLEME avanza de +4 a +8 (o -4 a -8) en un box",
+    "PAT": "Perfect Alignment Trigger - alineación de FPLEME + SHARK + MAP + The_Wall",
+    "Post-it": "Marcador visual en gráfico (no es set-up por sí solo)",
+    "Ciclo Comprador": "FPLEME >= -4 Y (>= +4 O salió de -4 hacia 0), color azul en NT8",
+    "Ciclo Vendedor": "FPLEME <= +4 Y (<= -4 O salió de +4 hacia 0), color rosa/magenta en NT8",
+    "RenkoBRZ": "Tipo especial de barra Renko usado por sistema FPLEME",
+    "Swing": "Pivote alto/bajo en barras - cambio de dirección",
+    "Box": "Barra Renko individual",
+    "Problines": "Flechas de colores indicando próximas líneas fuertes de MAPS",
+    "Range Lines": "Líneas gruesas que delimitan amplitud del movimiento en MAPS",
+    "Pullback Lines": "Líneas de compradores (verde) y vendedores (rojo) en MAPS",
+    "S1-S8": "Líneas superiores de MAPS (sobreprecio progresivo y extremo)",
+    "i1-i8": "Líneas inferiores de MAPS (subprecio progresivo y extremo)",
+    "VX": "Vista alternativa de MAPS con barras verticales de agresión",
+    "Flujo": "Movimiento continuo del mercado, más importante que precio individual",
+    "Contexto": "Escenario del mercado (PPM/MM) que determina calidad de señal",
+    "Timing": "Momento preciso de entrada - crítico para éxito del trade",
+    "R:R": "Risk:Reward ratio - relación entre riesgo (SL) y recompensa (TP)"
+  },
+
+  "operational_manual": {
+    "setup_checklist": [
+      "1. Cargar RenkoBRZ en gráfico de NinjaTrader 8",
+      "2. Agregar FPLEME_M7_II con configuración de fábrica (XR=false, Modo Rápido=false)",
+      "3. Agregar MAPS_M7 con The_Wall activado",
+      "4. Opcional: Agregar VX_M7 para validar rompimientos",
+      "5. Cargar MFSScalpIndicator con EnableSharkFilter=true"
+    ],
+
+    "pre_trade_validation": {
+      "step1": {
+        "check": "Verificar ciclo de FPLEME",
+        "questions": [
+          "¿FPLEME está en nivel válido (no en +-8 o +-12)?",
+          "¿Color del ciclo está claro (azul o rosa/magenta)?",
+          "¿Valor actual muestra dirección deseada?"
+        ]
+      },
+      "step2": {
+        "check": "Verificar alineación de SHARK",
+        "questions": [
+          "¿SHARK tiene mismo color que FPLEME?",
+          "¿SHARK no está en amarillo (equilibrio)?"
+        ]
+      },
+      "step3": {
+        "check": "Verificar escenario MAP",
+        "questions": [
+          "¿Estamos en PPM favorable (convergencia)?",
+          "¿O en MM con confirmación de SHARK?",
+          "¿NO estamos en escenario contrario?"
+        ]
+      },
+      "step4": {
+        "check": "Verificar The_Wall",
+        "questions": [
+          "Para LONG: ¿The_Wall NO está rosa/magenta?",
+          "Para SHORT: ¿The_Wall NO está verde?"
+        ],
+        "critical": "NUNCA operar contra The_Wall"
+      },
+      "step5": {
+        "check": "Verificar timing de entrada",
+        "questions": [
+          "¿Es ETAPA 1 (inicio de ciclo)?",
+          "¿Es ETAPA 2 (continuación)?",
+          "¿Timing de colocación es correcto (base de box para LONG, topo para SHORT)?"
+        ]
+      }
+    },
+
+    "signal_interpretation": {
+      "high_quality_signal": {
+        "characteristics": [
+          "✅ ETAPA 1 dentro de PPM favorable",
+          "✅ FPLEME y SHARK alineados",
+          "✅ The_Wall alineado o neutral (amarillo)",
+          "✅ No en niveles extremos",
+          "✅ Post-it destacado (no opaco)"
+        ],
+        "action": "Operar con confianza, usar R:R objetivo"
+      },
+      "medium_quality_signal": {
+        "characteristics": [
+          "⚠️ ETAPA 1 dentro de MM",
+          "⚠️ SHARK alineado pero The_Wall amarillo",
+          "⚠️ Escenario no totalmente claro"
+        ],
+        "action": "Operar con precaución, reducir tamaño de posición o aumentar R:R"
+      },
+      "low_quality_signal": {
+        "characteristics": [
+          "❌ ETAPA 1 aislada sin escenario",
+          "❌ SHARK desalineado",
+          "❌ The_Wall en contra",
+          "❌ En niveles extremos"
+        ],
+        "action": "EVITAR - esperar mejor oportunidad"
+      }
+    },
+
+    "position_sizing": {
+      "conservative": "1 contrato por señal de calidad ALTA",
+      "moderate": "1 contrato ALTA, 0.5 contratos MEDIA",
+      "aggressive": "2 contratos ALTA, 1 contrato MEDIA, 0.5 contratos BAJA (no recomendado)"
+    },
+
+    "risk_management": {
+      "max_daily_loss": "3-5 stops consecutivos = detener operativa del día",
+      "max_consecutive_losses": "3 pérdidas seguidas = revisar condiciones de mercado",
+      "stop_placement": {
+        "etapa1_long": "Debajo del último swing bajo del ciclo, máximo 1 box Renko",
+        "etapa1_short": "Arriba del último swing alto del ciclo, máximo 1 box Renko"
+      },
+      "tp_placement": {
+        "fixed": "40-80 ticks según R:R deseado",
+        "dynamic": "Próximo nivel MAP (S1, S2, i1, i2, etc.)"
+      }
+    },
+
+    "session_management": {
+      "pre_session": [
+        "Revisar noticias económicas del día",
+        "Identificar niveles clave de MAPS (S/i lines)",
+        "Verificar que herramientas están cargadas correctamente"
+      ],
+      "during_session": [
+        "Monitorear panel de MFSScalp para estado de ciclo",
+        "NO operar en primeros 30 min de sesión (volatilidad)",
+        "Respetar checklist de validación pre-trade",
+        "Anotar razones de cada trade en log"
+      ],
+      "post_session": [
+        "Revisar CSV de trades del día",
+        "Identificar trades de alta vs baja calidad",
+        "Ajustar parámetros si es necesario",
+        "Plan para próxima sesión"
+      ]
+    },
+
+    "common_mistakes": [
+      {
+        "mistake": "Operar contra The_Wall",
+        "consequence": "Alta probabilidad de pérdida",
+        "solution": "SIEMPRE verificar The_Wall antes de entrada"
+      },
+      {
+        "mistake": "Adelantarse al ciclo",
+        "consequence": "Entrar demasiado temprano, antes de confirmación",
+        "solution": "Esperar ETAPA 1 completa (2º o 3er box)"
+      },
+      {
+        "mistake": "Operar en niveles extremos",
+        "consequence": "Entrar en agotamiento del ciclo",
+        "solution": "Evitar trades cuando FPLEME >= +8 o <= -8"
+      },
+      {
+        "mistake": "Ignorar SHARK",
+        "consequence": "Operar en movimientos lateralizados",
+        "solution": "Solo operar cuando SHARK está alineado con FPLEME"
+      },
+      {
+        "mistake": "Falta de paciencia",
+        "consequence": "Sobre-operar, muchos trades de baja calidad",
+        "solution": "Calidad > Cantidad - esperar PAT completo"
+      }
+    ],
+
+    "troubleshooting": {
+      "no_signals_generated": [
+        "Verificar que indicador está cargado en gráfico correcto",
+        "Verificar que RenkoBRZ tiene datos suficientes (>20 barras)",
+        "Verificar EnableSharkFilter no está bloqueando todo"
+      ],
+      "too_many_signals": [
+        "Activar o ajustar EnableSharkFilter",
+        "Implementar filtros adicionales (PAT)",
+        "Aumentar umbrales de confirmación"
+      ],
+      "signals_but_no_entries": [
+        "Verificar que no hay trade activo bloqueando nuevas entradas",
+        "Verificar que señal cumple todos los criterios de confirmación"
+      ],
+      "winrate_bajando": [
+        "Revisar si condiciones de mercado cambiaron",
+        "Verificar que no se está sobre-optimizando",
+        "Considerar pausar operativa y revisar configuración"
+      ]
+    }
+  },
+
+  "next_steps_critical": [
+    {
+      "step": 1,
+      "action": "Implementar acceso a FPLEME_M7_II",
+      "description": "Investigar cómo leer valores reales de FPLEME en lugar de calcular SHARK manualmente",
+      "output": "Método para obtener FplemeValue, FplemeColor, SharkState desde indicador FPLEME_M7_II",
+      "blocker": "Sin esto, no hay filosofía FPLEME real"
+    },
+    {
+      "step": 2,
+      "action": "Implementar detección de ETAPA 1",
+      "description": "Detectar cuando FPLEME sale de +-4 hacia 0 en 2º/3er box con timing correcto",
+      "output": "Señales de entrada en INICIO de ciclos, no al final",
+      "dependency": "Step 1 (necesita valores FPLEME reales)"
+    },
+    {
+      "step": 3,
+      "action": "Implementar filtro The_Wall",
+      "description": "Acceder a color de The_Wall de MAPS_M7 y bloquear trades en contra",
+      "output": "Eliminación de trades contra fuerza dominante",
+      "priority": "CRÍTICO para seguridad"
+    },
+    {
+      "step": 4,
+      "action": "Implementar filtro PAT completo",
+      "description": "Validar alineación de 4 capas antes de generar señal",
+      "output": "Solo señales de calidad ALTA - reducir cantidad, aumentar WR",
+      "dependency": "Steps 1, 2, 3"
+    },
+    {
+      "step": 5,
+      "action": "Backtest intensivo con nuevos filtros",
+      "description": "Validar que cambios mejoran WR y reducen cantidad de trades",
+      "output": "Métricas: WR >58%, trades/día ~2-3, Profit Factor >1.5",
+      "validation": "Si no mejora, iterar sobre Steps 2-4"
+    }
+  ],
+
+  "critical_files_content": {
+    "MFSScalpIndicator_cs": {
+      "path": "c:\\Users\\PC\\Documents\\CICLES\\MFSScalpIndicator.cs",
+      "purpose": "Indicador actual - código fuente completo",
+      "key_sections": {
+        "variables": "Líneas 22-70: Variables de tracking de MAP, swings, SHARK, señales, trades",
+        "OnStateChange": "Líneas 72-98: Inicialización y configuración",
+        "OnBarUpdate": "Líneas 100-114: Flujo principal de ejecución",
+        "UpdateShark": "Líneas 116-179: Cálculo de SHARK (EMA doble + normalización)",
+        "DetectRenkoSwings": "Líneas 181-194: Detección de swings en barras Renko",
+        "UpdateCycles": "Líneas 196-253: Actualización de ciclos y MAP",
+        "DetectSignals": "Líneas 255-321: Detección de señales (PPM/MM + SHARK filter)",
+        "ManageTrades": "Líneas 323-384: Gestión de TP/SL (con fix de bug)",
+        "DrawPanel": "Líneas 400-429: Panel informativo"
+      },
+      "lines_of_code": 534,
+      "note": "Ver archivo completo para implementación detallada"
+    },
+
+    "DOCUMENTACION_FPLEME_md": {
+      "path": "c:\\Users\\PC\\Documents\\CICLES\\docs\\DOCUMENTACION_FPLEME.md",
+      "purpose": "Documentación conceptual de FPLEME SC2, SHARK, MAPS, VX",
+      "key_sections": {
+        "fpleme_basics": "Líneas 1-183: Concepto, niveles, colores, cambio de ciclo",
+        "etapa1": "Líneas 106-133: Definición de ETAPA 1 y mejor momento para trade",
+        "shark": "Líneas 19-30: Definición de SHARK y alineación con FPLEME",
+        "maps": "Líneas 325-834: Sistema de mapeo, MAP0, The_Wall, líneas S/i",
+        "the_wall": "Líneas 419-457: Definición y reglas de The_Wall",
+        "vx": "Líneas 865-997: VX M2, barras verticales, rompimientos"
+      },
+      "note": "Documento extenso (4510 líneas) - consultar secciones específicas según necesidad"
+    },
+
+    "DOCUMENTACION_FPLEME_V2_md": {
+      "path": "c:\\Users\\PC\\Documents\\CICLES\\docs\\DOCUMENTACION_FPLEME_V2.md",
+      "purpose": "Especificación técnica y programática completa",
+      "key_sections": {
+        "architecture": "Líneas 120-152: Arquitectura general y flujo de datos",
+        "fpleme_technical": "Líneas 156-484: Propiedades técnicas, estados, lógica de color",
+        "etapa1_logic": "Líneas 488-860: Lógica completa de ETAPA 1 con código",
+        "etapa2_logic": "Líneas 863-1066: Lógica completa de ETAPA 2",
+        "shark_technical": "Líneas 1068-1200: Estados de SHARK, confirmación",
+        "timing": "Líneas 1202-1350: Timing de entrada para ETAPA 1 y 2",
+        "stop_management": "Líneas 1352-1450: Reglas de Stop Loss",
+        "ppm_mm_scenarios": "Líneas 1452-1850: Escenarios PPM y MM detallados",
+        "apis_contracts": "Líneas 2100-2600: Interfaces y contratos de código"
+      },
+      "note": "Documento técnico (6811 líneas) - referencia para implementación"
+    },
+
+    "MAPA_DEL_INDICADOR_md": {
+      "path": "c:\\Users\\PC\\Documents\\CICLES\\docs\\MAPA_DEL_INDICADOR.md",
+      "purpose": "Mapa conceptual del indicador - guía rápida",
+      "key_sections": {
+        "definitions": "Líneas 6-13: Definiciones rápidas de FPLEME, SHARK, ETAPA 1/2",
+        "etapa1_rules": "Líneas 15-36: Reglas exactas de ETAPA 1 paso a paso",
+        "etapa2_rules": "Líneas 37-61: Reglas exactas de ETAPA 2",
+        "pat_filters": "Líneas 62-68: Definición de PAT y filtros de calidad",
+        "stops": "Líneas 70-73: Stops y descaracterización",
+        "parameters": "Líneas 75-81: Parámetros configurables",
+        "test_cases": "Líneas 92-98: Casos de prueba manuales"
+      },
+      "note": "Documento conciso (105 líneas) - ideal para referencia rápida"
+    },
+
+    "MEJORAS_WINRATE_md": {
+      "path": "c:\\Users\\PC\\Documents\\CICLES\\MagnoFplemeCycleRenkoBRZ\\MEJORAS_WINRATE.md",
+      "purpose": "Mejoras propuestas para aumentar winrate",
+      "key_sections": {
+        "filters": "Líneas 6-37: Nuevos filtros de calidad implementados",
+        "configurations": "Líneas 39-65: Configuraciones conservadora/balanceada/agresiva",
+        "optimization_strategy": "Líneas 67-82: Estrategia de optimización",
+        "future_improvements": "Líneas 89-96: Próximas mejoras sugeridas"
+      },
+      "note": "Documento de 109 líneas - filtros específicos para MagnoFplemeCycle"
+    }
+  },
+
+  "api_access_requirements": {
+    "fpleme_m7_ii": {
+      "needed_properties": [
+        "double FplemeValue { get; } // Valor actual de FPLEME (-12 a +12)",
+        "double SharkValue { get; } // Valor actual de SHARK",
+        "FplemeState CurrentState { get; } // Estado del ciclo",
+        "SharkState SharkCurrentState { get; } // Estado de SHARK",
+        "bool IsEtapa1Long { get; } // ETAPA 1 compradora activa",
+        "bool IsEtapa1Short { get; } // ETAPA 1 vendedora activa",
+        "bool IsEtapa2Long { get; } // ETAPA 2 compradora activa",
+        "bool IsEtapa2Short { get; } // ETAPA 2 vendedora activa"
+      ],
+      "investigation_needed": "Revisar si FPLEME_M7_II expone estas propiedades públicamente"
+    },
+
+    "maps_m7": {
+      "needed_properties": [
+        "double MAP0 { get; } // Precio justo",
+        "WallColor GetWallColor() // Color de The_Wall",
+        "double GetSLevel(int level) // Precio de línea S (1-8)",
+        "double GetILevel(int level) // Precio de línea i (1-8)",
+        "bool IsHighVolatility { get; } // Si S5-S8/i5-i8 visibles"
+      ],
+      "investigation_needed": "Revisar API pública de MAPS_M7 para acceso a The_Wall"
+    },
+
+    "vx_m7": {
+      "needed_properties": [
+        "WallColor GetVXWallColor() // Color de The_Wall en VX",
+        "bool IsBreakoutConfirmed() // Si línea horizontal fue rota"
+      ],
+      "alternative": "Puede usarse como alternativa a MAPS_M7 para The_Wall"
+    }
+  },
+
+  "implementation_priorities": {
+    "must_have": [
+      "Acceso a valores de FPLEME_M7_II (Value, State, Etapa1/2)",
+      "Detección correcta de ETAPA 1 con timing preciso",
+      "Filtro The_Wall (bloqueo de trades contra fuerza dominante)",
+      "Fix de bug TP/SL (ya implementado en v2.0)"
+    ],
+    "should_have": [
+      "Filtro PAT completo (4 capas)",
+      "Detección de escenarios PPM/MM correcta",
+      "Sistema de calidad de señal graduada (HIGH/MEDIUM/LOW)",
+      "Stops dinámicos basados en último swing del ciclo"
+    ],
+    "nice_to_have": [
+      "ETAPA 2 (reactiva)",
+      "TP dinámico basado en niveles MAP",
+      "Filtro de Problines (alta volatilidad)",
+      "Integración de Pullback Lines"
+    ]
+  },
+
+  "validation_criteria": {
+    "minimum_acceptable": {
+      "winrate": ">58%",
+      "trades_per_day": "2-4",
+      "profit_factor": ">1.5",
+      "expectancy_ticks": ">5",
+      "z_score": ">2.0"
+    },
+    "target": {
+      "winrate": ">62%",
+      "trades_per_day": "2-3",
+      "profit_factor": ">2.0",
+      "expectancy_ticks": ">8",
+      "z_score": ">2.5"
+    },
+    "backtest_requirements": {
+      "period": "Mínimo 6 meses de datos",
+      "instruments": "NQ, MNQ (activos volátiles)",
+      "sessions": "Incluir diferentes condiciones de mercado",
+      "validation": "Walk-forward analysis para evitar overfitting"
+    }
+  }
+}

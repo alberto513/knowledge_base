@@ -1,0 +1,361 @@
+                                                 MAPS
+                                   CORES, NOMENCLATURA E USABILIDADE
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MAPS: FUNCIONALIDADE.
+
+             O mapeamento tem como principal função trazer um planejamento
+             estratégico para o trade. A base de qualquer operacional no mercado
+             financeiro se resume em: continuidade do movimento de tendência,
+             descontinuidade do movimento de tendência e consolidação (também
+             chamada de congestão ou lateralização).
+             Sem o mapeamento, no entanto, algumas perguntas ficam sem resposta,
+             como:
+
+                   Como identificar onde os movimentos podem ocorrer?
+                   Onde as tendências podem começar ou terminar?
+                   Onde há possibilidades de consolidação?
+                   O que é considerado um preço justo para o mercado?
+                   Quanto é um preço caro? E quanto é um preço barato?
+
+             Todas essas questões, relacionadas aos efeitos do preço e ao
+             comportamento da oferta e demanda, podem ser respondidas, antecipadas
+             ou, no mínimo, probabilizadas por meio do mapeamento.
+
+             ONDE ESTAMOS E QUAIS SÃO OS CAMINHOS?
+
+             Pode soar meio clichê, mas se você não sabe onde quer chegar, qualquer
+             caminho serve!
+
+             E é isso que o mapeamento ativo busca responder!
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+          COLORAÇÃO
+
+
+
+
+                    indicativo de região de sobrepreço              preço de equilíbro - MAP 0
+                    em dias muito voláteis ( cautela )
+
+
+                    indicativo de região de subpreço            região intermediária do preço
+                    em dias muito voláteis ( cautela )
+                                                                indicativo de região de sub preço
+                                                                abaixo da maps e de sobre preço
+                    região de consolidação                      acima da maps
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+               MAPS: NOMENCLATURA
+
+
+                                                                                                     S8
+                                                                                                     S7
+                                                                                                     S6
+                                                                                                     S5
+                                                                                                     S4
+
+                         S8                                                                          S3
+                         S7                                                                          S2
+                         S6                                                                          S1
+                         S5                                                                  Map 0
+  S4                                                                                                 i1
+  S3                                                                                                 i2
+  S2                                                                                                 i3
+                                                                                i5
+  S1                                                                                                 i4
+                                                                                i6
+       Map 0
+                                                                                i7
+  i1
+                                                                                i8
+  i2
+  i3
+  i4
+  i5
+  i6
+  i7
+  i8
+
+
+
+
+                                                          Map 0 = Preço Justo
+
+
+
+               Acima da Map 0 nomeamos as linhas por S1 , S2 , S3 e S4 .
+               Abaixo da Map 0 nomeamos as linhas por i1 , i2 , i3 e i4 ..
+               As linhas S5 , S6 , S7 , S8
+               e; i5 ,   i6 ,   i7   e i8 só aparecem quando o mercado está muito volátil.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MAPS: NOMENCLATURA - REFORÇANDO O CONCEITO
+
+             Vamos chamar a linha pontilhada central, que fica nas cores azul e laranja, de MAP-
+             0.
+
+             As linhas acima, vamos chamar de linhas superiores com o prefixo "s" e com o
+             numeral na frente - s1 | s2 | s3 | s4 | s5 | s6 | s7 | s8.
+
+             Logo, a primeira linha acima da MAP-0 se chama s1, a seguinte s2, e assim
+             por diante até s8.
+
+             Para as linhas a baixo da MAP-0, vale o mesmo raciocínio, porém são as linhas
+             inferiores e vamos usar o prefixo "i".
+
+             Desta forma, a primeira linha abaixo da MAP-0 se chama i1 , i2, e assim
+             sucessivamente até i8.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MAPS: FUNÇÕES INTELIGENTES DO MAPEAMENTO
+
+                  Range:
+
+
+
+
+             Os Ranges são representados por essas linhas mais espessas no
+             Mapeamento. Essas linhas delimitam a distância entre o movimento da
+             mínima e da máxima do ativo. Essa amplitude, na análise tradicional, é
+             chamada de Range. Por isso, essas linhas receberam esse nome, pois
+             definem os limites da variação do ativo, ou seja, delimitam sua amplitude.
+             Essas linhas servem como pontos de atenção e são usadas como
+             referência de suporte e resistência. No exemplo apresentado, é possível
+             observar que, praticamente todas as vezes em que o preço alcançou uma
+             linha do Range, ele parou e inverteu sua direção. No entanto, vale destacar
+             que essa imagem é apenas um exemplo para facilitar a compreensão e não
+             representa um Setup. Isso significa que, embora o Range seja um ponto de
+             atenção, não há garantia de que o preço vá reverter sempre que tocá-lo.
+
+             Essa dinâmica ocorre porque o Range está diretamente relacionado à
+             volatilidade do ativo. Se houver uma mudança abrupta na volatilidade, o
+             mercado precisará ajustar o Range novamente.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MAPS: FUNÇÕES INTELIGENTES DO MAPEAMENTO
+
+                  Problines:
+
+
+
+
+             É esperado que um ativo não ultrapasse facilmente a S4, assim como
+             também é esperado que ele não ultrapasse a I4.
+
+             Quando isso pode acontecer? Novamente, a resposta é: apenas quando o
+             ativo passar por uma mudança abrupta de volatilidade.
+             Antes mesmo de o Hertz alterar seu número, as Problines já estarão
+             presentes para indicar, com base na probabilidade, quais serão as
+             próximas linhas fortes no mapeamento, caso o preço ultrapasse a S4 ou a
+             I4.
+
+             As Problines sempre aparecerão em pares: começando com S4 e S5
+             (representadas na imagem com setas amarelas). Se a volatilidade
+             continuar aumentando, as próximas linhas serão S5 e S6 (representadas
+             com setas verdes), e, em seguida, S6 e S7 (representadas com setas
+             brancas), podendo chegar até S7 e S8. O mesmo padrão ocorre na região
+             inferior do mapeamento: I4 e I5, I5 e I6, I6 e I7, e I7 e I8.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MAPS: FUNÇÕES INTELIGENTES DO MAPEAMENTO
+
+            Interpretação: A interpretação deve ser: se as Problines estão ativas, isso
+            indica uma probabilidade de que o preço alcance essas linhas. Portanto, é
+            necessário cautela. Não antecipe uma venda na S4 ou na I4, pois o extremo
+            está mais distante.
+
+            Observação: Caso a Probline seja ativada, mas o preço não atinja essas
+            linhas, isso não significa que ela "errou". Isso apenas indica que ela
+            apresentou uma probabilidade, mas o mercado não conseguiu alcançar os
+            níveis. Esse comportamento pode, inclusive, indicar que o mercado está
+            perdendo força naquela direção. Porém, esse aspecto será analisado com
+            maior profundidade no módulo operacional de cenários.
+
+                  Linha de Compradores e Vendedores ( Pullback_lines ):
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MAPS: FUNÇÕES INTELIGENTES DO MAPEAMENTO
+
+            As linhas dos compradores são representadas na cor verde, enquanto as
+            linhas dos vendedores são representadas na cor vermelha. Assim como a
+            linha de range, essas linhas funcionam como um atalho visual para
+            identificar pontos de atenção no gráfico.
+
+            Esses níveis indicam onde há interesse do mercado. No entanto, para que
+            essa informação seja utilizada de forma operacional, ela deve ser analisada
+            dentro de uma construção de cenário, não de forma isolada.
+
+            Embora saibamos que nesses níveis existem compradores e vendedores,
+            não é possível determinar se eles irão atuar. Essa confirmação só pode ser
+            feita utilizando a ferramenta FPLEME, que mede a atuação dessas forças no
+            mercado.
+
+            Portanto, essas linhas não devem ser usadas isoladamente. Além disso,
+            para iniciantes, recomendo ocultá-las inicialmente para evitar confusões
+            com os outros atalhos visuais.
+
+
+
+                  The_Wall (O muro)
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MAPS: FUNÇÕES INTELIGENTES DO MAPEAMENTO
+
+            As linhas dos compradores são representadas na cor verde, enquanto as
+            linhas dos vendedores são representadas na cor vermelha. Assim como a
+            linha de range, essas linhas funcionam como um atalho visual para
+            identificar pontos de atenção no gráfico.
+
+            Esses níveis indicam onde há interesse do mercado. No entanto, para que
+            essa informação seja utilizada de forma operacional, ela deve ser analisada
+            dentro de uma construção de cenário, não de forma isolada.
+
+            Embora saibamos que nesses níveis existem compradores e vendedores,
+            não é possível determinar se eles irão atuar. Essa confirmação só pode ser
+            feita utilizando a ferramenta FPLEME, que mede a atuação dessas forças no
+            mercado.
+
+            Portanto, essas linhas não devem ser usadas isoladamente. Além disso,
+            para iniciantes, recomendo ocultá-las inicialmente para evitar confusões
+            com os outros atalhos visuais.
+
+
+
+                  The_Wall (O muro)
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MAPS: FUNÇÕES INTELIGENTES DO MAPEAMENTO
+
+            A The_Wall tem o propósito de dividir: ou o preço está acima da The_Wall,
+            ou está abaixo dela. Isso se torna mais evidente quando o mercado possui
+            uma direção clara.
+
+            Caso o preço esteja "atravessando" a The_Wall, significa que o mercado
+            está sem uma direção definida, ou seja, em consolidação ou no final de uma
+            tendência.
+
+            As cores da The_Wall também funcionam como um dispositivo de
+            segurança, ajudando a identificar a intensidade do mercado.
+
+
+
+
+            Interpretação das cores da The_Wall
+
+                  Verde: Indica alta força de compra. Nunca considere cenários de venda
+                  enquanto a The_Wall estiver verde, pois isso significa ir contra a força
+                  dominante do mercado.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MAPS: FUNÇÕES INTELIGENTES DO MAPEAMENTO
+
+                  Rosa (magenta/fúcsia): Indica alta força de venda. Nunca considere
+                  cenários de compra enquanto a The_Wall estiver rosa, pois isso também
+                  significa ir contra a força dominante do mercado.
+
+                  Amarela: Quando está na parte central do MAPA, a cor amarela indica
+                  lateralização e equilíbrio de forças. Para identificar para qual lado o
+                  mercado poderá seguir, é necessário usar a ferramenta FPLEME e
+                  construir o cenário correto. Quando aparece nos extremos, pode ser
+                  interpretada como uma possível oportunidade de reversão.
+
+
+
+
+            Porém, The_Wall amarela nos extremos pode ser lido como oportunidade:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MAPS: FUNÇÕES INTELIGENTES DO MAPEAMENTO
+
+
+
+
+            Observação importante:
+            Não é porque o preço chegou ao extremo e a The_Wall ficou amarela que
+            você deve entrar em operação imediatamente. Esse é apenas o início de um
+            cenário de reversão e uma das condições necessárias. Como operar em
+            cenários específicos será abordado com mais profundidade nos próximos
+            módulos.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MAPS: FUNÇÕES INTELIGENTES DO MAPEAMENTO
+
+            Considerações e Aconselhamentos:
+
+            A primeira vez que vi um MAPA criado pelo Fernão, minha reação foi tentar
+            "setupzar". Ou seja, eu acreditava que bastava vender em qualquer ponto ao
+            chegar em uma região de sobrepreço ou comprar em qualquer lugar ao
+            alcançar uma região de subpreço.
+
+            Com o tempo e com a prática, aprendi que não é assim que funciona. O
+            MAPA é o destino, é a rota correta, mas as ferramentas quantitativas
+            (FPLEME e VX) são fundamentais para conduzir esse caminho. O sucesso
+            no trade está 80% relacionado ao MAPA, mas ainda há 20% a serem
+            aprendidos, e esses 20% também são extremamente importantes.
+
+            Portanto, não utilize o MAPA de forma isolada. Quando o preço alcançar
+            uma região estratégica, a construção de cenários será indispensável para
+            orientar suas decisões.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             DÚVIDAS?
+
+             É só entrar em contato com o nosso suporte, ele funciona de segunda a
+             sexta das 9h às 18h.
+
+             Os canais oficiais do nosso suporte são:
+
+             WhatsApp: +55 16 99772 1929
+
+             E-mail: suporte@fpleme.com.br
+
+             Estamos à disposição para te atender!
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+

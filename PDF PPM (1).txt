@@ -1,0 +1,564 @@
+                                                        PPM
+                                          PROGRESSÃO DE PREÇO EM MAPS
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+             No universo da análise de mercado, compreender o comportamento do
+             preço e identificar sua progressão de forma estruturada é essencial para
+             tomadas de decisão mais assertivas. Os métodos de Cenários de
+             Progressão de Preço em MAPs (PPM) e MAPs com MAPs (MM) foram
+             desenvolvido para fornecer um mapa claro e objetivo da movimentação do
+             mercado.
+
+             Ao longo deste material, vamos explorar como os cenários são utilizados
+             para direcionar o trader na construção de Trades mais seguros e alinhados
+             às forças do mercado.
+
+             Os cenários são fundamentais para a compreensão do mercado.
+             Antes de abordarmos os cenários, é importante entender que o mercado
+             passa por diferentes fases, conforme descrito na literatura clássica:
+
+
+
+            Fases fundamentais : Acumulação, início de alta e alta forte para ciclos
+            compradores e Distribuição, inicio de baixa e baixa forte.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+            Fases complementares: Reacumulação e Redistribuição.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+            Acumulação
+
+            Definição:
+            Uma acumulação bem-sucedida pode ser o ponto de partida para o início de
+            uma tendência de alta. Ela geralmente ocorre após um período de declínio
+            no mercado (baixa forte), quando os preços do ativo estão em níveis baixos
+            e são considerados abaixo do “valor justo” de mercado. Uma acumulação
+            só pode ser confirmada se, posteriormente, houver movimentos que
+            indiquem o início de uma alta, seguidos por uma alta forte (que serão
+            exemplificados mais adiante).
+
+            Neste momento, investidores mais bem informados começam a adquirir os
+            ativos, percebendo que o mercado está subvalorizado.
+
+            Características:
+
+                  MAPs: Normalmente, esse movimento ocorre em i3, i4 ou i5, variando de
+                  acordo com a volatilidade do ativo. Quanto maior a volatilidade, mais
+                  inferior é a área de acumulação. Por exemplo:
+                      No Dólar, a acumulação geralmente ocorre em i2, i3 ou i4.
+                      No Índice, que possui maior volatilidade, costuma-se encontrar
+                      acumulação em i3, i4 ou i5.
+                      No Nasdaq, com volatilidade ainda mais elevada, a acumulação
+                      normalmente aparece em i4, i5 ou i6.
+
+                  The_Wall (do gráfico): A acumulação ocorre contra o movimento de
+                  tendência de baixa, o que significa que os sintomas de acumulação
+                  surgem enquanto a The_Wall ainda está rosa (magenta/fúcsia).
+
+            Se a acumulação for bem-sucedida, a The_Wall começará a lateralizar até
+            ficar amarela. O preço deve então permanecer acima da The_Wall e da MAP
+            central. Caso isso não aconteça, significa que a acumulação não foi bem-
+            sucedida, resultando em uma redistribuição.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+                  Preços estáveis: Após um período de queda acentuada, os preços dos
+                  ativos tendem a se estabilizar, deixando o ativo em consolidação.
+                  Durante essas consolidações, é possível observar cenários de MAP com
+                  MAP (MM) e Progresso de Preço em MAP (PPM).
+
+
+
+
+            Exemplo
+
+            Início de Alta
+
+            Definição:
+            A maioria dos investidores começa a perceber a recuperação do mercado.
+            Contudo, ainda não há uma confiança sólida por parte do público menos
+            informado.
+
+            Características:
+
+                  MAPs: O início de alta pode ocorrer em qualquer área inferior do MAPA,
+                  desde que o preço esteja acima de i4. Isso porque i4 é o ponto em que
+                  um ativo “normaliza” a queda. Abaixo de i4, o ativo ainda está muito
+                  volátil, o que torna arriscado considerar um movimento de alta.
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+            Gradualmente, o preço começa a formar fundos mais altos nas MAPs, o que
+            chamamos de Progresso de Preço em MAPs. Exemplo: um fundo em i3
+            seguido de um novo fundo em i1.
+
+                  The_Wall (do gráfico): No início de alta, o preço geralmente estará
+                  levemente acima ou abaixo da linha da The_Wall, tentando subir para a
+                  parte positiva das MAPs. Durante esse processo, a The_Wall começará a
+                  mudar de cor, saindo do rosa (magenta/fúcsia) para o amarelo.
+
+                  Preços Progredindo em MAPs: Durante os inícios de alta, só é possível
+                  observar cenários de Progresso de Preço em MAP (PPM). Nesse
+                  estágio, o cenário de MAP com MAP não se aplica, pois, caso isso
+                  estivesse acontecendo, ainda se trataria de um movimento de
+                  acumulação.
+
+
+
+
+            Exemplo
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+            Alta Forte
+
+            Definição:
+            A alta forte é a última etapa de um movimento de alta. Essa fase é
+            caracterizada por um aumento significativo nos preços dos ativos, muitas
+            vezes impulsionado pela especulação e pelo otimismo exagerado. Nesse
+            momento, a entrada de investidores menos experientes, influenciados pelo
+            entusiasmo da mídia e pela euforia do mercado, acelera ainda mais o
+            crescimento dos preços.
+
+            Características:
+
+                  MAPs: A alta forte pode ocorrer em qualquer região superior do MAPA,
+                  ou seja, da MAP central para cima. Gradualmente, o preço vai formando
+                  fundos mais altos nas MAPs, e, com frequência, acelera ao romper a S2.
+                  Esse movimento tende a se prolongar até atingir a região de sobrepreço,
+                  momento em que a alta começa a desacelerar.
+
+                  The_Wall (do gráfico): A The_Wall não pode estar rosa
+                  (magenta/fúcsia). Caso esteja, não se pode considerar o movimento
+                  como uma alta forte. Normalmente, em uma alta forte, o preço estará
+                  acima da linha da The_Wall, tentando permanecer na parte positiva das
+                  MAPs. Embora não seja obrigatório, a coloração verde da The_Wall
+                  indica uma força ainda maior para o movimento.
+
+                  Preços Progredindo em MAPs: Nas altas fortes, é possível observar
+                  cenários de Progresso de Preço em MAP (PPM) e também de MAP com
+                  MAP, a partir da MAP central (M0).
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+
+
+
+            Observação:
+
+            E se a acumulação não conseguir gerar o início de alta nem a alta forte?
+            Quando isso acontece, é porque a força vendedora ainda predomina. Esse
+            fenômeno é chamado de Redistribuição.
+
+            A redistribuição ocorre quando há uma lateralização no meio do caminho,
+            mas, após esse período, o movimento continua em direção à baixa.
+
+            Exemplos:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+            Distribuição
+
+            Definição:
+            Se ocorrer uma distribuição bem-sucedida, este fenômeno pode ser o ponto
+            de partida para uma tendência de baixa. Ela geralmente ocorre após um
+            período de alta no mercado (alta forte), quando os preços dos ativos estão
+            em níveis elevados e considerados acima do “valor justo” de mercado. Só
+            pode ser considerada uma distribuição se, após esse movimento, surgirem
+            os movimentos de início de baixa e baixa forte (que serão exemplificados
+            mais adiante).
+
+            Características:
+
+                  MAPS: Normalmente, esse movimento está localizado em s3, s4 ou s5.
+                  Isso pode variar de acordo com a volatilidade do ativo. Quanto maior a
+                  volatilidade, mais superior será a área de distribuição. Por exemplo:
+                  No Dólar, a distribuição normalmente ocorre em s2, s3, s4.
+                  No Índice, que é mais volátil, ela geralmente acontece em s3, s4, s5.
+                  Já no Nasdaq, que é ainda mais volátil, a distribuição costuma ocorrer
+                  em i4, i5, i6.
+
+                  The_Wall (do gráfico): A distribuição ocorre contra o movimento de
+                  tendência de alta. Portanto, os sinais de distribuição aparecem enquanto
+                  a The_Wall ainda está verde.
+
+            Se a distribuição for bem-sucedida, a The_Wall começará a lateralizar até
+            ficar amarela. Nesse caso, o preço deve permanecer abaixo da The_Wall e
+            abaixo da MAP central. Caso contrário, significa que a distribuição não foi
+            bem-sucedida, sendo caracterizada como uma reacumulação.
+
+                  Preços estáveis: Após um período de alta acentuada, os preços dos
+                  ativos tendem a se estabilizar, deixando o ativo em consolidação.
+                  Durante essas consolidações, é possível identificar cenários de MAP
+                  com MAP (MM) e de Progresso de Preço em MAP (PPM).
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+
+
+
+            Início de Baixa
+
+            Definição:
+            A maioria dos investidores começa a perceber que os preços podem estar
+            altos. Contudo, ainda não há uma confiança concreta por parte do público
+            desinformado.
+
+            Características:
+
+                  MAPS: Esse movimento pode ocorrer em qualquer parte superior do
+                  MAPA, desde que esteja abaixo de s4. O nível s4 é o ponto em que um
+                  ativo “normaliza” a alta; acima desse nível, ainda não é recomendado
+                  pensar em queda, pois o ativo permanece muito volátil. Aos poucos, o
+                  preço começa a formar topos mais baixos nas MAPS, caracterizando o
+                  chamado Progresso de Preço em MAPS. Por exemplo: um topo em s3,
+                  seguido por um novo topo em s1.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+                  The_Wall (do gráfico): Normalmente, em um início de baixa, o preço
+                  estará ligeiramente acima ou abaixo da linha da The_Wall, tentando
+                  descer para a parte negativa das MAPS. Durante esse movimento, a
+                  The_Wall tende a mudar de cor, passando do verde para o amarelo.
+
+                  Preços Progredindo em MAPS (PPM): Nos inícios de baixa, é possível
+                  observar apenas cenários de Progresso de Preço em MAP (PPM). O
+                  cenário de MAP com MAP não é aplicável, pois, caso esteja ocorrendo,
+                  ainda seria considerado uma distribuição.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+            Baixa Forte
+
+            Definição:
+
+            A fase de baixa forte é a última etapa do movimento de força de baixa. É
+            caracterizada por uma queda excessiva nos preços dos ativos, muitas vezes
+            impulsionada pela especulação e pelo pessimismo exagerado.
+
+            Neste momento, a entrada de investidores menos experientes, influenciados
+            pelo pessimismo da mídia e pelo pânico do mercado, acelera ainda mais a
+            queda dos preços.
+
+            Características:
+
+                  MAPS: Esse movimento pode ocorrer em qualquer parte inferior do
+                  MAPA, ou seja, da MAP central para baixo. Gradualmente, o preço
+                  começa a formar topos mais baixos nas MAPS e, normalmente, pode
+                  acelerar com o rompimento da i2. Esse movimento tende a se estender
+                  até a região de subpreço. Ao atingir a região de subpreço, a baixa
+                  começa a desacelerar.
+
+                  The_Wall (do gráfico): A The_Wall não pode estar verde; caso esteja,
+                  não se pode considerar uma baixa forte. Geralmente, em uma baixa
+                  forte, o preço estará abaixo da linha da The_Wall e tentará permanecer
+                  na parte negativa das MAPS. Não é obrigatório, mas, se a The_Wall ficar
+                  vermelha, indica ainda mais força no movimento.
+
+                  Preços Progredindo em MAPS: Nas baixas fortes, é possível observar
+                  cenários de Progresso de Preço em MAP (PPM), bem como cenários de
+                  MAP com MAP a partir da MAP central (M0).
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+
+
+
+            Observação: E se a distribuição não conseguir gerar o início de baixa nem a
+            baixa forte?
+
+            Quando isso acontece, é porque a força de compra ainda é predominante.
+            Esse fenômeno é chamado de Reacumulação. A Reacumulação ocorre
+            quando há uma lateralização no meio do caminho, mas, após essa
+            lateralização, o movimento volta a subir, retomando a tendência de alta.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+            Progresso de Preço em MAP (PPM)
+
+            O cenário de Progresso de Preço em MAP é uma das maneiras mais
+            eficazes de identificar a força do mercado e determinar a direção correta a
+            seguir.
+
+            Esse cenário consegue explicar qualquer padrão gráfico existente. Por
+            exemplo, o Progresso de Preço em MAP pode antecipar padrões de
+            reversão, como topo duplo, cunha, ombro-cabeça-ombro, figura diamante,
+            fundo arredondado, entre outros. Mas por que esses padrões podem gerar
+            reversões? A resposta é que a reversão não está no padrão em si, mas sim
+            na forma como o preço progride nas MAPs. Isso ficará claro com os
+            exemplos a seguir.
+
+            O problema dos padrões gráficos tradicionais é que eles são subjetivos,
+            devido às várias possibilidades de formação dos desenhos, fazendo com
+            que o padrão possa ser interpretado de diferentes maneiras a cada
+            momento. Já no cenário de Progresso de Preço em MAP, o movimento é
+            fixo e previsível, o que traz maior consistência e permite um planejamento
+            mais preciso para o futuro.
+
+            No exemplo a seguir, temos a figura de um topo duplo, que gerou uma
+            reversão no preço. Mas por que isso aconteceu?
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+
+
+
+            Vamos analisar as ferramentas.
+
+            Toda análise de Progresso de Preço em MAP segue a sequência abaixo:
+
+            Ponto Inicial: Escolha o lado que deseja analisar. Por exemplo, se o ativo
+            está em sobrepreço, e você deseja vender, deve analisar a força de venda.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+            1° Regra: Sempre aguarde ter uma referência, ou seja, pelo menos um topo.
+            Nesse topo de referência, o Shark deve virar vermelho, indicando o início de
+            um ciclo vendedora.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+            2° Regra: Aguarde a formação de pelo menos um fundo, e o Shark virar azul,
+            sinalizando o início de um ciclo comprador.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+            3° Regra: Prepare-se para entrar no segundo ciclo vendedor.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+            4° Regra: O segundo ciclo vendedor deve estar em um nível mais baixo do
+            que o primeiro ciclo vendedor.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+            5° Regra: Para realizar uma venda, o segundo ciclo vendedor deve estar em
+            uma MAP mais baixa do que a MAP do ciclo de referência. Uma maneira
+            fácil de verificar isso é observando o VX, que deve estar em queda.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+            6° Regra: No momento da entrada na operação, a The_Wall deve estar
+            lateralizada ou a favor do lado que você deseja (Amarela ou Rosa).
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+            Visão completa:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+            Visão completa:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+            Visão completa:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+            Visão completa:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+            Exemplos que não atendem às regras:
+
+            Observe que os exemplos que não seguem as regras apresentam
+            movimentos com menores chances de sucesso.
+
+            Neste caso, o preço já não está mais progredindo nas MAPs a favor do lado
+            desejado, o que resulta em um mercado lateral.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+            Na situação abaixo a The_wall ainda estava verde.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+            Essa mesma leitura feita para venda também pode ser aplicada à compra.
+            No caso de compra:
+
+            Ponto Inicial: Escolha o lado que deseja analisar. Por exemplo, se o ativo
+            está em subpreço, você deve analisar a força de compra, pois seu objetivo é
+            comprar.
+
+            1ª Regra: Sempre espere ter uma referência, ou seja, pelo menos um fundo.
+            Nesse fundo de referência, o Shark deve virar azul, indicando o início de um
+            primeiro ciclo comprador.
+
+            2ª Regra: Sempre espere formar pelo menos um topo, com o Shark virando
+            vermelho, indicando o início de um primeiro ciclo vendedor.
+
+            3ª Regra: Esteja sempre preparado para entrar no segundo ciclo comprador.
+
+            4ª Regra: O segundo ciclo comprador deve estar mais alto do que o anterior.
+
+            5ª Regra: Para uma compra, o segundo ciclo comprador deve ocorrer em
+            qualquer MAP mais alta do que a MAP do ciclo de referência. Uma maneira
+            fácil de identificar isso é pelo VX, que estará subindo. Por exemplo: i2 e i1.
+
+            6ª Regra: No momento de entrada na operação, a The_Wall deve estar
+            lateral ou favorável ao lado desejado (amarela ou verde).
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+            Exemplo:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             PPM
+
+            O operacional de Progressão de Preço em MAPs (PPM) oferece uma
+            abordagem clara e estruturada para compreender e operar no mercado com
+            maior precisão. Ao analisar o comportamento do preço em relação às
+            MAPs, é possível identificar movimentos consistentes, planejar entradas e
+            saídas e tomar decisões mais assertivas. Essa metodologia permite não
+            apenas maior organização na leitura do mercado, mas também uma
+            estratégia sólida para maximizar resultados.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             DÚVIDAS?
+
+             É só entrar em contato com o nosso suporte, ele funciona de segunda a
+             sexta das 9h às 18h.
+
+             Os canais oficiais do nosso suporte são:
+
+             WhatsApp: +55 16 99772 1929
+
+             E-mail: suporte@fpleme.com.br
+
+             Estamos à disposição para te atender!
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+

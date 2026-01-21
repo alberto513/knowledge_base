@@ -1,0 +1,671 @@
+                           TIMING DE                            ETAPA 1
+
+
+
+                           ENTRADA
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+             Etapa 1
+
+             A Etapa 1 é um estilo de timing de entrada visualizado por meio da
+             ferramenta FPLEME. Ela serve para identificar oportunidades de
+             posicionamento no início de um ciclo de mercado, proporcionando um
+             gerenciamento de risco bem definido, baseado nas informações fornecidas
+             pelas ferramentas.
+
+             Além disso, a Etapa 1 tem como objetivo filtrar os boxes, sejam positivos
+             ou negativos, que não têm chances de iniciar um movimento. Esse
+             processo será detalhado com as imagens a seguir.
+
+             Visualização:
+
+                   Etapa 1 Compradora: É considerada uma Etapa 1 compradora o
+                   momento em que a ferramenta sai da linha de -4,00 e consegue fechar
+                   um box que faz a linha do FPLEME alcançar o nível 0,00.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Quando isso acontece, existe um atalho visual que indica que a Etapa 1
+            ocorreu. Esse atalho é representado por um Post-it retangular verde
+            destacado.
+
+
+
+
+            O Post-it é exibido em verde destacado porque, além da Etapa 1 ter ocorrido,
+            o Shark também já estava azul. Veja:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Essa condição favorece o possível movimento, pois há um alinhamento de
+            forças: a Etapa e o Ciclo estão em harmonia.
+
+            No entanto, há outro atalho visual que também representa a Etapa 1, mas,
+            nesse caso, em verde acinzentado (verde opaco):
+
+
+
+
+            O Post-it em verde acinzentado (opaco) também indica a Etapa 1, pois o
+            FPLEME saiu do nível -4,00 e alcançou o nível 0,00. Porém, nesse caso, a
+            chance de iniciar um ciclo comprador é menor. Isso ocorre porque o
+            mercado tentou entrar na Etapa 1, mas a linha do Shark ainda permaneceu
+            vermelha.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Quando o Shark ainda está vermelho, os preços tendem a lateralizar, a
+            menos que a linha do Shark mude para azul futuramente.
+
+            Compare: o movimento de Etapa 1 com o Post-it em verde acinzentado
+            (opaco) foi mais lateralizado, enquanto a operação de Etapa 1 com o verde
+            destacado resultou em um movimento mais fluido:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Observação: Os pontos e considerações apresentados estão baseados na
+            leitura do FPLEME com os parâmetros originais, sem nenhuma alteração, no
+            "padrão de fábrica", ou seja, com o XR desativado e o Modo Rápido
+            desligado (XR -> Não e Modo Rápido -> Não).
+
+
+
+
+                             Imagem: XR -> Não
+
+
+
+
+                            Imagem: Modo Rápido -> Não
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Se você nunca alterou essas configurações no seu FPLEME, fique tranquilo,
+            pois ele já estará configurado exatamente como nas representações
+            apresentadas.
+
+            Reforço:
+
+            Existe Etapa 1 com o FPLEME nos níveis -12,00 ou -8,00?
+
+            Resposta: Não. Nesse caso, não se trata de nenhuma Etapa, porque não é
+            possível o FPLEME sair do nível -12,00 ou -8,00 e alcançar o nível 0,00 com
+            apenas 1 box. Para o FPLEME ser considerado Etapa 1, ele precisa
+            obrigatoriamente alcançar o nível 0,00.
+
+            Portanto, ao pensar em realizar uma compra, não é possível fazê-la em
+            qualquer box positivo. O ideal é que seja um box positivo com chance real
+            de se transformar em uma Etapa 1.
+
+            Exemplo de boxes positivos que não têm chance de virar Etapa 1:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Posicionamento de Ordem na Etapa 1 de Compra:
+
+            Normalmente, o FPLEME atingirá a linha 0,00 no segundo ou terceiro box
+            positivo a favor do movimento. Você pode se perguntar: "Mas não seria
+            tarde demais para entrar?" A resposta é não, porque NUNCA iremos comprar
+            no fechamento do box. O que faremos é identificar que houve a Etapa 1 e
+            nos planejar para entrar na operação, posicionando a ordem da maneira
+            correta. Veja o passo a passo no exemplo:
+
+            1° - Etapa 1 identificada (neste caso, a Etapa 1 foi confirmada no terceiro
+            box positivo):
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            2° - Nunca compre no topo do box positivo:
+
+
+
+
+            3° - Posicione-se o mais próximo possível da base do box positivo anterior
+            (neste caso, posicione-se na base do segundo box):
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Legenda:
+
+                  Traço verde:
+                  Indica o local mais recomendado para posicionar a ordem de entrada.
+
+                  Topo, base e sombra do box positivo: Representam as partes
+                  específicas do box para referência ao posicionamento.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Novo exemplo:
+
+            1º - Etapa 1 identificada (neste caso, a Etapa 1 foi confirmada no 3º box
+            positivo):
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            2º - Se você está pensando em comprar, NUNCA deve comprar no topo do
+            box:
+
+
+
+
+            3º - Posicione-se o mais próximo possível da base do box positivo anterior
+            (neste caso, posicione-se na base do 2º box):
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Novo exemplo:
+
+            1º - Etapa 1 identificada (neste caso, a Etapa 1 foi confirmada no 2º box
+            positivo):
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            2º - Se você está pensando em comprar, NUNCA deve comprar no topo do
+            box:
+
+
+
+
+            3º - Posicione-se o mais próximo possível da base do box positivo anterior
+            (neste caso, posicione-se na base do 1º box):
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Importante:
+
+            Sempre uma Etapa 1 dentro de um cenário será mais segura do que uma
+            Etapa 1 isolada.
+
+            Como assim?
+
+            Priorize realizar Etapas 1 que estejam dentro de cenários de PPM
+            (Progressão de Preço em MAP) ou MM (MAP com MAP).
+
+            Exemplo: Qual das operações é mais segura? Op.1 ou Op.2?
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Resposta:
+
+            A Op.2 é mais segura do que a Op.1, pois a Op.2 é uma entrada de Etapa 1
+            dentro de um cenário de Progressão de Preço em MAP (PPM), enquanto a
+            Op.1 é apenas um movimento de alta isolado e sem contexto.
+
+            Essa informação é extremamente valiosa, pois é o que ajudará você a
+            identificar boas entradas. O segredo de um trade bem-sucedido está no
+            contexto do cenário.
+
+            No exemplo abaixo, o cenário está dentro de um PPM na venda. Entradas
+            compradoras, nesse caso, ficam fora de contexto e resultam,
+            frequentemente, em movimentos curtos e de menor probabilidade de
+            sucesso. Além disso, o último movimento de compra, indicado por duas
+            setas vermelhas, tinha a The_Wall na cor rosa (magenta/fúcsia), que é mais
+            um indicador de segurança mostrando que ainda não há possibilidade de
+            compras seguras.
+
+            Ou seja, no exemplo abaixo, era muito mais inteligente e seguro realizar uma
+            Etapa 1 na venda do que tentar uma Etapa 1 na compra, pois o cenário é de
+            Progresso de Preço em MAP na venda.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Para Trades em Etapa 1 Compradora, onde posicionar o STOP?
+
+            O Stop deve ser posicionado abaixo do último fundo formado. Ou seja,
+            quando se inicia um ciclo comprador, o mercado deixa um fundo, e o Stop
+            deve ser colocado atrás desse último fundo.
+
+            Exemplo:
+            Operação exemplar em um trade dentro de um cenário de Progressão de
+            Preço em MAP, comprando em Etapa 1.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Posicionamento do STOP no último fundo formado a partir do último ciclo
+            comprador:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            E se quiser deixar um STOP um pouco maior, qual seria o limite máximo?
+
+            Resposta: O limite máximo seria 1 box negativo abaixo desse fundo. Isso
+            porque, se esse último fundo for rompido e ainda fechar 1 box negativo
+            abaixo dele, certamente a ferramenta FPLEME já estará na cor vermelha,
+            rompendo o nível 0,00, ou até mesmo rompendo o nível -4,00. Dessa forma,
+            a operação seria descaracterizada como Etapa 1.
+
+            Lembre-se da regra: “O motivo que te fez entrar deve ser o mesmo motivo
+            que te faz sair.”
+
+            Se você entrou porque a Etapa 1 ocorreu quando o FPLEME saiu do nível
+            -4,00 e atingiu o nível 0,00, então, caso o movimento inverso ocorra (o
+            "Reverso"), não faz mais sentido permanecer na operação.
+
+            Exemplo de limite máximo de STOP:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Reforço: É por isso que é importante evitar comprar no topo do Renko.
+            Prefira comprar na base do box positivo anterior, pois isso reduz o tamanho
+            do seu STOP.
+
+            Exemplo: Comprando no TOPO
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Aguardando e comprando na base do box positivo anterior:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Agora que finalizamos a explicação sobre a Etapa 1 compradora, é hora de
+            virar a página e falar sobre a Etapa 1 vendedora.
+
+            A lógica segue o mesmo princípio, mas com foco nas operações de venda.
+
+            Vamos explorar os detalhes e ajustes necessários para aproveitar esse tipo
+            de oportunidade de mercado.
+
+                  Etapa 1 Vendedora: É considerada Etapa 1 vendedora o momento em
+                  que a ferramenta sai da linha de +4,00 e consegue fechar um box que
+                  faz a linha do FPLEME alcançar o nível 0,00.
+
+
+
+
+            Identificação visual:
+
+            Quando isso acontece, existe um atalho visual indicando que a Etapa 1
+            ocorreu. Esse atalho é mostrado através de um Post-it (retangular) vermelho
+            destacado.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+
+
+
+            Esse Post-it é representado em vermelho destacado porque, quando a Etapa
+            1 aconteceu, o Shark já estava vermelho. Veja:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Isso favorece o possível movimento, pois há um alinhamento entre as
+            forças: a Etapa e o Ciclo estão alinhados.
+
+            No entanto, há outro atalho visual que também indica a Etapa 1, mas, nesse
+            caso, com um Post-it vermelho acinzentado (vermelho opaco):
+
+
+
+
+            Nesse caso, o Post-it vermelho acinzentado (opaco) também representa a
+            Etapa 1, pois o FPLEME saiu do nível +4,00 e alcançou o nível 0,00. No
+            entanto, essa condição apresenta uma menor chance de iniciar um ciclo
+            vendedor.
+
+            Isso ocorre porque o mercado tentou entrar em Etapa 1, mas a linha do
+            Shark ainda estava azul.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Nessa situação, com o Shark ainda azul, os preços tendem a lateralizar, a
+            menos que a linha do Shark passe a ficar vermelha futuramente.
+
+            Veja: o movimento de Etapa 1 com o vermelho acinzentado (opaco) foi mais
+            lateral, enquanto o movimento de Etapa 1 com o vermelho destacado foi
+            mais fluido.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Observação:
+
+            Os pontos e considerações apresentados aqui estão baseados na leitura do
+            FPLEME com os parâmetros originais, sem nenhuma alteração — ou seja, no
+            “padrão de fábrica”. Isso significa que o XR está desativado e o Modo
+            Rápido também está desligado (XR -> Não e Modo Rápido -> Não).
+
+
+
+
+                      Imagem: XR -> Não
+
+
+
+
+                      Imagem: Modo Rápido -> Não
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Se você nunca alterou essas configurações no seu FPLEME, fique tranquilo,
+            pois ele já estará configurado exatamente como mostrado nas
+            representações.
+
+            Reforço: Existe Etapa 1 com o FPLEME no nível de +12,00 ou +8,00?
+
+            Resposta: Não. Nesses casos, não há Etapa alguma, pois não é possível que
+            o FPLEME saia do nível +12,00 ou +8,00 e atinja o nível 0,00 com apenas 1
+            box.
+
+            A condição para ser considerada uma Etapa 1 é o FPLEME alcançar o nível
+            0,00.
+
+            Portanto, quando estiver planejando fazer uma venda, não a realize em
+            qualquer box negativo. O ideal é que seja em um box negativo que tenha
+            chance de, pelo menos, se tornar uma Etapa 1.
+
+            Veja, então, exemplos de boxes negativos que não têm chance de virar
+            Etapa 1:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Posicionamento de ordem em Etapa 1 de venda:
+
+            Normalmente, o FPLEME alcançará a linha 0,00 no segundo ou terceiro box
+            negativo a favor do movimento. Você pode pensar: "Mas isso não é tarde
+            demais?"
+
+            A resposta é não, porque NUNCA realizamos a venda no fechamento do box.
+            O que fazemos é visualizar que a Etapa 1 ocorreu e nos planejarmos para
+            entrar no trade, posicionando a ordem corretamente. Veja o passo a passo:
+
+            1º - Identificação da Etapa 1 (neste caso, confirmada no 3º box negativo):
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            2º - Se você está pensando na venda, NUNCA venda no fundo do box:
+
+
+
+
+            3º - Posicione-se o mais próximo possível do topo do box negativo anterior
+            (nesse caso, posicione-se no topo do 2º box):
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Legenda:
+
+                  Traço vermelho:        Representa o local mais indicado para
+                  posicionar a ordem de entrada.
+                  Topo, base (fundo) e sombra do box negativo:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Importante:
+
+            Uma Etapa 1 dentro de um cenário será sempre mais segura do que uma
+            Etapa 1 isolada.
+
+            Como assim?
+
+            Foque em realizar Etapas 1 que estejam dentro dos cenários de PPM ou
+            MM.
+
+            Exemplo: Qual das operações é mais segura? Opção 1 ou Opção 2?
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Resposta: A Opção 2 é mais segura, pois representa uma entrada de Etapa 1
+            dentro de um CENÁRIO de MAP com MAP (MM), enquanto a Opção 1 é uma
+            baixa em um movimento isolado.
+
+            Essa informação é valiosa porque ela ajuda a escolher a entrada correta. O
+            segredo de um trade certo está no cenário.
+
+            Por exemplo:
+            No exemplo abaixo, o cenário é claramente de Progressão de Preço em
+            MAP na compra. Nesse caso, vendas ficam fora de contexto e acabam se
+            tornando movimentos curtos.
+
+            Além disso, o último movimento de venda (indicado com duas setas verdes)
+            apresentava a The_Wall na cor verde, o que é mais um indicador de
+            segurança, mostrando que ainda não há possibilidades seguras de venda.
+
+            Ou seja, no exemplo abaixo, seria muito mais inteligente e seguro realizar
+            uma Etapa 1 na compra do que na venda, pois o CENÁRIO é de Progressão
+            de Preço em MAP na compra.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Para trades em Etapa 1 vendedora, onde posicionar o STOP?
+
+            O STOP deve ser posicionado acima do último topo formado. Isso porque,
+            ao iniciar um ciclo vendedor, o mercado deixará um topo, e o STOP deve ser
+            posicionado logo atrás desse último topo.
+
+            Exemplo:
+
+            Operação exemplar em um trade com Progressão de Preço em MAP
+            vendendo em Etapa 1.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Posicionamento do STOP:
+
+            O STOP será colocado no último topo formado a partir do último ciclo
+            vendedor.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            E se eu quiser deixar um STOP um pouco maior? Qual é o limite máximo
+            para o STOP?
+
+            O limite máximo é 1 box positivo acima desse topo. Isso ocorre porque, se o
+            último topo for rompido e ainda fechar 1 box positivo acima, o FPLEME
+            certamente estará na cor verde, rompendo o nível 0,00 — ou, possivelmente,
+            já rompendo o nível +4,00.
+
+            Essas condições DESCARACTERIZAM a Etapa 1.
+
+            Lembre-se: “O motivo que te fez entrar deve ser o mesmo motivo que te faz
+            sair.”
+            Se você entrou porque a Etapa 1 ocorre quando o FPLEME sai do +4,00 e
+            atinge o nível 0,00, então, se o movimento se inverter, não faz mais sentido
+            permanecer na operação.
+
+            Exemplo de limite máximo de STOP.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Reforço: Por isso, é importante NÃO vender na base do Renko, mas sim no
+            topo do box anterior. Essa estratégia planejada reduz o tamanho do seu
+            STOP. Veja:
+
+            Vendendo na base (fundo).
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Aguardando e vendendo no topo do negativo anterior:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             TIMING DE ENTRADA - ETAPA 1
+
+            Estudar os conceitos de Etapa 1 e suas aplicações é fundamental para
+            refinar suas entradas no mercado. Quanto mais você praticar esses
+            conceitos em replays e aplicá-los em diferentes ativos, maior será sua
+            compreensão das nuances e dinâmicas de cada cenário.
+
+            Os replays permitem que você observe o comportamento do mercado em
+            detalhes, sem a pressão do tempo real, enquanto a prática em ativos
+            variados amplia sua visão e te ajuda a identificar padrões recorrentes.
+
+            Lembre-se: consistência vem da prática e da repetição consciente. Quanto
+            mais você dominar essas ferramentas e estratégias, mais preparado estará
+            para operar com confiança e tomar decisões seguras.
+
+            Agora é hora de colocar o aprendizado em ação! Bons estudos  🚀
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             DÚVIDAS?
+
+             É só entrar em contato com o nosso suporte, ele funciona de segunda a
+             sexta das 9h às 18h.
+
+             Os canais oficiais do nosso suporte são:
+
+             WhatsApp: +55 16 99772 1929
+
+             E-mail: suporte@fpleme.com.br
+
+             Estamos à disposição para te atender!
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+

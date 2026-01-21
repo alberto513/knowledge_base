@@ -1,0 +1,273 @@
+                                                                MM
+                                                                MAP + MAP
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MM
+
+             Anteriormente, foi destacada a importância do cenário de Progresso de
+             Preço em MAP (PPM). Com esse cenário, é possível compreender para
+             qual lado o mercado está demonstrando maior força. O cenário PPM
+             ocorre com muita frequência.
+
+             Agora, falaremos sobre o cenário MAP com MAP (MM). Esse cenário
+             acontece com uma frequência menor e será utilizado apenas quando o
+             cenário PPM não for aplicável.
+
+             Normalmente, os movimentos do cenário MAP com MAP não são tão
+             expressivos quanto os do Progresso de Preço em MAP, pois costumam
+             ocorrer em momentos de lateralização do mercado. No entanto, é
+             importante ter conhecimento desse cenário, pois ele ainda é válido para
+             uma compreensão completa do comportamento do mercado.
+
+             No cenário MAP com MAP, o comparativo é feito entre uma MAP e ela
+             mesma. Por exemplo: MAP Central (M0) com a própria MAP Central (M0),
+             respeitando a mesma sequência de ciclos.
+
+             Portanto, toda análise no cenário MAP com MAP precisa seguir uma
+             sequência de ciclos e realizar os comparativos correspondentes. Veja o
+             exemplo abaixo:
+
+             Exemplo para venda:
+
+                   Ponto inicial: Escolha o lado que você deseja analisar. Por exemplo, se
+                   o ativo está na MAP Central e ela está laranja, o foco será analisar a
+                   força de venda, pois o objetivo é vender.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MM
+
+            1°: Sempre é necessário esperar por uma referência, ou seja, pelo menos um
+            topo. Nesse topo de referência, o Shark precisa virar vermelho, indicando o
+            início do primeiro ciclo vendedor.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MM
+
+            2°: Sempre é necessário esperar a formação de pelo menos um fundo, e o
+            Shark precisa virar azul, indicando o início de um primeiro ciclo comprador.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MM
+
+            3°: Sempre se preparar para entrar no segundo ciclo vendedor.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MM
+
+            4°: O segundo ciclo vendedor deve estar mais baixo do que o anterior.
+
+            5°: Para uma venda, o segundo ciclo vendedor deve estar na mesma MAP
+            do ciclo de referência. Por exemplo: MAP 0 com MAP 0, i1 com i1, i2 com i2,
+            ou até mesmo nas superiores, como s3 com s3, s2 com s2, etc.
+
+            6°: No momento da entrada da operação, a The_Wall deve estar lateral ou a
+            favor do lado que você deseja (amarela ou rosa).
+
+            A única diferença entre o cenário de Progresso de Preço em MAP (PPM) e o
+            cenário MAP com MAP (MM) é que, no MM, o preço não progride nas MAPs
+            e continua retornando para a mesma MAP. Por esse motivo, ele é chamado
+            de MAP com MAP.
+
+            Conforme mencionado anteriormente, o cenário MAP com MAP é mais
+            fraco do que o cenário Progresso de Preço em MAP. Isso pode ser
+            facilmente observado na imagem abaixo, onde o movimento no PPM
+            avançou significativamente mais do que os dois movimentos no MM.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MM
+
+            Comparativo entre PPM e MM:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MM
+
+            Recomendações:
+
+            1º O cenário MAP com MAP fica mais seguro quando a diferença de
+            inclinação entre os ciclos for mais evidente. Por exemplo:
+
+            Esse caso não é recomendado poque os níveis dos ciclos estão iguais.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MM
+
+                  Caso recomendado: Quando os níveis dos ciclos estão mais baixos.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MM
+
+            2º O cenário MAP com MAP vendedora é mais eficaz para movimentos a
+            favor da tendência, ou seja, da MAP 0 para baixo. Isso porque, ao tentar
+            operar na região de sobrepreço, existe a possibilidade de o ativo ainda estar
+            em uma área de distribuição, o que pode gerar uma certa dificuldade para
+            que o movimento de queda ocorra. Para reversões, é mais seguro aguardar
+            o cenário de Progresso de Preço em MAP (PPM).
+
+            Então evite MAP com MAP no extremo:
+
+
+
+
+            Esse exemplo mostra o preço indo ao extremo e destaca a dificuldade que o
+            ativo apresenta para cair. Isso ocorre porque, além das forças não estarem
+            favoráveis para a venda, a The_Wall ainda está verde. Portanto, esse é um
+            trade que não deve ser realizado na venda.
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MM
+
+            Exemplos em Compra:
+
+            Ponto Inicial: Escolha o lado que você deseja analisar. Por exemplo, se o
+            ativo está na MAP central e ela está azul, eu quero analisar a força de
+            compra, pois estou interessado em comprar.
+
+            1º: Sempre é necessário esperar ter uma referência, ou seja, pelo menos um
+            fundo, e nesse fundo de referência o Shark deve virar azul, indicando o início
+            do primeiro ciclo comprador.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MM
+
+            2º: Sempre é necessário esperar formar pelo menos um topo, e o Shark
+            deve virar vermelho, mostrando o início do primeiro ciclo vendedor.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MM
+
+            3º: Prepare-se para entrar no segundo ciclo comprador.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MM
+
+            4º: O segundo ciclo comprador deve estar mais alto do que o ciclo anterior.
+
+            5º: Para uma compra, o segundo ciclo comprador deve estar na mesma
+            MAP do ciclo de referência. Por exemplo: MAP 0 com MAP 0, s1 com s1, s2
+            com s2, ou até mesmo as inferiores, como i1 com i1, i2 com i2, etc.
+
+            6º: No momento de entrada na operação, a The_Wall deve estar lateral ou a
+            favor do lado que você deseja operar (Amarela ou Verde).
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MM
+
+            Recomendações:
+
+            1º O cenário MAP com MAP é mais seguro quando a diferença de
+            inclinação entre os ciclos é mais evidente. Observe o exemplo abaixo.
+
+            Esse caso não é recomendado poque os níveis dos ciclos estão iguais:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MM
+
+                  Caso recomendado: Quando os níveis dos ciclos estão mais altos:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MM
+
+            2º O cenário MAP com MAP compradora é mais eficiente para movimentos
+            a favor da tendência, ou seja, da MAP 0 para cima. Isso ocorre porque, ao
+            tentar operar na região de subpreço, o ativo pode ainda estar em uma área
+            de acumulação, o que pode gerar uma certa dificuldade para o movimento
+            conseguir subir. Para reversões, é mais seguro aguardar o Progresso de
+            Preço em MAP.
+
+            Então evite MAP com MAP no extremo:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MM
+
+            2º O cenário MAP com MAP compradora é mais eficiente para movimentos
+            a favor da tendência, ou seja, da MAP 0 para cima. Isso ocorre porque, ao
+            tentar operar na região de subpreço, o ativo pode ainda estar em uma área
+            de acumulação, o que pode gerar uma certa dificuldade para o movimento
+            conseguir subir. Para reversões, é mais seguro aguardar o Progresso de
+            Preço em MAP.
+
+            Então evite MAP com MAP no extremo:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             MM
+
+            O exemplo acima mostra o preço indo ao extremo inferior e destaca a
+            dificuldade que o ativo apresenta para subir. Isso ocorre porque, além das
+            forças não estarem tão favoráveis para a compra, a The_Wall ainda está
+            rosa. Ela até tentou ficar amarela, mas não se sustentou. Portanto, esse é
+            um trade que não deve ser realizado na compra.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             DÚVIDAS?
+
+             É só entrar em contato com o nosso suporte, ele funciona de segunda a
+             sexta das 9h às 18h.
+
+             Os canais oficiais do nosso suporte são:
+
+             WhatsApp: +55 16 99772 1929
+
+             E-mail: suporte@fpleme.com.br
+
+             Estamos à disposição para te atender!
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+

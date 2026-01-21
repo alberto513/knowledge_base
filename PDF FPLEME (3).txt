@@ -1,0 +1,283 @@
+                                      FPLEME
+                                   CORES, NOMENCLATURA E USABILIDADE
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             FPLEME SC2
+
+             A ferramenta FPLEME é capaz de ler o fluxo de mercado e transformá-lo
+             em ciclos. Essa funcionalidade permite identificar o início e o fim de cada
+             movimento, proporcionando um melhor gerenciamento de risco e maior
+             segurança na escolha de trades.
+
+             Compreendendo Níveis, Linhas e Post-its
+
+             Níveis (Etiquetas)
+             Na ferramenta FPLEME, existem alguns níveis destacados no lado direito,
+             identificados por "etiquetas":
+
+                   +4,00: destacado em verde (imagem 1)
+                   -4,00: destacado em vermelho (imagem 1)
+                   0,00: destacado em branco (imagem 2)
+                   +8,00 e -8,00: destacados em cinza (imagem 2)
+
+
+
+
+            Imagem 1
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             FPLEME SC2: CORES E NOMENCLATURA
+
+
+
+
+            Imagem 2
+
+            Linhas
+
+            A ferramenta possui duas linhas principais:
+
+               1. Linha do FPLEME (linha mais fina)
+                  Quanto mais alta, maior a força de compra.
+                  Quanto mais baixa, maior a força de venda.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             FPLEME SC2: CORES E NOMENCLATURA
+
+            Linha do SHARK (linha mais espessa)
+                Funciona da mesma forma: quanto mais alta, maior a força de compra, e
+                quanto mais baixa, maior a força de venda.
+
+
+
+
+            Essas duas linhas eram ferramentas separadas no passado, mas
+            atualmente são complementares e aparecem juntas no gráfico.
+
+            Post-its (Marcações)
+
+            Nas linhas +4,00 e -4,00, existem pequenos retângulos chamados Post-its,
+            que acompanham a trajetória da Linha do FPLEME.
+               Cores:
+                    Verde claro (opaco) e verde destacado.
+                    Vermelho claro (opaco) e vermelho destacado.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             FPLEME SC2: CORES E NOMENCLATURA
+
+            ⚠ Atenção: Um Post-it, por si só, não é um set-up de entrada ou saída. Sua
+            funcionalidade será explicada parcialmente neste módulo e aprofundada
+            nos módulos seguintes.
+
+            Post-its na Linha do SHARK
+
+            Os Post-its amarelos, presentes na Linha do SHARK, indicam equilíbrio e
+            possibilitam antecipar uma possível mudança de ciclo. Contudo, essa
+            mudança só pode ser confirmada pela coloração da linha.
+
+
+
+
+            ⚠ Atenção: Assim como na Linha do FPLEME, os Post-its do SHARK não
+            devem ser usados de forma isolada.
+
+             FPLEME SC2: USABILIDADE
+
+            A importância da ferramenta frente ao ciclo de preço
+
+            O FPLEME é essencial porque observar apenas se o box do Renko é positivo
+            ou negativo não é suficiente para determinar a direção do mercado. Ele
+            ajuda a identificar o início de grandes movimentos, tornando o uso mais
+            eficaz.
+
+            Mudança de cor da Linha do FPLEME:
+              De verde para vermelho: ocorre quando a linha cruza o nível +4,00 e
+              chega no 0,00.
+              De vermelho para verde: ocorre quando a linha cruza o nível -4,00 e
+              chega no 0,00.
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             FPLEME SC2: USABILIDADE
+
+
+
+
+            Nessa imagem fica bem fácil de visualizar que os níveis +4,00 e -4,00 são os
+            níveis onde a linha do FPLEME muda de cor:
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             FPLEME SC2: USABILIDADE
+
+            Os Post-its nos níveis +4,00 e -4,00 são atalhos visuais que mostram que a
+            ferramenta mudou de cor e tocou o nível 0,00, representando o que
+            chamamos de ETAPA 1.
+
+
+
+
+            ETAPA 1
+
+            A Etapa 1 marca o início de um possível ciclo comprador ou vendedor.
+
+            ⚠ Atenção: O Post-it isolado não é um set-up. Sua interpretação deve ser
+            feita em conjunto com outros fatores, explicados parcialmente neste
+            módulo e detalhados nos próximos.
+
+            Conclusão sobre os níveis do FPLEME
+
+               1. Se o FPLEME estiver nos níveis -12,00 ou -8,00, ainda não é possível
+                  iniciar um ciclo comprador. Isso só acontece no nível -4,00.
+               2. Se o FPLEME estiver nos níveis +12,00 ou +8,00, ainda não é possível
+                  iniciar um ciclo vendedor. Isso só acontece no nível +4,00.
+
+            Além disso, quando há muita força direcional, a Linha do FPLEME se torna
+            mais espessa, reforçando a intensidade da força.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             FPLEME SC2: USABILIDADE
+
+
+
+
+            Linha do Shark
+
+            A Linha do SHARK lê os mesmos dados que a Linha do FPLEME, mas
+            confirma a mudança de ciclo no mercado. Ela indica se o mercado está em
+            um ciclo comprador ou vendedor.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             FPLEME SC2: USABILIDADE
+
+            Post-its amarelos
+
+            Os Post-its amarelos na Linha do SHARK representam equilíbrio e podem
+            antecipar uma mudança de ciclo. Contudo, essa mudança só é confirmada
+            pela coloração da linha.
+
+
+
+
+            ⚠ Nota sobre ativos voláteis (ex.: Nasdaq):
+
+            Em ativos muito voláteis, o ciclo pode mudar de cor antes que o Post-it
+            indique isso. Nesse caso, o mais importante é a cor da linha, que mostra se
+            o ciclo é comprador ou vendedor.
+
+            Coloração na plataforma Ninja Trader
+
+            Na plataforma Ninja Trader:
+               Ciclo comprador é representado pela cor azul (em vez de verde).
+               Ciclo vendedor é representado pela cor rosa (magenta/fúcsia, em vez de
+               vermelho).
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             FPLEME SC2: USABILIDADE
+
+
+
+
+            FPLEME na plataforma Ninja Trader
+
+            Comparativo de ciclos de força
+
+            O comparativo será essencial para a montagem de cenários:
+
+               1. Divergência: analisada no cenário de comparativo de MAP com MAP
+                  (MM).
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             FPLEME SC2: USABILIDADE
+
+            2. Convergência: analisada no cenário de progresso do preço em MAP
+            (PPM).
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             FPLEME SC2: USABILIDADE
+
+            Melhor momento para um trade
+
+
+
+
+            O melhor momento é quando há início de ciclo em ETAPA 1:
+
+                  Níveis +4,00 confirmando o nível 0,00.
+                  Níveis -4,00 confirmando o nível 0,00.
+
+            Nessa condição, as Linhas do FPLEME e do SHARK terão colorações
+            alinhadas, representando a força do mercado. Esse alinhamento aumenta
+            as chances de movimentos fluidos.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             FPLEME SC2: USABILIDADE
+
+
+
+
+            Movimentos lateralizados
+
+            Quando o FPLEME e o SHARK não possuem colorações alinhadas, os
+            movimentos tendem a ser lateralizados. Isso ocorre devido ao
+            “desalinhamento” das forças no mercado.
+
+            ⚠ Atenção: Esse conceito não é um set-up e não deve ser usado de forma
+            isolada. Ele deve ser combinado com a construção de cenários, o que será
+            abordado no próximo módulo.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             DÚVIDAS?
+
+             É só entrar em contato com o nosso suporte, ele funciona de segunda a
+             sexta das 9h às 18h.
+
+             Os canais oficiais do nosso suporte são:
+
+             WhatsApp: +55 16 99772 1929
+
+             E-mail: suporte@fpleme.com.br
+
+             Estamos à disposição para te atender!
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+

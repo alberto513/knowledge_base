@@ -1,0 +1,159 @@
+                                             HERTZ        CONSIDERAÇÕES
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             HERTZ: CONSIDERAÇÕES E ACONSELHAMENTOS
+
+             O número do Hertz traz uma percepção muito importante, que vai além de
+             simplesmente indicar qual Renko devemos utilizar.
+
+             Essa informação também é diretamente proporcional à volatilidade do
+             mercado. Mas o que isso significa?
+
+             Quanto maior for o número do Hertz, mais volátil é aquele ativo.
+
+             Vamos comparar a seguinte sequência de ativos: Dólar, Índice, S&P500 e
+             NASDAQ, utilizando o gráfico de 5 minutos.
+
+
+
+
+             Anotando as frequências no Dólar
+             Frequência Macro: 16R
+             Frequência Conforto: 10R
+             Frequência Sniper: 6R
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             Anotando as frequências no Índice
+             Frequência Macro: 31R
+             Frequência Conforto: 19R
+             Frequência Sniper: 12R
+
+
+
+
+            Anotando as frequências no S&P 500                  33
+
+            Frequência Macro: 33R
+            Frequência Conforto: 21R                            21
+            Frequência Sniper: 13R
+                                                                13
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             Anotando as frequências no Nasdaq                       71
+             Frequência Macro: 71R
+             Frequência Conforto: 44R                                44
+             Frequência Sniper: 27R
+                                                                     27
+
+
+
+
+             O que é possível notar comparando Dólar, Índice, S&P500 e NASDAQ,
+             respectivamente?
+
+             É possível perceber que esses ativos estão em uma sequência na qual o
+             Hertz aumenta gradativamente a cada ativo. Esse aumento ocorre no
+             conjunto inteiro das frequências, ou seja, todas as frequências (conforto,
+             macro e sniper) aumentam conforme o ativo muda. Por exemplo, ao
+             comparar a Frequência de Conforto do Dólar com a do Índice, você notará
+             que a frequência do Índice é maior. Da mesma forma, ao comparar as
+             frequências macro ou sniper, verá que elas também são maiores.
+             Quanto maior for o número apresentado no conjunto indicado pelo Hertz,
+             mais volátil será o ativo. Em algumas situações, ativos com o Hertz muito
+             alto tornam-se praticamente inoperáveis. Isso ocorre porque eles se
+             tornam extremamente voláteis, e o stop calculado com base em um Renko
+             de 30R, por exemplo, pode ficar muito grande.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             Quando se trata de mercado futuro (como Dólar, Índice, DI, S&P500,
+             NASDAQ, Ouro, Gás ou moedas gerais listadas na CME), que possui um alto
+             grau de alavancagem, operar qualquer ativo pode se tornar bastante
+             desafiador quando o Hertz aponta mais de 30R na Frequência de Conforto
+             no gráfico de 5 minutos.
+
+             Caso um ativo apresente uma Frequência de Conforto acima de 30R no
+             gráfico de 5 minutos, nossa recomendação é simples:
+             Mude de ativo naquele dia. Escolha um ativo mais tranquilo. Existem
+             dezenas de ativos operáveis que podem oferecer o mesmo potencial
+             financeiro e a mesma leitura, mas de forma mais fácil e segura para extrair
+             dinheiro do mercado.
+
+             Observação:
+             Cuidado ao tentar "enganar" o Hertz. Uma forma de reduzir o Renko de um
+             ativo é alterar a medição de 5 minutos para 1 minuto. Dessa forma, o
+             conjunto das frequências será reduzido.
+
+             Entretanto, é preciso cautela. Alterar o gráfico, por exemplo, de 56R para
+             24R, para encontrar um Renko menor, não significa que o mercado ficará
+             mais lento. O mercado continuará volátil, pois, no gráfico de 5 minutos, a
+             Frequência de Conforto permanece alta.
+
+             Portanto, reduzir o tempo de medição de 5 minutos para 1 minuto pode
+             ajudar a encontrar um Renko mais adequado ao seu stop. Contudo, isso
+             não elimina o principal alerta que o Hertz está indicando: Cuidado, este
+             ativo está muito volátil e complexo para ser operado neste momento.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             Exemplo:
+             Gráfico 5min
+
+
+
+
+             Gráfico 1min
+
+
+
+
+             Volatilidade alta significa movimentos repentinos e fora de uma cadência
+             previsível. Esses movimentos podem dificultar tanto a leitura quanto a
+             execução de operações, tornando o mercado mais arriscado e complexo.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             Reconhecer os momentos de alta volatilidade é essencial para ajustar sua
+             estratégia e proteger seu capital. O Hertz é uma ferramenta valiosa para
+             identificar essas condições, ajudando você a decidir quando é mais seguro
+             operar ou quando é melhor observar e aguardar o mercado se estabilizar.
+             Use essas informações a seu favor para agir de forma mais consciente e
+             eficiente em suas operações.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             DÚVIDAS?
+
+             É só entrar em contato com o nosso suporte, ele funciona de segunda a
+             sexta das 9h às 18h.
+
+             Os canais oficiais do nosso suporte são:
+
+             WhatsApp: +55 16 99772 1929
+
+             E-mail: suporte@fpleme.com.br
+
+             Estamos à disposição para te atender!
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+

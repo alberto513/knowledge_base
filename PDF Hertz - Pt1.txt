@@ -1,0 +1,179 @@
+                                             HERTZ
+                                              FUNÇÕES E NOMENCLATURA
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             HERTZ: FUNÇÕES
+
+             O Hertz é uma ferramenta que transforma o gráfico temporal em um
+             gráfico atemporal. Isso facilita para a máquina probabilizar o mercado,
+             pois os dados são contínuos e não estão limitados a uma barra temporal.
+
+             Exemplo:
+
+
+
+
+             Observação: Existem vários gráficos atemporais, mas por que utilizamos o
+             Renko?
+
+             Resposta: Dentro das possibilidades de gráficos atemporais, utilizamos o
+             gráfico Renko porque ele possui apenas duas representações visuais:
+             movimento para cima ou para baixo. Diferentemente do gráfico "P", por
+             exemplo, que também é um gráfico atemporal e é usado na leitura de fluxo.
+             O gráfico "P" apresenta representações laterais, além dos movimentos para
+             cima e para baixo. Na análise de fluxo, essa lateralização é comumente
+             chamada de “gráfico de canal”. Essa característica não é ideal para a
+             máquina, pois adiciona uma variável a mais para ser calculada.
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             Voltando ao Hertz: além das funcionalidades já citadas, ele também é
+             utilizado para minimizar as lateralizações, chamadas de “zíperes”,
+             permitindo visualizar um gráfico mais limpo e direcional. Por isso, não
+             utilizamos qualquer Renko, mas sim o Renko ajustado pelo Hertz para ser
+             utilizado.
+
+             Além disso, o Hertz também oferece uma visão da velocidade do ativo, um
+             conceito que será explicado mais adiante no tópico de usabilidade.
+
+
+             HERTZ: NOMENCLATURA
+
+             Ao adicionar o Hertz a qualquer gráfico temporal, ele fornece três
+             informações representadas no lado direito da ferramenta:
+
+
+
+
+          Hertz na plataforma Profit
+
+
+
+
+          Hertz na plataforma Ninja Trader
+
+
+          Observe que a ferramenta é composta por 3 linhas, uma superior, uma
+          intermediária e uma inferior. Vamos agora entender cada uma delas e o
+          que elas representam.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             Compreendendo a Linha Intermediária (Frequência de Conforto):
+
+
+
+
+             A linha intermediária, localizada entre as linhas superior e inferior, é
+             chamada de Frequência de Conforto. Essa frequência representa a melhor
+             “tradução” do tempo gráfico que você escolheu. Por exemplo, se você optar
+             por um gráfico de 5 minutos, a Frequência de Conforto reflete essa
+             sensação ao operar no tempo selecionado.
+
+             No final da linha, há um número dentro de um retângulo, semelhante a uma
+             etiqueta. No exemplo da imagem, o número apresentado é 14. Este número
+             não é fixo e muda conforme a negociação (volatilidade) do mercado.
+
+             Esse número é o valor que você deve configurar no gráfico Renko. Por
+             exemplo, se o número mostrado for 14, você usará o 14R para operar.
+
+
+             Compreendendo a Linha Inferior (Frequência Sniper):
+
+
+
+
+             A linha inferior, localizada abaixo da linha intermediária, é chamada de
+             Frequência Sniper. Ela é ideal para quem busca uma visão mais
+             “microscópica” do mercado.
+
+             Observação: Isso não quer dizer que um renko pequeno vai ser rápido, o
+             que acontece é que diminuindo o renko você está fragmentando o
+             movimento em renkos menores, logo está tendo essa a sensação que
+             mercado está andando mais. Por exemplo: existem Small caps que o renko
+             é pequeno, mas o preço da ação não anda quase nada. Então uma coisa
+             não está associada a outra, falaremos mais sobre isso no tópico de
+             considerações.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             Assim como na linha Intermediária, no final da linha Inferior há um número
+             dentro de uma etiqueta. No exemplo da imagem, o número apresentado é
+             9. Este valor também muda conforme a movimentação do mercado.
+
+             Se você quiser operar usando a Frequência Sniper, basta usar o número
+             exibido na etiqueta laranja. Por exemplo, se o número for 9, você
+             configurará o 9R no Renko.
+
+
+             Compreendendo a Linha Superior (Frequência Macro):
+
+
+
+
+             A linha superior, localizada acima da linha intermediária, é chamada de
+             Frequência Macro. Essa frequência é destinada a quem busca uma visão
+             “macroscópica” do movimento, sendo ideal para analisar regiões no mapa
+             de forma mais ampla.
+
+             Observação: Essa leitura é especialmente útil para identificar os extremos
+             dos ativos, já que os extremos no gráfico macro tendem a ser mais
+             “duradouros” devido à sua visão de longo prazo.
+
+             No final da linha, também há um número dentro de uma etiqueta. No
+             exemplo da imagem, o número exibido é 23. Esse valor não é fixo e muda
+             conforme a negociação do mercado.
+
+             Importante: A desvantagem da Frequência Macro é que o Renko se torna
+             maior, o que implica stops e alvos também maiores. Por isso, ela
+             raramente é usada para entradas e saídas, sendo mais comum utilizarmos
+             para mapeamentos.
+
+             Se você optar por usar a Frequência Macro, utilize o número exibido na
+             etiqueta. Por exemplo, se o número for 23, você configurará o 23R no
+             Renko.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             Dúvida: O número do Hertz mudou enquanto eu estava em operação. O
+             que fazer?
+
+             Resposta: Não há problema. Essa mudança pontual não comprometerá
+             sua leitura, pois o Hertz possui uma tolerância para essas variações.
+             Contudo, assim que possível, atualize o gráfico para a frequência correta.
+
+             Na próxima aula, falaremos sobre a usabilidade do Hertz.
+
+             Bons estudos!
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             DÚVIDAS?
+
+             É só entrar em contato com o nosso suporte, ele funciona de segunda a
+             sexta das 9h às 18h.
+
+             Os canais oficiais do nosso suporte são:
+
+             WhatsApp: +55 16 99772 1929
+
+             E-mail: suporte@fpleme.com.br
+
+             Estamos à disposição para te atender!
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+

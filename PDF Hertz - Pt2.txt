@@ -1,0 +1,152 @@
+                                             HERTZ              USABILIDADE
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             HERTZ: USABILIDADE
+
+             Como vimos anteriormente, uma das funções do Hertz é converter o
+             gráfico temporal em gráfico atemporal.
+
+             Qual gráfico temporal deve ser inserido no Hertz para ele fornecer o
+             número ideal para o Day Trade?
+
+             Day Trade consiste em operações que são iniciadas e encerradas no
+             mesmo dia.
+
+             Embora existam várias referências literárias, não há um consenso único
+             sobre qual tempo fixo deve ser usado para o Day Trade. Geralmente,
+             utilizam-se intervalos entre 1 minuto e 15 minutos.
+
+             Para padronizar a leitura e a linguagem na FPLEME, recomendamos o uso
+             do gráfico de 5 minutos para operações de Day Trade.
+
+             Observação: As frequências mais utilizadas no Day Trade são a Frequência
+             de Conforto e a Frequência Sniper.
+
+             Exemplo: Índice (INDFUT) no gráfico de 5 minutos utilizando a Frequência
+             de Conforto.
+
+             Nota importante: No mercado brasileiro, geralmente utilizamos o contrato
+             perpétuo (também conhecido como "série histórica") para regular o Hertz
+             de ativos futuros. Os contratos perpétuos são aqueles que terminam com
+             "FUT", como, por exemplo, INDFUT e DOLFUT.
+
+             Além disso, geralmente utilizamos o contrato cheio para regular o Hertz.
+             Por isso, no exemplo da imagem 1, o ativo selecionado é o INDFUT, e não o
+             WINFUT. Essa escolha ocorre porque o cálculo no contrato cheio é mais
+             rápido, facilitando o processamento para a maioria dos computadores.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             Imagem 1
+
+
+             Para operar, utilizamos o WINFUT, que é o contrato mini. Nesse caso, basta
+             mudar o gráfico para o WINFUT e inserir o número fornecido pelo Hertz. No
+             exemplo acima, o número indicado é 17R. (Imagem 2)
+
+
+
+
+             Imagem 2
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             O gráfico perpétuo, aqueles com final FUT, era, inicialmente, utilizado
+             apenas para estudos e análises. Antigamente, não era possível operar
+             diretamente por ele. Contudo, hoje, isso já é possível. Para isso, basta clicar
+             com o botão direito do mouse e ativar a opção Cross Order. Com essa
+             opção ativada, você pode visualizar o contrato FUT e operar no contrato
+             vigente. No exemplo da imagem abaixo, o contrato vigente é o WINZ24.
+             (Imagem 3)
+
+             É importante destacar que, apesar do exemplo mostrado ser no INDFUT,
+             essas configurações e ensinamentos se aplicam a TODOS os ativos
+             futuros, como DOLFUT, INDFUT, DI1FUT, entre outros.
+
+
+
+
+             Imagem 3
+
+
+             Agora, o gráfico está configurado na frequência indicada, em Renko, e com
+             o Cross Order ativado. Depois que o gráfico já estiver ajustado para Renko,
+             não há mais necessidade de consultar o Hertz novamente, pois sua função
+             já terá sido concluída.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             Observação: No mercado global, utilizando a plataforma Ninja Trader, não
+             é necessário ativar a opção Cross Order, pois essa funcionalidade já é
+             configurada automaticamente. Assim, você não verá o contrato FUT no
+             mercado global.
+
+             Ainda assim, isso não é um problema. No exemplo mostrado, o contrato de
+             dezembro de 2024 está em uso. Mesmo assim, é possível visualizar meses
+             anteriores, assim como em um gráfico perpétuo.
+
+
+
+
+             Qual gráfico temporal deve ser inserido no Hertz para obter o número
+             adequado para o Swing Trade?
+
+             Swing Trade refere-se a operações que se iniciam em um dia e são
+             encerradas em dias, semanas, meses ou até mesmo em até 4 anos.
+             Embora existam diversas referências literárias, não há consenso sobre qual
+             tempo gráfico fixo utilizar no Swing Trade. Geralmente, o intervalo mais
+             usado varia entre gráficos de 1440 minutos (equivalente a 1 dia) e 60
+             minutos.
+
+             Para padronizar a leitura e a linguagem na FPLEME, recomendamos o uso
+             do gráfico de 60 minutos para operações de Swing Trade.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             Qual gráfico temporal deve ser inserido no Hertz para obter o número
+             adequado para o Buy and Hold?
+
+             Buy and Hold é uma estratégia em que as operações são iniciadas em um
+             dia e permanecem abertas por pelo menos 5 anos.
+
+             Assim como no Swing Trade, não há consenso único entre referências
+             literárias para a escolha de um tempo gráfico fixo no Buy and Hold.
+
+             Normalmente, utilizam-se gráficos Mensais, Semanais ou Diários.
+             Na FPLEME, não temos uma padronização para o tempo gráfico no Buy
+             and Hold, então recomendamos que seja utilizado o que é amplamente
+             padronizado no mercado: Mensal, Semanal ou Diário.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             DÚVIDAS?
+
+             É só entrar em contato com o nosso suporte, ele funciona de segunda a
+             sexta das 9h às 18h.
+
+             Os canais oficiais do nosso suporte são:
+
+             WhatsApp: +55 16 99772 1929
+
+             E-mail: suporte@fpleme.com.br
+
+             Estamos à disposição para te atender!
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+

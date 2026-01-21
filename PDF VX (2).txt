@@ -1,0 +1,255 @@
+                                                                VX
+                                   CORES, NOMENCLATURA E USABILIDADE
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             VX M2
+
+             Dias de forte tendência, por incrível que pareça, são os dias que mais
+             causam loss para traders, que tentam operar contra a tendência ou que
+             tentam encontrar o topo ou fundo do dia. Não procure por topos ou fundos.
+
+             Aproveite a tendência e opere a seu favor.
+
+
+
+
+             As barras do VX crescendo ou decrescendo sinalizam a direção do
+             mercado (compra ou venda).
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+              VX M2: CORES
+
+
+
+
+Map 0
+
+
+
+
+                     barras crescentes acima da MAP 0 (MAP Central) -
+                     agressão compradora predominante
+
+
+                     sinalização de movimento de contra tendência
+
+
+                     barras decrescentes abaixo da MAP 0 (MAP Central) -
+                     agressão vendedora predominante
+
+                     nível limite de venda que o VX pode chegar
+
+
+                     nível limite de compra que o VX pode chegar
+
+
+
+              VX M2: NOMENCLATURA
+
+
+
+
+Map 0
+
+
+
+
+             Acima da Map0 nomeamos as linhas por s1 | s2 | s3 | s4 e s5.
+
+             E abaixo da Map0 nomeamos as linhas por i1 | i2 | i3 | i4 e i5.
+
+             Assim como na ferramenta MAPs FPLEME.
+
+
+
+ Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             VX M2: USABILIDADE
+
+
+
+
+                      Imagem 1
+
+                  Rompimento das Linhas Horizontais
+
+            As linhas horizontais ficam mais espessas quando as linhas verticais as
+            ultrapassam. Essa espessura nas linhas horizontais indica que o preço
+            conseguiu romper aquela determinada linha. (Imagem 1)
+
+            Ou seja, se a linha horizontal for rompida pelas linhas verticais, ela ficará
+            mais espessa, indicando que o preço rompeu a MAP correspondente. Veja
+            mais exemplos abaixo: (Imagem 2)
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             VX M2: USABILIDADE
+
+
+
+
+                        Imagem 2
+
+                  Sobre o Saldo
+
+            E se o preço no gráfico tentar romper uma linha, por exemplo a S3, mas as
+            barras verticais não romperem a linha horizontal e a linha horizontal não
+            ficar mais espeça? Então não vai romper a MAP. Veja o exemplo abaixo
+            (imagem 3):
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             VX M2: USABILIDADE
+
+
+
+
+                 Imagem 3
+
+            Quando as barras verticais não conseguem romper as linhas horizontais,
+            isso indica falta de força. O saldo de agressão, que é o principal responsável
+            pelo movimento do preço, não está sendo suficiente. Veja mais exemplos de
+            não rompimentos no exemplo abaixo: (Imagem 4)
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             VX M2: USABILIDADE
+
+
+
+
+                                             Imagem 4
+
+            Repare, na imagem acima, como o preço no gráfico não conseguiu
+            ultrapassar a S1 e nem romper para baixo da I1.
+
+                  Considerações e Aconselhamentos
+
+            O rompimento ou não rompimento da MAP, analisado por meio da parte
+            quantitativa do VX, nunca deve ser usado de forma independente.
+            Isso porque o VX vai além dessa funcionalidade: ele também oferece uma
+            maneira de visualizar a MAP de forma mais intuitiva para a interpretação
+            humana.
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             VX M2: USABILIDADE
+
+            Ao observar o VX, você está vendo a MAP de um novo ponto de vista, o que
+            permite uma leitura mais clara e eficiente, especialmente no que diz respeito
+            às divergências ou convergências da MAP.
+
+
+
+
+                                              Divergência de força
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             VX M2: USABILIDADE
+
+
+
+
+                                           Convergência de força
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             VX M2: USABILIDADE
+
+                  The_Wall do VX
+
+            A The_Wall do gráfico e a The_Wall do VX são a mesma ferramenta, mas
+            apresentadas sob diferentes perspectivas e com colorações distintas.
+
+            A The_Wall do VX utiliza as próprias MAPs como referência comparativa:
+
+                  Quando a The_Wall do VX está mais inclinada para cima em relação à
+                  MAP, ela fica verde.
+                  Quando está mais inclinada para baixo em relação à MAP, ela fica rosa
+                  (magenta ou fúcsia).
+                  Post-its amarelos indicam uma mudança de cor, ou seja, uma mudança
+                  na direção da The_Wall.
+
+            Esses post-its amarelos ajudam a manter a interpretação de um cenário já
+            estabelecido e fornecem uma visão antecipada do que pode acontecer com
+            a The_Wall plotada no gráfico.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             VX M2: USABILIDADE
+
+
+
+
+            É possível identificar quando a The_Wall do gráfico está ultrapassando uma
+            MAP por meio da The_Wall do VX.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             VX M2: USABILIDADE
+
+
+
+
+            Também é possível visualizar o saldo necessário para o rompimento da
+            The_Wall.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             VX M2: USABILIDADE
+
+
+
+
+                  Post-its Amarelos na The_Wall
+
+            Os post-its amarelos na The_Wall indicam mudanças na direção da
+            ferramenta. Essa informação é fundamental para manter a leitura do cenário
+            atual e antecipar possíveis movimentos futuros da The_Wall exibida no
+            gráfico.
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+             DÚVIDAS?
+
+             É só entrar em contato com o nosso suporte, ele funciona de segunda a
+             sexta das 9h às 18h.
+
+             Os canais oficiais do nosso suporte são:
+
+             WhatsApp: +55 16 99772 1929
+
+             E-mail: suporte@fpleme.com.br
+
+             Estamos à disposição para te atender!
+
+
+
+
+Magno Alberto Rios - cuenklar@gmail.com - CPF: 031.957.901-81
+
