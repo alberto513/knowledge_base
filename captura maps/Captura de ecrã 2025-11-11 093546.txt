@@ -1,0 +1,16 @@
++ Range:
+Os Ranges são representados por essas linhas mais espessas no
+Mapeamento. Essas linhas delimitam a distância entre o movimento da
+mínima e da máxima do ativo. Essa amplitude, na análise tradicional, é
+chamada de Range. Por isso, essas linhas receberam esse nome, pois
+definem os limites da variação do ativo, ou seja, delimitam sua amplitude.
+Essas linhas servem como pontos de atenção e são usadas como
+referência de suporte e resistência. No exemplo apresentado, é possível
+observar que, praticamente todas as vezes em que o preço alcançou uma
+linha do Range, ele parou e inverteu sua direção. No entanto, vale destacar
+que essa imagem é apenas um exemplo para facilitar a compreensão e não
+representa um Setup. Isso significa que, embora o Range seja um ponto de
+atenção, não há garantia de que o preço vá reverter sempre que tocálo.
+Essa dinâmica ocorre porque o Range está diretamente relacionado à
+volatilidade do ativo. Se houver uma mudança abrupta na volatilidade, o
+mercado precisará ajustar o Range novamente.

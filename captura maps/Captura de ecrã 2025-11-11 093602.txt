@@ -1,0 +1,19 @@
+MAPS: FUNÇÕES INTELIGENTES DO MAPEAMENTO
+
+As linhas dos compradores são representadas na cor verde, enquanto as
+linhas dos vendedores são representadas na cor vermelha. Assim como a
+linha de range, essas linhas funcionam como um atalho visual para
+identificar pontos de atenção no gráfico.
+
+Esses níveis indicam onde há interesse do mercado. No entanto, para que
+essa informação seja utilizada de forma operacional, ela deve ser analisada
+dentro de uma construção de cenário, não de forma isolada.
+
+Embora saibamos que nesses níveis existem compradores e vendedores,
+não é possível determinar se eles irão atuar. Essa confirmação só pode ser
+feita utilizando a ferramenta FPLEME, que mede a atuação dessas forças no
+mercado.
+
+Portanto, essas linhas não devem ser usadas isoladamente. Além disso,
+para iniciantes, recomendo ocultá-las inicialmente para evitar confusões
+com os outros atalhos visuais.

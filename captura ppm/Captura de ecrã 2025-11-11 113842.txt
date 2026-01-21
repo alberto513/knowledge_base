@@ -1,0 +1,39 @@
+Distribuição
+
+Definição:
+
+Se ocorrer uma distribuição bem-sucedida, este fenômeno pode ser o ponto
+de partida para uma tendência de baixa. Ela geralmente ocorre após um
+período de alta no mercado (alta forte), quando os preços dos ativos estão
+em níveis elevados e considerados acima do “valor justo” de mercado. Só
+pode ser considerada uma distribuição se, após esse movimento, surgirem
+os movimentos de início de baixa e baixa forte (que serão exemplificados
+mais adiante).
+
+Características:
+
++ MAPS: Normalmente, esse movimento está localizado em s3, s4 ou s5,
+Isso pode variar de acordo com a volatilidade do ativo. Quanto maior a
+volatilidade, mais superior será a área de distribuição. Por exemplo:
+
++ No Dólar, a distribuição normalmente ocorre em s2, s3, s4.
+
++ No Índice, que é mais volátil, ela geralmente acontece em s3, s4, s5.
+
++ Já no Nasdaq, que é ainda mais volátil, a distribuição costuma ocorrer
+em i4,i5, 16.
+
+« The Wall (do gráfico): A distribuição ocorre contra o movimento de
+tendência de alta. Portanto, os sinais de distribuição aparecem enquanto
+a The. Wall ainda está verde.
+
+Se a distribuição for bem-sucedida, a The. Wall começará a lateralizar até
+
+ficar amarela. Nesse caso, o preço deve permanecer abaixo da The Wall e
+abaixo da MAP central. Caso contrário, significa que a distribuição não foi
+bem-sucedida, sendo caracterizada como uma reacumulação.
+
++ Preços estáveis: Após um período de alta acentuada, os preços dos
+ativos tendem a se estabilizar, deixando o ativo em consolidação.
+Durante essas consolidações, é possível identificar cenários de MAP
+com MAP (MM) e de Progresso de Preço em MAP (PPM).

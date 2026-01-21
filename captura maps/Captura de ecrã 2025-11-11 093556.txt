@@ -1,0 +1,18 @@
+MAPS: FUNÇÕES INTELIGENTES DO MAPEAMENTO
+Interpretação: A interpretação deve ser: se as Problines estão ativas, isso
+indica uma probabilidade de que o preço alcance essas linhas. Portanto, é
+necessário cautela. Não antecipe uma venda na S4 ou na 14, pois o extremo
+está mais distante.
+Observação: Caso a Probline seja ativada, mas o preço não atinja essas
+linhas, isso não significa que ela errou”. Isso apenas indica que ela
+apresentou uma probabilidade, mas o mercado não conseguiu alcançar os
+níveis. Esse comportamento pode, inclusive, indicar que o mercado está
+perdendo força naquela direção. Porém, esse aspecto será analisado com
+maior profundidade no módulo operacional de cenários.
+
++ Linha de Compradores e Vendedores ( Pullback lines ):
+
+q
+it rs Y
+A AS
+SEL | —

@@ -1,0 +1,22 @@
+2º O cenário MAP com MAP vendedora é mais eficaz para movimentos a
+favor da tendência, ou seja, da MAP O para baixo. Isso porque, ao tentar
+operar na região de sobrepreço, existe a possibilidade de o ativo ainda estar
+em uma área de distribuição, o que pode gerar uma certa dificuldade para
+que o movimento de queda ocorra. Para reversões, é mais seguro aguardar
+o cenário de Progresso de Preço em MAP (PPM).
+Então evite MAP com MAP no estremo:
+ZZ ——
+ES Z
+AA Es
+
+fa S170] VED (20)
+
++ L t +
+
+| TT
+
+Il i t bl É
+Esse exemplo mostra o preço indo ao extremo e destaca a dificuldade que o
+ativo apresenta para cair. Isso ocorre porque, além das forças não estarem
+favoráveis para a venda, a The Wall ainda está verde. Portanto, esse é um
+trade que não deve ser realizado na venda.

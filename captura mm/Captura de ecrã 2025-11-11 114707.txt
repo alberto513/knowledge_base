@@ -1,0 +1,6 @@
+2º: Sempre é necessário esperar formar pelo menos um topo, e o Shark
+deve virar vermelho, mostrando o início do primeiro ciclo vendedor.
+
+|
+
+|

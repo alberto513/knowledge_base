@@ -1,0 +1,30 @@
+Baixa Forte
+
+Definição:
+
+A fase de baixa forte é a última etapa do movimento de força de baixa. É
+caracterizada por uma queda excessiva nos preços dos ativos, muitas vezes
+impulsionada pela especulação e pelo pessimismo exagerado.
+
+Neste momento, a entrada de investidores menos experientes, influenciados
+pelo pessimismo da mídia e pelo pânico do mercado, acelera ainda mais a
+queda dos preços.
+
+Características:
+
++ MAPS: Esse movimento pode ocorrer em qualquer parte inferior do
+MAPA, ou seja, da MAP central para baixo. Gradualmente, o prego
+começa a formar topos mais baixos nas MAPS e, normalmente, pode
+acelerar com o rompimento da i2. Esse movimento tende a se estender
+até a região de subprego. Ao atingir a região de subprego, a baixa
+começa a desacelerar.
+
++ The Wall (do gráfico): A The. Wall não pode estar verde; caso esteja,
+não se pode considerar uma baixa forte. Geralmente, em uma baixa
+forte, o preço estará abaixo da linha da The. Wall e tentará permanecer
+na parte negativa das MAPS. Não é obrigatório, mas, se a The. Wall ficar
+vermelha, indica ainda mais força no movimento.
+
++ Preços Progredindo em MAPS: Nas baixas fortes, é possível observar
+cenários de Progresso de Preço em MAP (PPM), bem como cenários de
+MAP com MAP a partir da MAP central (MO).

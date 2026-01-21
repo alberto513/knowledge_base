@@ -1,0 +1,7 @@
+4º: O segundo ciclo comprador deve estar mais alto do que o ciclo anterior.
+5º: Para uma compra, o segundo ciclo comprador deve estar na mesma
+MAP do ciclo de referência. Por exemplo: MAP 0 com MAP 0, s1 com s1, s2
+com s2, ou até mesmo as inferiores, como il com il, i2 com i2, etc.
+
+6°: No momento de entrada na operação, a The. Wall deve estar lateral ou a
+favor do lado que você deseja operar (Amarela ou Verde)

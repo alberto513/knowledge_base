@@ -1,0 +1,21 @@
++ Problines:
+—
+a a
+d LL
+d PIO
+s oo.
+
+É esperado que um ativo não ultrapasse facilmente a S4, assim como
+também é esperado que ele não ultrapasse a 14.
+Quando isso pode acontecer? Novamente, a resposta é: apenas quando o
+ativo passar por uma mudança abrupta de volatilidade.
+Antes mesmo de o Hertz alterar seu número, as Problines já estarão
+presentes para indicar, com base na probabilidade, quais serão as
+próximas linhas fortes no mapeamento, caso o preço ultrapasse a S4 ou a
+14,
+As Problines sempre apareceráo em pares: comegando com S4 e S5
+(representadas na imagem com setas amarelas). Se a volatilidade
+continuar aumentando, as próximas linhas serão $5 e S6 (representadas
+com setas verdes), e, em seguida, S6 e S7 (representadas com setas
+brancas), podendo chegar até S7 e S8. O mesmo padrão ocorre na região
+inferior do mapeamento: 14 e 15, 15 e 16, 16 e 17, e17 e 18.

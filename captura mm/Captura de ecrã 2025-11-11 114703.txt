@@ -1,0 +1,15 @@
+Exemplos em Compra:
+
+Ponto Inicial: Escolha o lado que você deseja analisar. Por exemplo, se o
+
+ativo está na MAP central e ela está azul, eu quero analisar a força de
+
+compra, pois estou interessado em comprar.
+
+1º: Sempre é necessário esperar ter uma referência, ou seja, pelo menos um
+
+fundo, e nesse fundo de referência o Shark deve virar azul, indicando o início
+
+do primeiro ciclo comprador.
+ApS
+(} | É

@@ -1,0 +1,20 @@
+MM
+
+4º: O segundo ciclo vendedor deve estar mais baixo do que o anterior.
+
+5º: Para uma venda, o segundo ciclo vendedor deve estar na mesma MAP
+do ciclo de referência. Por exemplo: MAP 0 com MAP 0, 1 com 11,12 com i2,
+ou até mesmo nas superiores, como s3 com s3, s2 com s2, etc.
+
+6º: No momento da entrada da operação, a The. Wall deve estar lateral ou a
+favor do lado que você deseja (amarela ou rosa).
+
+Anica diferença entre o cenário de Progresso de Preço em MAP (PPM) e o
+cenário MAP com MAP (MM) é que, no MM, o preço não progride nas MAPS
+e continua retornando para a mesma MAP. Por esse motivo, ele é chamado
+de MAP com MAP.
+
+Conforme mencionado anteriormente, o cenário MAP com MAP é mais
+fraco do que o cenário Progresso de Preço em MAP. Isso pode ser
+facilmente observado na imagem abaixo, onde o movimento no PPM.
+avançou significativamente mais do que os dois movimentos no MM

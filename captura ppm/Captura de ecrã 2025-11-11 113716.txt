@@ -1,0 +1,37 @@
+Acumulação
+
+Definição:
+
+Uma acumulação bem-sucedida pode ser o ponto de partida para o início de
+uma tendência de alta. Ela geralmente ocorre após um período de declínio
+no mercado (baixa forte), quando os preços do ativo estão em níveis baixos
+e são considerados abaixo do “valor justo” de mercado. Uma acumulação
+só pode ser confirmada se, posteriormente, houver movimentos que
+indiquem o início de uma alta, seguidos por uma alta forte (que serão
+exemplificados mais adiante)
+
+Neste momento, investidores mais bem informados começam a adquirir os
+ativos, percebendo que o mercado está subvalorizado.
+
+Características:
+
++ MAPs: Normalmente, esse movimento ocorre em i3, ¡4 ou is, variando de
+acordo com a volatilidade do ativo. Quanto maior a volatilidade, mais
+inferior é a área de acumulação. Por exemplo:
+
+o No Dólar, a acumulação geralmente ocorre em i2, i3 ou i4.
+
+© No Índice, que possui maior volatilidade, costuma-se encontrar
+acumulação em i3, i4 ou is,
+
+o No Nasdaq, com volatilidade ainda mais elevada, a acumulação
+normalmente aparece em id, ¡5 ou ¡6
+
++ The. Wall (do gráfico): A acumulação ocorre contra o movimento de
+tendência de baixa, o que significa que os sintomas de acumulação
+surgem enquanto a The. Wall ainda está rosa (magenta/fúcsia)
+
+Se a acumulação for bem-sucedida, a The Wall começará a lateralizar até
+ficar amarela. O preço deve então permanecer acima da The. Wall e da MAP
+central. Caso isso não aconteça, significa que a acumulação não foi bem-
+sucedida, resultando em uma redistribuição.

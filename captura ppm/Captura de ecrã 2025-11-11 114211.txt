@@ -1,0 +1,21 @@
+Essa mesma leitura feita para venda também pode ser aplicada à compra.
+No caso de compra:
+
+Ponto Inicial: Escolha o lado que deseja analisar. Por exemplo, se o ativo
+está em subprego, você deve analisar a força de compra, pois seu objetivo é
+comprar.
+
+1º Regra: Sempre espere ter uma referência, ou seja, pelo menos um fundo.
+Nesse fundo de referência, o Shark deve virar azul, indicando o início de um
+primeiro ciclo comprador.
+
+2º Regra: Sempre espere formar pelo menos um topo, com o Shark virando
+vermelho, indicando o início de um primeiro ciclo vendedor
+
+3º Regra: Esteja sempre preparado para entrar no segundo ciclo comprador.
+4º Regra: O segundo ciclo comprador deve estar mais alto do que o anterior.
+5º Regra: Para uma compra, o segundo ciclo comprador deve ocorrer em
+qualquer MAP mais alta do que a MAP do ciclo de referência. Uma maneira
+fácil de identificar isso é pelo VX, que estará subindo. Por exemplo: i2 e i1.
+6º Regra: No momento de entrada na operação, a The Wall deve estar
+lateral ou favorável ao lado desejado (amarela ou verde)

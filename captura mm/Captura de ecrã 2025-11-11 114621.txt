@@ -1,0 +1,5 @@
+1º: Sempre é necessário esperar por uma referência, ou seja pelo menos um
+topo. Nesse topo de referência, o Shark precisa virar vermelho, indicando o
+inicio do primeiro ciclo vendedor.
+
+: GRO eet

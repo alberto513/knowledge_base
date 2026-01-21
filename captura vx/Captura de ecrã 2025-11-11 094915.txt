@@ -1,0 +1,8 @@
+VX M2: CORES
+O barras crescentes acima da MAP 0 (MAP Central) -
+agressáo compradora predominante
+O sinalização de movimento de contra tendência
+barras decrescentes abaixo da MAP 0 (MAP Central) -
+agressáo vendedora predominante
+MEA nível limite de venda que o VX pode chegar
+EE nível limite de compra que o VX pode chegar

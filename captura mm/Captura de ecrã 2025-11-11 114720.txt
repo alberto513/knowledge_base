@@ -1,0 +1,10 @@
+Recomendações:
+1º O cenário MAP com MAP é mais seguro quando a diferença de
+inclinação entre os ciclos é mais evidente. Observe o exemplo abaixo.
+Esse caso não é recomendado poque os níveis dos ciclos estão iguais: à,
+
+AA
+
+> |
+2
+DT T

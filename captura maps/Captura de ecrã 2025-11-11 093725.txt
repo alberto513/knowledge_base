@@ -1,0 +1,13 @@
+MAPS: FUNÇÕES INTELIGENTES DO MAPEAMENTO
+A The Wall tem o propósito de dividir: ou o preço está acima da The Wall,
+ou está abaixo dela. Isso se torna mais evidente quando o mercado possui
+uma direção clara.
+Caso o preço esteja "atravessando" a The. Wall, significa que o mercado
+está sem uma direção definida, ou seja, em consolidação ou no final de uma
+tendência.
+As cores da The. Wall também funcionam como um dispositivo de
+segurança, ajudando a identificar a intensidade do mercado.
+
+E tT SS
+EA
+EA

@@ -1,0 +1,6 @@
+VX M2: NOMENCLATURA
+
+lll sil | = gin
+Acima da Map0 nomeamos as linhas por s1 | s2 | s3 | s4 e s5.
+E abaixo da Map0 nomeamos as linhas por i1 | i2 | i3 | i4 e i5.
+Assim como na ferramenta MAPs FPLEME.

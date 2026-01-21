@@ -1,0 +1,15 @@
+2º O cenário MAP com MAP compradora é mais eficiente para movimentos
+a favor da tendência, ou seja, da MAP 0 para cima. Isso ocorre porque, ao
+tentar operar na região de subpreço, o ativo pode ainda estar em uma área
+de acumulação, o que pode gerar uma certa dificuldade para o movimento
+conseguir subir. Para reversóes, é mais seguro aguardar o Progresso de
+Preço em MAP.
+Então evite MAP com MAP no estremo:
+=
+=
+PS
+i] th.
+“gS
+SS 0 y
+1,
+i

@@ -1,0 +1,9 @@
+5º Regra: Para realizar uma venda, o segundo ciclo vendedor deve estar em
+uma MAP mais baixa do que a MAP do ciclo de referência. Uma maneira
+fácil de verificar isso é observando o VX, que deve estar em queda.
+| HE.
+Ag SN
+Z INN
+Y “Im, Q
+ZA “yl
+gos Vb

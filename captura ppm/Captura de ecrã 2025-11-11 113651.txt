@@ -1,0 +1,18 @@
+No universo da análise de mercado, compreender o comportamento do
+preço e identificar sua progressão de forma estruturada é essencial para
+tomadas de decisão mais assertivas. Os métodos de Cenários de
+Progressão de Preço em MAPs (PPM) e MAPs com MAPs (MM) foram
+desenvolvido para fornecer um mapa claro e objetivo da movimentação do
+mercado.
+
+Ao longo deste material, vamos explorar como os cenários são utilizados
+para direcionar o trader na construção de Trades mais seguros e alinhados
+às forças do mercado.
+
+Os cenários são fundamentais para a compreensão do mercado.
+
+Antes de abordarmos os cenários, é importante entender que o mercado
+passa por diferentes fases, conforme descrito na literatura clássica:
+
+Fases fundamentais : Acumulação, início de alta e alta forte para ciclos
+compradores e Distribuição, inicio de baixa e baixa forte.

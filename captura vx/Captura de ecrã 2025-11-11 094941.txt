@@ -1,0 +1,9 @@
+alo aa Toa pel
+Imagem 1
++ Rompimento das Linhas Horizontais
+As linhas horizontais ficam mais espessas quando as linhas verticais as
+ultrapassam. Essa espessura nas linhas horizontais indica que o preço
+conseguiu romper aquela determinada linha. (Imagem 1)
+Ou seja, se a linha horizontal for rompida pelas linhas verticais, ela ficará
+mais espessa, indicando que o preço rompeu a MAP correspondente. Veja
+mais exemplos abaixo: (Imagem 2)

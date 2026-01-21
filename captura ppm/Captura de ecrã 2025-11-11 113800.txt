@@ -1,0 +1,29 @@
+Alta Forte
+
+Definição:
+
+A alta forte é a última etapa de um movimento de alta. Essa fase é
+caracterizada por um aumento significativo nos preços dos ativos, muitas
+vezes impulsionado pela especulação e pelo otimismo exagerado. Nesse
+momento, a entrada de investidores menos experientes, influenciados pelo
+entusiasmo da mídia e pela euforia do mercado, acelera ainda mais o
+crescimento dos preços.
+
+Características:
+
++ MAPS: A alta forte pode ocorrer em qualquer região superior do MAPA,
+ou seja, da MAP central para cima. Gradualmente, o preço vai formando
+fundos mais altos nas MAPs, e, com frequência, acelera ao romper a S2.
+Esse movimento tende a se prolongar até atingir a região de sobrepreço,
+momento em que a alta começa a desacelerar.
+
++ The Wall (do gráfico): A The. Wall não pode estar rosa
+(magenta/fúcsia). Caso esteja, não se pode considerar o movimento
+como uma alta forte. Normalmente, em uma alta forte, o preço estará
+acima da linha da The. Wall, tentando permanecer na parte positive das
+MAPs. Embora não seja obrigatório, a coloração verde da The. Wall
+indica uma força ainda maior para o movimento.
+
++ Preços Progredindo em MAPs: Nas altas fortes, é possível observar
+cenários de Progresso de Preço em MAP (PPM) e também de MAP com
+MAP, a partir da MAP central (MO)

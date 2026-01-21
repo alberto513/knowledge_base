@@ -1,0 +1,15 @@
+MAPS: FUNÇÕES INTELIGENTES DO MAPEAMENTO
+
++ Rosa (magenta/fúcsia): Indica alta força de venda. Nunca considere
+cenários de compra enquanto a The_Wall estiver rosa, pois isso também
+significa ir contra a força dominante do mercado.
+
++ Amarela: Quando está na parte central do MAPA, a cor amarela indica
+lateralização e equilíbrio de forças. Para identificar para qual lado o
+mercado poderá seguir, é necessário usar a ferramenta FPLEME e
+construir o cenário correto. Quando aparece nos extremos, pode ser
+interpretada como uma possível oportunidade de reversáo.
+
+== ==
+= |
+AAN = Ea

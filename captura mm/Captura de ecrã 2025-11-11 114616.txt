@@ -1,0 +1,42 @@
+Anteriormente, foi destacada a importância do cenário de Progresso de
+
+Preço em MAP (PPM). Com esse cenário, é possível compreender para
+
+qual lado o mercado está demonstrando maior força. O cenário PPM.
+
+ocorre com muita frequência.
+
+Agora, falaremos sobre o cenário MAP com MAP (MM). Esse cenário
+
+acontece com uma frequência menor e será utilizado apenas quando o
+
+cenário PPM não for aplicável.
+
+Normalmente, os movimentos do cenário MAP com MAP não são tão
+
+expressivos quanto os do Progresso de Preço em MAP, pois costumam
+
+ocorrer em momentos de lateralização do mercado. No entanto, é
+
+importante ter conhecimento desse cenário, pois ele ainda é válido para
+
+uma compreensão completa do comportamento do mercado.
+
+No cenário MAP com MAP, o comparativo é feito entre uma MAP e ela
+
+mesma. Por exemplo: MAP Central (MO) com a própria MAP Central (MO),
+
+respeitando a mesma sequência de ciclos.
+
+Portanto, toda análise no cenário MAP com MAP precisa seguir uma
+
+sequência de ciclos e realizar os comparativos correspondentes. Veja o
+
+exemplo abaixo:
+
+Exemplo para venda
+
++ Ponto inicial: Escolha o lado que você deseja analisar. Por exemplo, se
+
+o ativo está na MAP Central e ela está laranja, o foco será analisar a
+força de venda, pois o objetivo é vender.

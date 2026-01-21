@@ -1,0 +1,11 @@
+1º Regra: Sempre aguarde ter uma referência, ou seja, pelo menos um topo.
+Nesse topo de referência, o Shark deve virar vermelho, indicando o início de
+um ciclo vendedora.
+Pa
+| i
+”
+SA AA Vas
+ah
+AN
+AN
+ul

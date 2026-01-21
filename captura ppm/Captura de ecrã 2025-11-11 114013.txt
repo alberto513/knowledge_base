@@ -1,0 +1,9 @@
+EEE
+TN _ 1200
+fsa
+ti TU — A
+A
+Vamos analisar as ferramentas.
+Toda análise de Progresso de Preco em MAP segue a sequéncia abaixo:
+Ponto Inicial: Escolha o lado que deseja analisar. Por exemplo, se o ativo
+está em sobrepreco, e você deseja vender, deve analisar a força de venda.
