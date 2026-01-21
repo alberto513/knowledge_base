@@ -1,17 +1,1 @@
-Visualização:
-
-+ Etapa 1 Compradora: É considerada uma Etapa 1 compradora o
-momento em que a ferramenta sai da linha de -4,00 e consegue fechar
-um box que faz a linha do FPLEME alcançar o nível 0,00.
-
-12,00
-6,00
-lo “4,00
-\
-\
-— UV ST
-2.00
-pated a Ve Laa
-ADA 7 6,00
-— pj 2 EE -8,00
--12,00
+Visualizagao: + Etapa 1 Compradora:  considerada uma Etapa 1 compradora o momento em que a ferramenta sai da linha de -4,00 e consegue fechar um box que faz a linha do FPLEME alcancar o nvel 0,00. 

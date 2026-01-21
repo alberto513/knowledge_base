@@ -54,12 +54,12 @@ internal class _003CAgileDotNetRT_003E
 				string text2 = null;
 				if (IntPtr.Size == 4)
 				{
-					text = "b74340b8-7d11-472e-8296-f9cd7d2323b5";
+					text = "16ee93f9-5366-409a-9abd-eca94262e750";
 					text2 = "AgileDotNetRT";
 				}
 				else
 				{
-					text = "9546e718-9fd0-456d-8930-096ad0dd26ea";
+					text = "f299b9b3-14d5-4555-b0fb-5d9517784f23";
 					text2 = "AgileDotNetRT64";
 				}
 				stream = executingAssembly.GetManifestResourceStream(text);

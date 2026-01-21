@@ -1,8 +1,1 @@
-TIMING DE ENTRADA - ETAPA 1
-Legenda:
-© Traço verde: =
-Indica o local mais recomendado para posicionar a ordem de entrada.
-+ Topo, base e sombra do box positivo: Representam as partes
-específicas do box para referência ao posicionamento.
-Topo
-Base
+TIMING DE ENTRADA - ETAPA 1 Legenda:  Trago verde: = Indica o local mais recomendado para posicionar a ordem de entrada. + Topo, base e sombra do box positivo: Representam as partes especficas do box para referncia ao posicionamento. Topo 

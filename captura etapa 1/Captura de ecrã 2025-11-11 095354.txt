@@ -1,11 +1,1 @@
-O Post-it em verde acinzentado (opaco) também indica a Etapa 1, pois o
-FPLEME saiu do nível -4,00 e alcançou o nível 0,00. Porém, nesse caso, a
-chance de iniciar um ciclo comprador é menor. Isso ocorre porque o
-mercado tentou entrar na Etapa 1, mas a linha do Shark ainda permaneceu
-vermelha.
-6,00
-4,00
-\
-\
-/ \ -6,00
-nd N -8,00
+O Post-it em verde acinzentado (opaco) tambm indica a Etapa 1, pois o FPLEME saiu do nivel -4,00 e alcangou o nivel 0,00. Porm, nesse caso, a chance de iniciar um ciclo comprador  menor. Isso ocorre porque o mercado tentou entrar na Etapa 1, mas a linha do Shark ainda permaneceu vermelha. 

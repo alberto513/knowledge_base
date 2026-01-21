@@ -1,13 +1,1 @@
-TIMING DE ENTRADA - ETAPA 1
-
-Posicionamento de Ordem na Etapa 1 de Compra:
-
-Normalmente, o FPLEME atingirá a linha 0,00 no segundo ou terceiro box
-positivo a favor do movimento. Você pode se perguntar: "Mas não seria
-tarde demais para entrar?" A resposta é não, porque NUNCA iremos comprar
-no fechamento do box. O que faremos é identificar que houve a Etapa 1 e
-nos planejar para entrar na operação, posicionando a ordem da maneira
-correta. Veja o passo a passo no exemplo:
-
-1º - Etapa 1 identificada (neste caso, a Etapa 1 foi confirmada no terceiro
-box positivo):
+TIMING DE ENTRADA - ETAPA1 Posicionamento de Ordem na Etapa 1 de Compra: Normalmente, o FPLEME atingira a linha 0,00 no segundo ou terceiro box positivo a favor do movimento. Voc pode se perguntar: "Mas nao seria tarde demais para entrar?" A resposta  nao, porque NUNCA iremos comprar no fechamento do box. O que faremos  identificar que houve a Etapa 1 e nos planejar para entrar na operaco, posicionando a ordem da maneira correta. Veja o passo a passo no exemplo: 1 - Etapa 1 identificada (neste caso, a Etapa 1 foi confirmada no terceiro box positivo):

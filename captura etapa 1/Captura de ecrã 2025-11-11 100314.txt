@@ -1,18 +1,1 @@
-TIMING DE ENTRADA - ETAPA 1
-
-E se eu quiser deixar um STOP um pouco maior? Qual é o limite máximo
-para o STOP?
-
-O limite máximo é 1 box positivo acima desse topo. Isso ocorre porque, se o
-último topo for rompido e ainda fechar 1 box positivo acima, o FPLEME
-certamente estará na cor verde, rompendo o nível 0,00 — ou, possivelmente,
-já rompendo o nível +4,00.
-
-Essas condições DESCARACTERIZAM a Etapa 1.
-
-Lembre-se: “O motivo que te fez entrar deve ser o mesmo motivo que te faz
-sair.”
-
-Se você entrou porque a Etapa 1 ocorre quando o FPLEME sai do +4,00 e
-atinge o nível 0,00, então, se o movimento se inverter, não faz mais sentido
-permanecer na operação.
+TIMING DE ENTRADA - ETAPA 1 E se eu quiser deixar um STOP um pouco maior? Qual  o limite mximo para o STOP? O limite mximo  1 box positivo acima desse topo. Isso ocorre porque, se o ltimo topo for rompido e ainda fechar 1 box positivo acima, o FPLEME certamente estar na cor verde, rompendo o nvel 0,00  ou, possivelmente, j rompendo o nvel +4,00. Essas condigdes DESCARACTERIZAM a Etapa 1. Lembre-se: O motivo que te fez entrar deve ser o mesmo motivo que te faz sair. Se voc entrou porque a Etapa 1 ocorre quando o FPLEME sai do +4,00 e atinge o nvel 0,00, ento, se o movimento se inverter, no faz mais sentido permanecer na operaco.

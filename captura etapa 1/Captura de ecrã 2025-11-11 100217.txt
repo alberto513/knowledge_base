@@ -1,11 +1,1 @@
-TIMING DE ENTRADA - ETAPA 1
-
-Posicionamento de ordem em Etapa 1 de venda:
-
-Normalmente, o FPLEME alcançará a linha 0,00 no segundo ou terceiro box
-negativo a favor do movimento. Você pode pensar: "Mas isso não é tarde
-demais?”
-
-A resposta é não, porque NUNCA realizamos a venda no fechamento do box.
-O que fazemos é visualizar que a Etapa 1 ocorreu e nos planejarmos para
-entrar no trade, posicionando a ordem corretamente. Veja o passo a passo:
+TIMING DE ENTRADA - ETAPA 1 Posicionamento de ordem em Etapa 1 de venda: Normalmente, o FPLEME alcangar a linha 0,00 no segundo ou terceiro box negativo a favor do movimento. Voc pode pensar: "Mas isso no  tarde demais? A resposta  no, porque NUNCA realizamos a venda no fechamento do box. O que fazemos  visualizar que a Etapa 1 ocorreu e nos planejarmos para entrar no trade, posicionando a ordem corretamente. Veja o passo a passo:

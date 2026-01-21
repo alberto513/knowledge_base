@@ -1,5 +1,1 @@
-Novo exemplo:
-1º - Etapa 1 identificada (neste caso, a Etapa 1 foi confirmada no 2º box
-positivo):
-
-, /
+Novo exemplo: 1 - Etapa 1 identificada (neste caso, a Etapa 1 foi confirmada no 2 box positivo): 

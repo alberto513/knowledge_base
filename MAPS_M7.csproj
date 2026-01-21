@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>MAPS_M7</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="bc45e568-ada6-46ae-b324-fbb7d608b2ef" />
+    <None Remove="a89799b7-74e7-40dd-a97a-86268b88e8a8" />
+    <EmbeddedResource Include="bc45e568-ada6-46ae-b324-fbb7d608b2ef" LogicalName="bc45e568-ada6-46ae-b324-fbb7d608b2ef" />
+    <EmbeddedResource Include="a89799b7-74e7-40dd-a97a-86268b88e8a8" LogicalName="a89799b7-74e7-40dd-a97a-86268b88e8a8" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="NinjaTrader.Gui" />
+    <Reference Include="NinjaTrader.Core" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="SharpDX.Direct2D1" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="SharpDX" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Xml" />
+    <Reference Include="NinjaTrader.Vendor" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+</Project>

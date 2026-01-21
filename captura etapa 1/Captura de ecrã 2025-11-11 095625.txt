@@ -1,17 +1,1 @@
-TIMING DE ENTRADA - ETAPA 1
-
-E se quiser deixar um STOP um pouco maior, qual seria o limite máximo?
-Resposta: O limite máximo seria 1 box negativo abaixo desse funco. Isso
-porque, se esse último fundo for rompido e ainda fechar 1 box negativo
-abaixo dele, certamente a ferramenta FPLEME já estará na cor vermelha,
-rompendo o nível 0,00, ou até mesmo rompendo o nível -4,00. Dessa forma,
-a operação seria descaracterizada como Etapa 1.
-
-Lembre-se da regra: “O motivo que te fez entrar deve ser o mesmo motivo
-que te faz sair.”
-
-Se você entrou porque a Etapa 1 ocorreu quando o FPLEME saiu do nível
--4,00 e atingiu o nível 0,00, então, caso o movimento inverso ocorra (o
-"Reverso"), não faz mais sentido permanecer na operação.
-
-Exemplo de limite máximo de STOP:
+TIMING DE ENTRADA - ETAPA 1 E se quiser deixar um STOP um pouco maior, qual seria o limite mximo? Resposta: O limite mximo seria 1 box negativo abaixo desse funco. Isso porque, se esse ltimo fundo for rompido e ainda fechar 1 box negativo abaixo dele, certamente a ferramenta FPLEME j estar na cor vermelha, rompendo o nvel 0,00, ou at mesmo rompendo o nvel -4,00. Dessa forma, a operago seria descaracterizada como Etapa 1. Lembre-se da regra: O motivo que te fez entrar deve ser o mesmo motivo que te faz sair. Se voc entrou porque a Etapa 1 ocorreu quando o FPLEME saiu do nivel -4,00 e atingiu o nivel 0,00, ento, caso o movimento inverso ocorra (o "Reverso"), no faz mais sentido permanecer na operaco. Exemplo de limite mximo de STOP:

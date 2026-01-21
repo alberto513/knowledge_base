@@ -1,15 +1,1 @@
-TIMING DE ENTRADA - ETAPA 1
-
-Para Trades em Etapa 1 Compradora, onde posicionar o STOP?
-O Stop deve ser posicionado abaixo do último fundo formado. Ou seja,
-quando se inicia um ciclo comprador, o mercado deixa um fundo, e o Stop
-deve ser colocado atrás desse último fundo.
-Exemplo:
-Operação exemplar em um trade dentro de um cenário de Progressão de
-Preço em MAP, comprando em Etapa 1.
-
-E a
-
-i
-ZA
-A y
+TIMING DE ENTRADA - ETAPA 1 Para Trades em Etapa 1 Compradora, onde posicionar o STOP? O Stop deve ser posicionado abaixo do ltimo fundo formado. Ou seja, quando se inicia um ciclo comprador, o mercado deixa um fundo, e o Stop deve ser colocado atrs desse ltimo fundo. Exemplo: Operago exemplar em um trade dentro de um cenrio de Progresso de Prego em MAP, comprando em Etapa 1. 

@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>RENKOBRZ</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="4810d9d8-18be-4936-a1f0-6721d4528aad" />
+    <None Remove="dee8670c-2be3-4d5c-ad63-741fa02c8b43" />
+    <EmbeddedResource Include="4810d9d8-18be-4936-a1f0-6721d4528aad" LogicalName="4810d9d8-18be-4936-a1f0-6721d4528aad" />
+    <EmbeddedResource Include="dee8670c-2be3-4d5c-ad63-741fa02c8b43" LogicalName="dee8670c-2be3-4d5c-ad63-741fa02c8b43" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="NinjaTrader.Core" />
+    <Reference Include="NinjaTrader.Gui" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="SharpDX.Direct2D1" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="SharpDX" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Xml" />
+    <Reference Include="NinjaTrader.Vendor" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+</Project>

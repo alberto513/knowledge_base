@@ -142,6 +142,7 @@
   <data name="NinjaScriptIndicatorDescriptionRangeCounter" xml:space="preserve"><value>Displays the range count of a bar.</value></data>
   <data name="TrendLinesNotVisible" xml:space="preserve"><value>TrendLines indicator is not visible with Strategy Analyzer</value></data>
   <data name="NinjaScriptIndicatorNameUltimateOscillator" xml:space="preserve"><value>Ultimate oscillator</value></data>
+  <data name="NinjaScriptRecentColumnBidBackground" xml:space="preserve"><value>Bid background</value></data>
   <data name="NinjaScriptMarketAnalyzerColumnNameRealizedProfitLoss" xml:space="preserve"><value>Realized profit loss</value></data>
   <data name="RVISignalLine" xml:space="preserve"><value>Signal line</value></data>
   <data name="NinjaScriptDrawingToolHorizontalLine" xml:space="preserve"><value>Horizontal Line</value></data>
@@ -161,6 +162,7 @@
   <data name="NinjaScriptOptimizationFitnessNameMinDrawDown" xml:space="preserve"><value>Min. draw down</value></data>
   <data name="NinjaScriptMarketAnalyzerColumnNameBidAskSpread" xml:space="preserve"><value>Bid ask spread</value></data>
   <data name="AskLineStroke" xml:space="preserve"><value>Ask line</value></data>
+  <data name="NinjaScriptRecentColumnBidForeground" xml:space="preserve"><value>Bid foreground</value></data>
   <data name="NinjaScriptIndicatorDescriptionKeyReversalDown" xml:space="preserve"><value>Returns a value of 1 when the current close is less than the prior close after penetrating the highest high of the last n bars.</value></data>
   <data name="NinjaScriptChartStyleLineWidth" xml:space="preserve"><value>Line width</value></data>
   <data name="NinjaScriptDrawingToolRiskRewardLineStrokeEntry" xml:space="preserve"><value>Entry extension</value></data>
@@ -350,6 +352,7 @@
   <data name="ImportTypeNinjaTraderInstrumentNotSupported" xml:space="preserve"><value>Unable to import file '{0}'. Instrument is not supported by repository.</value></data>
   <data name="NinjaScriptStrategyDescriptionSampleMultiInstrument" xml:space="preserve"><value>Multi-Instrument sample strategy.</value></data>
   <data name="NinjaScriptOptimizationFitnessNameMaxAvgProfitLong" xml:space="preserve"><value>Max. avg. profit (long)</value></data>
+  <data name="NinjaScriptRecentColumnDiplay" xml:space="preserve"><value>Display</value></data>
   <data name="NinjaScriptDrawingToolRegionHighlightVerticalRangeUnit" xml:space="preserve"><value>Vertical range unit</value></data>
   <data name="ShowBidLine" xml:space="preserve"><value>Show bid line</value></data>
   <data name="NinjaScriptDrawingToolsChartTriangleUpMarkerName" xml:space="preserve"><value>Triangle up</value></data>
@@ -400,6 +403,7 @@
   <data name="PiviotsDailyBarsError" xml:space="preserve"><value>Intraday or Daily bars must be used for Pivots</value></data>
   <data name="AskLineLength" xml:space="preserve"><value>Ask line length (% of chart)</value></data>
   <data name="NinjaScriptOptimizationFitnessNameMinDrawDownShort" xml:space="preserve"><value>Min. draw down (short)</value></data>
+  <data name="PullingStackingResetWhen_BidAskChange" xml:space="preserve"><value>Bid/Ask change</value></data>
   <data name="NinjaScriptMarketAnalyzerColumnNameEarningsPerShare" xml:space="preserve"><value>Earnings per share</value></data>
   <data name="NinjaScriptDrawingToolRegressionChannelPriceType" xml:space="preserve"><value>Price type</value></data>
   <data name="NinjaScriptOptimizationFitnessNameMaxAvgMfe" xml:space="preserve"><value>Max. avg. favorable excursion</value></data>
@@ -438,6 +442,7 @@
   <data name="NinjaScriptDrawingToolTextBrush" xml:space="preserve"><value>Color - font</value></data>
   <data name="NinjaScriptDrawingToolRegion" xml:space="preserve"><value>Region</value></data>
   <data name="HLCCalculationMode_CalcFromIntradayData" xml:space="preserve"><value>Calculated from intraday data</value></data>
+  <data name="NinjaScriptRecentColumnResetWhen" xml:space="preserve"><value>Reset when</value></data>
   <data name="NinjaScriptIndicatorDescriptionRelativeVigorIndex" xml:space="preserve"><value>The Relative Vigor Index measures the strength of a trend by comparing an instruments closing price to its price range. It's based on the fact that prices tend to close higher than they open in up trends, and closer lower than they open in downtrends.</value></data>
   <data name="NinjaScriptChartStyleCandlestickHollow" xml:space="preserve"><value>Hollow candlestick</value></data>
   <data name="ZigZagHighBarInstanceGreaterEqual" xml:space="preserve"><value>{0}.HighBar: instance must be greater/equal 1 but was {1}</value></data>
@@ -504,6 +509,7 @@
   <data name="NinjaScriptIndicatorNamePPO" xml:space="preserve"><value>PPO</value></data>
   <data name="NinjaScriptIndicatorNamePFE" xml:space="preserve"><value>PFE</value></data>
   <data name="NinjaScriptDrawingToolFibonacciRetracementsTextLocation" xml:space="preserve"><value>Text location</value></data>
+  <data name="NinjaScriptRecentColumnResetTolerance" xml:space="preserve"><value>Reset tolerance</value></data>
   <data name="NinjaScriptStrategyDescriptionSampleCustomPerformance" xml:space="preserve"><value>Sample to demonstrate usage of custom performance</value></data>
   <data name="LastLineStroke" xml:space="preserve"><value>Last line</value></data>
   <data name="NinjaScriptMarketAnalyzerColumnNameCalendarYearHighDate" xml:space="preserve"><value>Calendar year high date</value></data>
@@ -563,10 +569,13 @@
   <data name="PriorDayOHLCOpen" xml:space="preserve"><value>Prior open</value></data>
   <data name="PriorDayOHLCHigh" xml:space="preserve"><value>Prior high</value></data>
   <data name="Acceleration" xml:space="preserve"><value>Acceleration</value></data>
+  <data name="RecentResetWhen_BidAskChange" xml:space="preserve"><value>Bid/Ask change</value></data>
   <data name="ShareMailPreconfiguredOutlook" xml:space="preserve"><value>Outlook</value></data>
   <data name="NinjaScriptChartStyleCandleOutline" xml:space="preserve"><value>Candle body outline</value></data>
   <data name="DataBarsTypeMonthly" xml:space="preserve"><value>Monthly</value></data>
   <data name="RegionHighlightDirection_Vertical" xml:space="preserve"><value>Vertical</value></data>
+  <data name="PullingStackingDisplayType_Ask" xml:space="preserve"><value>Ask</value></data>
+  <data name="PullingStackingDisplayType_Bid" xml:space="preserve"><value>Bid</value></data>
   <data name="NinjaScriptMarketAnalyzerColumnDescriptionLastSize" xml:space="preserve"><value>Last trade size</value></data>
   <data name="TwitterAuthText1" xml:space="preserve"><value>You have successfully authorized {0} to access your Twitter account.</value></data>
   <data name="TwitterAuthText2" xml:space="preserve"><value>You may close this window and return to {0}.</value></data>
@@ -634,6 +643,7 @@
   <data name="LegendLocation_BottomRight" xml:space="preserve"><value>Bottom right</value></data>
   <data name="NinjaScriptMarketAnalyzerColumnNameCalendarYearHigh" xml:space="preserve"><value>Calendar year high</value></data>
   <data name="SignalPeriod" xml:space="preserve"><value>Signal period</value></data>
+  <data name="PullingStackingDisplayType_BidAsk" xml:space="preserve"><value>Bid &amp; Ask</value></data>
   <data name="NinjaScriptMarketAnalyzerColumnDescriptionTimeLastTick" xml:space="preserve"><value>Time the last trade occurred</value></data>
   <data name="NinjaScriptIndicatorNameBollinger" xml:space="preserve"><value>Bollinger</value></data>
   <data name="DataBarsTypeWeekly" xml:space="preserve"><value>Weekly</value></data>
@@ -744,6 +754,7 @@
   <data name="NinjaScriptIndicatorDescriptionNBarsUp" xml:space="preserve"><value>This indicator returns 1 when we have n of consecutive bars up, otherwise returns 0. An up bar is defined as a bar where the close is above the open and the bars makes a higher high and a higher low. You can adjust the specific requirements with the indicator options.</value></data>
   <data name="StockTwitsSentiment" xml:space="preserve"><value>Sentiment:</value></data>
   <data name="NinjaScriptMarketAnalyzerColumnNameUnrealizedProfitLoss" xml:space="preserve"><value>Unrealized profit loss</value></data>
+  <data name="RecentResetWhen_PriceReturns" xml:space="preserve"><value>Price returns</value></data>
   <data name="NinjaScriptDrawingToolAnchorMiddle" xml:space="preserve"><value>Middle</value></data>
   <data name="NinjaScriptMarketAnalyzerColumnNameNetChange" xml:space="preserve"><value>Net change</value></data>
   <data name="NinjaScriptDrawingToolsGannAngles" xml:space="preserve"><value>Gann angles</value></data>
@@ -763,6 +774,7 @@
   <data name="NinjaScriptOptimizationFitnessNameMaxProfitFactor" xml:space="preserve"><value>Max. profit factor</value></data>
   <data name="NinjaScriptMarketAnalyzerColumnNameDescription" xml:space="preserve"><value>Description</value></data>
   <data name="NinjaScriptIndicatorNameNBarsUp" xml:space="preserve"><value>N bars up</value></data>
+  <data name="NinjaScriptRecentColumnAskForeground" xml:space="preserve"><value>Ask foreground</value></data>
   <data name="NinjaScriptDrawingToolFibonacciRetracementsExtendLinesRight" xml:space="preserve"><value>Extend lines right</value></data>
   <data name="BarsPeriodType" xml:space="preserve"><value>Bars period type</value></data>
   <data name="CotDataError" xml:space="preserve"><value>COT data is not supported for this instrument</value></data>
@@ -813,6 +825,7 @@
   <data name="DMMinusDI" xml:space="preserve"><value>-DI</value></data>
   <data name="NinjaScriptGeneticOptimizerThresholdGenerations" xml:space="preserve"><value>Threshold generations</value></data>
   <data name="NinjaScriptIndicatorDescriptionBlockVolume" xml:space="preserve"><value>Block volume detects block trades and display how many occurred per bar. This can be displayed either as trades or volume. Historical tick data is required to plot historically.</value></data>
+  <data name="PullingStackingResetWhen_NoMoreData" xml:space="preserve"><value>No longer receiving depth data</value></data>
   <data name="Smoothing" xml:space="preserve"><value>Smoothing</value></data>
   <data name="NinjaScriptMarketAnalyzerColumnDescriptionNetChangeMaxUp" xml:space="preserve"><value>Current high compared to last close price</value></data>
   <data name="FileName" xml:space="preserve"><value>File name</value></data>
@@ -844,6 +857,7 @@
   <data name="NinjaScriptIndicatorNameConstantLines" xml:space="preserve"><value>Constant lines</value></data>
   <data name="NinjaScriptOnBarCloseError" xml:space="preserve"><value>{0} relies on bid/ask tick updates expecting Calculate 'On each tick'</value></data>
   <data name="NinjaScriptIndicatorNameMomentum" xml:space="preserve"><value>Momentum</value></data>
+  <data name="NinjaScriptSetup" xml:space="preserve"><value>Setup</value></data>
   <data name="NinjaScriptIndicatorNameTrendLines" xml:space="preserve"><value>Trend lines</value></data>
   <data name="NinjaScriptMarketAnalyzerColumnDescriptionFiveYearsGrowthPercentage" xml:space="preserve"><value>Five years growth percentage</value></data>
   <data name="NinjaScriptGeneticOptimizerCrossoverRatePercent" xml:space="preserve"><value>Crossover rate (%)</value></data>
@@ -870,6 +884,7 @@
   <data name="KeyReversalPlot0" xml:space="preserve"><value>Plot 0</value></data>
   <data name="PathCapMode_Arrow" xml:space="preserve"><value>Arrow</value></data>
   <data name="HighlightVerticalRangeUnit_Percent" xml:space="preserve"><value>Percent</value></data>
+  <data name="PropertyCategoryVisual" xml:space="preserve"><value>Visual</value></data>
   <data name="ShareTextMessagePreconfiguredSprint" xml:space="preserve"><value>Sprint</value></data>
   <data name="FileFilterAnyWinForms" xml:space="preserve"><value>Any (*.*)|*.*</value></data>
   <data name="NinjaScriptIndicatorDescriptionNBarsDown" xml:space="preserve"><value>This indicator returns 1 when we have n of consecutive bars down, otherwise returns 0. A down bar is defined as a bar where the close is below the open and the bars makes a lower high and a lower low. You can adjust the specific requirements with the indicator options.</value></data>
@@ -994,6 +1009,8 @@
   <data name="NinjaScriptBarsTypeHeikenAshi" xml:space="preserve"><value>Heiken Ashi</value></data>
   <data name="NinjaScriptMarketAnalyzerColumnDescriptionMarketCap" xml:space="preserve"><value>Market capitalization. The total value of issued shares.</value></data>
   <data name="SuperDomColumnException" xml:space="preserve"><value>SuperDOM column '{0}': Error on calling '{1}' method: {2}</value></data>
+  <data name="RecentDisplayType_Bid" xml:space="preserve"><value>Bid</value></data>
+  <data name="RecentDisplayType_Ask" xml:space="preserve"><value>Ask</value></data>
   <data name="HighlightVerticalRangeUnit_Price" xml:space="preserve"><value>Price</value></data>
   <data name="HighlightVerticalRangeUnit_Ticks" xml:space="preserve"><value>Ticks</value></data>
   <data name="NinjaScriptIndicatorNameLinRegIntercept" xml:space="preserve"><value>Lin. reg. intercept</value></data>
@@ -1033,6 +1050,7 @@
   <data name="ZigZagLowBarInstanceGreaterEqual" xml:space="preserve"><value>{0}.LowBar: instance must be greater/equal 1 but was {1}</value></data>
   <data name="NinjaScriptDrawingToolTrendChannelStart1AnchorDisplayName" xml:space="preserve"><value>Trend start</value></data>
   <data name="NinjaScriptMarketAnalyzerColumnDescriptionLow52WeeksDate" xml:space="preserve"><value>Date the low price of last 52 weeks occurred</value></data>
+  <data name="RecentDisplayType_BidAsk" xml:space="preserve"><value>Bid &amp; Ask</value></data>
   <data name="AndrewsPitchforkCalculationMethod_Schiff" xml:space="preserve"><value>Schiff</value></data>
   <data name="SampleCumProfitDescription" xml:space="preserve"><value>Cumulative Profit as a sample of a custom performance metric</value></data>
   <data name="NinjaScriptChartStyleKagiThinLine" xml:space="preserve"><value>Thin line</value></data>
@@ -1044,6 +1062,7 @@
   <data name="NinjaScriptIndicatorDescriptionLinReg" xml:space="preserve"><value>The Linear Regression is an indicator that 'predicts' the value of a security's price.</value></data>
   <data name="GannFanDirection_UpRight" xml:space="preserve"><value>Up right</value></data>
   <data name="NinjaScriptIndicatorNameParabolicSAR" xml:space="preserve"><value>Parabolic SAR</value></data>
+  <data name="NinjaScriptRecentColumnAskBackground" xml:space="preserve"><value>Ask background</value></data>
   <data name="ShowClose" xml:space="preserve"><value>Show close</value></data>
   <data name="NinjaScriptIndicatorUp" xml:space="preserve"><value>Up</value></data>
   <data name="TextFont" xml:space="preserve"><value>Text font</value></data>

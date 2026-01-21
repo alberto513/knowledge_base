@@ -1,7 +1,1 @@
-Legenda:
-e Traço vermelho: Representa o local mais indicado para
-posicionar a ordem de entrada.
-+ Topo, base (fundo) e sombra do box negativo:
-—» Sombra
-Topo
-Base ( Fundo )
+Legenda: + Traco vermelho: Representa o local mais indicado para posicionar a ordem de entrada. + Topo, base (fundo) e sombra do box negativo: Base (Fundo )

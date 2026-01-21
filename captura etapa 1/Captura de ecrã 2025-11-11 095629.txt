@@ -1,3 +1,1 @@
-Exemplo de limite máximo de STOP:
-- mM
-—
+Exemplo de limite maximo de STOP: 

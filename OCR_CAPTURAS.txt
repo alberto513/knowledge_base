@@ -1,0 +1,3304 @@
+# FOLDER: captura_etapa_1 (count=62)
+---
+so emipan |) _____
+
+A VIO
+FPLEMESE
+
+TIMING DE ENTRADA - ETAPA 1
+
+Etapa
+
+AEtapa 1 6 um estilo de timing de entrada visualizado por meio da
+
+ferramenta FPLEME. Ela serve para identificar oportunidades de
+
+posicionamento no incio de um ciclo de mercado, proporcionando um
+
+gerenciamento derisco bem definido, aseado nas informa es fomecidas
+
+pelas ferramentas.
+
+Alm disso, Etapa 1 tem como objetivo fitrar os boxes, sejam positivos
+
+ou negativos, que notm chances de niiar um movimento, Esse
+
+processo ser detalhado com as imagens a seguir
+---
+Visualizago:
+
++ Etapa 1 Compradora:  considerada uma Etapa 1 compradora o
+momento em que a ferramenta sai da linha de -4,00 e consegue fechar
+um box que faz a linha do FPLEME alcancar o nvel 0,00.
+
+12,00
+6,00
+lo 4,00
+\
+\
+UV
+2.00,
+A a Ve f....\
+ADA ] 6,00
+Pm 2 ES -8,00
+-12,00
+---
+TIMING DE ENTRADA - ETAPA 1
+Quando isso acontece, existe um atalho visual que indica que a Etapa 1
+ocorreu. Esse atalho  representado por um Post-it retangular verde
+destacado.
+12,00
+6,00
+lo 4,00
+\
+\
+VA 600
+-12,00
+---
+O Post-it  exibido em verde destacado porque, alm da Etapa 1 ter ocorrido,
+o Shark tambm j estava azul. Veja
+12,00
+6,00
+0,00
+-
+-4,00
+vA -6,00
+-12,00
+---
+TIMING DE ENTRADA - ETAPA 1
+Essa condico favorece o possivel movimento, pois ha um alinhament
+forcas: a Etapa e o Ciclo esto em harmonia.
+No entanto, h outro atalho visual que tambm representa a Etapa 1, m
+nesse caso, em verde acinzentado (verde opaco):
+12,00
+6,00
+4,00
+E
+/ 6,00
+N ' > ) -8,00
+---
+O Post-it em verde acinzentado (opaco) tambm indica a Etapa 1, pois o
+FPLEME saiu do nivel -4,00 e alcangou o nivel 0,00. Porm, nesse caso, a
+chance de iniciar um ciclo comprador  menor. Isso ocorre porque o
+mercado tentou entrar na Etapa 1, mas a linha do Shark ainda permaneceu
+vermelha.
+6,00
+4,00
+\
+\
+/ \ -6,00
+4 SN -8,00
+---
+TIMING DE ENTRADA - ETAPA 1
+
+Quando o Shark ainda est vermelho, os pregos tendem a lateralizar, a
+
+menos que a linha do Shark mude para azul futuramente.
+
+Compare: o movimento de Etapa 1 com o Post-it em verde acinzentado
+
+(opaco) foi mais lateralizado, enquanto a operago de Etapa 1 com o verde
+
+destacado resultou em um movimento mais fluido:
+in
+---
+Compare: o movimento de Etapa 1 com o Post-it em verde acinzentado
+(opaco) foi mais lateralizado, enquanto a operago de Etapa 1 com o verde
+destacado resultou em um movimento mais fluido:
+
+a yA }
+---
+---
+TIMING DE ENTRADA - ETAPA 1
+
+Se voc nunca alterou essas configurages no seu FPLEME, fique tranquilo,
+pois ele j estar configurado exatamente como nas representaces
+apresentadas.
+
+Reforco:
+
+Existe Etapa 1 com o FPLEME nos niveis -12,00 ou -8,00?
+
+Resposta: No. Nesse caso, no se trata de nenhuma Etapa, porque no
+possvel o FPLEME sair do nivel -12,00 ou -8,00 e alcangar o nivel 0,00 com
+apenas 1 box. Para o FPLEME ser considerado Etapa 1, ele precisa
+obrigatoriamente alcancar o nvel 0,00.
+
+Portanto, ao pensar em realizar uma compra, no  possivel faz-la em
+qualquer box positivo. O ideal  que seja um box positivo com chance real
+de se transformar em uma Etapa 1.
+---
+Exemplo de boxes positivos que no tm chance de virar Etapa 1:
+lo
+2 Ooh
+ed na OL aly 7 an) AP | 126.426
+ete, INO ft ath? 0 aT ty y 126.264 |
+o > Al b ul unt ott aaa tatota 126.080
+an milo AA Tux
+12,00
+ono A PA Y PA A ARA
+6,00
+i 4,00
+}}-} a oo vs +
+LY o -4,00
+-6,00
+-12,00
+---
+TIMING DE ENTRADA - ETAPA 1
+
+Posicionamento de Ordem na Etapa 1 de Compra:
+
+Normalmente, o FPLEME atingir a linha 0,00 no segundo ou terceiro box
+positivo a favor do movimento. Voc pode se perguntar: "Mas no seria
+tarde demais para entrar?" A resposta  no, porque NUNCA iremos comprar
+no fechamento do box. O que faremos  identificar que houve a Etapa 1 e
+nos planejar para entrar na operaco, posicionando a ordem da maneira
+correta. Veja o passo a passo no exemplo:
+
+1 - Etapa 1 identificada (neste caso, a Etapa 1 foi confirmada no terceiro
+box positivo):
+---
+1 - Etapa 1 identificada (neste caso, a Etapa 1 foi confirmada no terceiro
+box positivo):
+126.581
+| he 0 126.464
+fo, i it]
+1 > 126.240
+. ]
+te. Y 126.010
+hee ne Ee 125.765
+OMe STO 125.479
+125.153
+=DX
+---
+! o *o 126.464
+at ' 0 a
+> ba i
+
+126.010
+MAS TITO
+Se
+125.153
+=DX
+12,00
+6,00
+Y 4,00
+/ Vo] -6,00
+: > -8,00
+-12,00
+---
+TIMING DE ENTRADA - ETAPA 1
+2 - Nunca compre no topo do box positivo:
+A
+RD pen A  a
+---
+3 - Posicione-se o mais prximo possvel da base do box positivo anterior
+(neste caso, posicione-se na base do segundo box):
+l nO
+y a 60
+MO], s7 ~~ |
+AB One
+to, A OT
+. |
+<A
+o, e, A
+---
+TIMING DE ENTRADA - ETAPA 1
+Legenda:
+Trago verde: =
+Indica o local mais recomendado para posicionar a ordem de entrada.
++ Topo, base e sombra do box positivo: Representam as partes
+especficas do box para referncia ao posicionamento.
+Topo
+Base
+---
+TIMING DE ENTRADA - ETAPA 1
+Novo exemplo:
+1 - Etapa 1 identificada (neste caso, a Etapa 1 foi confirmada no 3 box
+positivo):
+|
+> ns
+---
+TIMING DE ENTRADA - ETAPA 1
+2 - Se voc est pensando em comprar, NUNCA deve comprar no topo do
+box:
+
+2 un E gt
+. STON al ala
+: le
+Fa Fab a Fao SITO] 400 (1) 400 400 CCI ELI CED
+TEE ix
+---
+3 - Posicione-se o mais prximo possivel da base do box positivo anterior
+(neste caso, posicione-se na base do 2 box)
+Er 7
+ae MN
+=
+---
+Novo exemplo:
+1 - Etapa 1 identificada (neste caso, a Etapa 1 foi confirmada no 2 box
+positivo):
+
+,, y
+---
+2 - Se voc est pensando em comprar, NUNCA deve comprar no topo do
+box:
+y atte
+ou a a i
+i a , A a
+/ - ae |
+VEAS Ai A
+---
+3 - Posicione-se o mais prximo possivel da base do box positivo anterior
+(neste caso, posicione-se na base do 1 box)
+m l by eit
+TT Hi oe LS
+i On
+L-Z
+---
+TIMING DE ENTRADA - ETAPA 1
+
+Importante:
+
+Sempre uma Etapa 1 dentro de um cenrio ser mais segura do que uma
+Etapa 1 isolada.
+
+Como assim?
+
+Priorize realizar Etapas 1 que estejam dentro de cenrios de PPM
+(Progresso de Prego em MAP) ou MM (MAP com MAP).
+---
+Exemplo: Qual das operages  mais segura? Op.1 ou Op.2?
+O
+) op.t op.2
+al
+Sha Or, sighs
+/ A
+HHT pl
+---
+TIMING DE ENTRADA - ETAPA 1
+
+Resposta:
+
+A Op.2  mais segura do que a Op.1, pois a Op.2  uma entrada de Etapa 1
+dentro de um cenrio de Progresso de Prego em MAP (PPM), enquanto a
+Op.1  apenas um movimento de alta isolado e sem contexto.
+
+Essa informago  extremamente valiosa, pois  o que ajudar voc a
+identificar boas entradas. O segredo de um trade bem-sucedido est no
+contexto do cenrio.
+
+No exemplo abaixo, o cenrio est dentro de um PPM na venda. Entradas
+compradoras, nesse caso, ficam fora de contexto e resultam,
+frequentemente, em movimentos curtos e de menor probabilidade de
+sucesso. Alm disso, o ltimo movimento de compra, indicado por duas
+setas vermelhas, tinha a The_Wall na cor rosa (magenta/fcsia), que  mais
+um indicador de seguranga mostrando que ainda no h possibilidade de
+compras seguras.
+
+Ou seja, no exemplo abaixo, era muito mais inteligente e seguro realizar uma
+Etapa 1 na venda do que tentar uma Etapa 1 na compra, pois o cenrio  de
+Progresso de Prego em MAP na venda.
+---
+TIMING DE ENTRADA - ETAPA 1
+To LI y
+. ai S
+AT a
+---
+TIMING DE ENTRADA - ETAPA 1
+
+Para Trades em Etapa 1 Compradora, onde posicionar o STOP?
+O Stop deve ser posicionado abaixo do ltimo fundo formado. Ou seja,
+quando se inicia um ciclo comprador, o mercado deixa um fundo, e o Stop
+deve ser colocado atrs desse ltimo fundo.
+Exemplo:
+Operaco exemplar em um trade dentro de um cenrio de Progresso de
+Prego em MAP, comprando em Etapa 1.
+
+a
+
+i
+CT
+A y
+---
+TIMING DE ENTRADA - ETAPA 1
+Posicionamento do STOP no ltimo fundo formado a partir do ltimo ciclo
+comprador:
+
+aN ee J
+---
+TIMING DE ENTRADA - ETAPA 1
+
+E se quiser deixar um STOP um pouco maior, qual seria o limite mximo?
+Resposta: O limite mximo seria 1 box negativo abaixo desse fundo. Isso
+porque, se esse ltimo fundo for rompido e ainda fechar 1 box negativo
+abaixo dele, certamente a ferramenta FPLEME j estar na cor vermelha,
+rompendo o nivel 0,00, ou at mesmo rompendo o nivel -4,00. Dessa forma,
+a operago seria descaracterizada como Etapa 1.
+
+Lembre-se da regra: O motivo que te fez entrar deve ser o mesmo motivo
+que te faz sair.
+
+Se voc entrou porque a Etapa 1 ocorreu quando o FPLEME saiu do nivel
+-4,00 e atingiu o nivel 0,00, ento, caso o movimento inverso ocorra (0
+"Reverso), no faz mais sentido permanecer na operaco.
+
+Exemplo de limite mximo de STOP:
+---
+Exemplo de limite mximo de STOP:
+_ FT
+
+---
+TIMING DE ENTRADA - ETAPA 1
+Reforco:  por isso que  importante evitar comprar no topo do Renko.
+Prefira comprar na base do box positivo anterior, pois isso reduz o tamanh
+do seu STOP.
+Exemplo: Comprando no TOPO
+i
+re E
+OS
+.
+1 I
+---
+TIMING DE ENTRADA - ETAPA 1
+
+Aguardando e comprando na base do box positivo anterior:
+a
+
+rr Lag
+ES
+E
+.
+
+i 1
+---
+TIMING DE ENTRADA - ETAPA 1
+Agora que finalizamos a explicago sobre a Etapa 1 compradora,  hora de
+virar a pgina e falar sobre a Etapa 1 vendedora.
+A lgica segue o mesmo principio, mas com foco nas operages de venda.
+Vamos explorar os detalhes e ajustes necessrios para aproveitar esse tipo
+de oportunidade de mercado.
++ Etapa 1 Vendedora:  considerada Etapa 1 vendedora o momento em
+que a ferramenta sai da linha de +4,00 e consegue fechar um box que
+faz a linha do FPLEME alcangar o nvel 0,00.
+12,00
+LA >
+/ o
+Mi he
+| _ 0,00
+4,00
+-6,00
+-8,00
+-12,00
+---
+Identificago visual:
+
+Quando isso acontece, existe um atalho visual indicando que a Etapa 1
+ocorreu. Esse atalho  mostrado atravs de um Post-it (retangular) vermelho
+destacado.
+---
+TIMING DE ENTRADA - ETAPA 1
+12,00
+LA
+6,00
+a 4,00
+2.00
+0,00
+-4,00
+-5,00
+-8,00
+-12,00
+Esse Post-it  representado em vermelho destacado porque, quando a Etapa
+1 aconteceu, o Shark j estava vermelho. Veja:
+12,00
+LA
+6,00
+2,00
+aL 0,00
+-4,00
+-6,00
+-12,00
+---
+TIMING DE ENTRADA - ETAPA 1
+Isso favorece o possvel movimento, pois h um alinhamento entre as
+forgas: a Etapa e o Ciclo esto alinhados.
+No entanto, h outro atalho visual que tambm indica a Etapa 1, mas, nesse
+caso, com um Postit vermelho acinzentado (vermelho opaco):
+12,00
+4,00
+-4,00
+-6,00
+-8,00
+Nesse caso, o Post-it vermelho acinzentado (opaco) tambm representa a
+Etapa 1, pois o FPLEME saiu do nivel +4,00 e alcangou o nivel 0,00. No
+entanto, essa condigo apresenta uma menor chance de iniciar um ciclo
+vendedor.
+Isso ocorre porque o mercado tentou entrar em Etapa 1, mas a linha do
+Shark ainda estava azul
+---
+Isso ocorre porque o mercado tentou entrar em Etapa 1, mas a linha do
+Shark ainda estava azul
+d FZ 12,00
+.
+00
+-4,00
+-6,00
+-8,00
+---
+TIMING DE ENTRADA - ETAPA 1
+
+Nessa situago, com o Shark ainda azul, os precos tendem a lateralizar, a
+menos que a linha do Shark passe a ficar vermelha futuramente.
+
+Veja: o movimento de Etapa 1 com o vermelho acinzentado (opaco) foi mais
+lateral, enquanto o movimento de Etapa 1 com o vermeiho destacado foi
+mais fluido.
+---
+TIMING DE ENTRADA - ETAPA 1
+
+Nessa situago, com o Shark ainda azul, os precos tendem a lateralizar, a
+menos que a linha do Shark passe a ficar vermelha futuramente.
+
+Veja: o movimento de Etapa 1 com o vermelho acinzentado (opaco) foi m
+lateral, enquanto o movimento de Etapa 1 com o vermeiho destacado foi
+mais fluido.
+---
+---
+Se voc nunca alterou essas configurages no seu FPLEME, fique tranquilo
+pois ele j estar configurado exatamente como mostrado nas
+representages.
+
+Reforgo: Existe Etapa 1 com o FPLEME no nivel de +12,00 ou +8,00?
+Resposta: No. Nesses casos, no h Etapa alguma, pois no  possivel qu
+o FPLEME saia do nivel +12,00 ou +8,00 e atinja o nivel 0,00 com apenas 1
+box.
+
+A condigo para ser considerada uma Etapa 1  o FPLEME alcangar o nivel
+0,00.
+
+Portanto, quando estiver planejando fazer uma venda, no a realize em
+qualquer box negativo. O ideal  que seja em um box negativo que tenha
+chance de, pelo menos, se tornar uma Etapa 1.
+
+Veja, ento, exemplos de boxes negativos que nao tm chance de virar
+---
+a
+---
+TIMING DE ENTRADA - ETAPA 1
+
+Posicionamento de ordem em Etapa 1 de venda:
+
+Normalmente, o FPLEME alcangar a linha 0,00 no segundo ou terceiro box
+negativo a favor do movimento. Voc pode pensar: "Mas isso no  tarde
+demais?
+
+A resposta  no, porque NUNCA realizamos a venda no fechamento do box.
+O que fazemos  visualizar que a Etapa 1 ocorreu e nos planejarmos para
+entrar no trade, posicionando a ordem corretamente. Veja o passo a passo:
+---
+1 - Identificago da Etapa 1 (neste caso, confirmada no 3 box negativo)
+0) comm]
+
+-0x
+| cm
+cm
+0
+---
+TIMING DE ENTRADA - ETAPA 1
+2 - Se voc est pensando na venda, NUNCA venda no fundo do box:
+= = xa
+a == |
+pa a ~ woe
+A
+NY ====
+po me _
+A / " les
+NN bea Ta
+---
+3 - Posicione-se o mais prximo possivel do topo do box negativo anterior
+(nesse caso, posicione-se no topo do 2 box):
+0 atada
+a] U
+---
+Legenda:
++ Traco vermelho: Representa o local mais indicado para
+posicionar a ordem de entrada.
++ Topo, base (fundo) e sombra do box negativo:
+Sombra
+Topo
+Base (Fundo )
+---
+TIMING DE ENTRADA - ETAPA 1
+
+Importante:
+
+Uma Etapa 1 dentro de um cenrio ser sempre mais segura do que uma
+Etapa 1 isolada.
+
+Como assim?
+
+Foque em realizar Etapas 1 que estejam dentro dos cenrios de PPM ou
+MM.
+
+Exemplo: Qual das operaces  mais segura? Opgo 1 ou Opgao 2?
+---
+ri at,
+E Lat an
+=
+y
+---
+TIMING DE ENTRADA - ETAPA 1
+
+Resposta: A Opco 2  mais segura, pois representa uma entrada de Etapa 1
+dentro de um CENRIO de MAP com MAP (MM), enquanto a Opgo 1  uma
+baixa em um movimento isolado.
+
+Essa informaco  valiosa porque ela ajuda a escolher a entrada correta. O
+segredo de um trade certo est no cenrio.
+
+Por exemplo:
+
+No exemplo abaixo, o cenrio  claramente de Progresso de Prego em
+MAP na compra. Nesse caso, vendas ficam fora de contexto e acabam se
+tornando movimentos curtos.
+
+Alm disso, o ltimo movimento de venda (indicado com duas setas verdes)
+apresentava a The_Wall na cor verde, o que  mais um indicador de
+seguranga, mostrando que ainda nao h possibilidades seguras de venda.
+Ou seja, no exemplo abaixo, seria muito mais inteligente e seguro realizar
+uma Etapa 1 na compra do que na venda, pois o CENRIO  de Progresso
+de Preco em MAP na compra.
+---
+yd
+
+ns
+it \
+; ee Lo
+SN pei
+e ul bil aS
+OT
+---
+TIMING DE ENTRADA - ETAPA 1
+Para trades em Etapa 1 vendedora, onde posicionar o STOP?
+O STOP deve ser posicionado acima do ltimo topo formado. Isso porque,
+ao iniciar um ciclo vendedor, o mercado deixar um topo, e o STOP deve ser
+posicionado logo atrs desse ltimo topo.
+Exemplo:
+Operaco exemplar em um trade com Progresso de Preco em MAP
+vendendo em Etapa 1.
+HITO
+of a
+Wa
+Vg Da
+S AS Sal
+PY Y y wha
+VIM emit
+Vy Y ye al
+Y / 4
+Y Y,
+/,
+Y
+---
+Posicionamento do STOP:
+O STOP ser colocado no ltimo topo formado a partir do ltimo ciclo
+vendedor.
+
+> Ey LA a |
+
+E CA T
+al Y 'n al 0
+Wf 2
+OO, alt
+Mi, im)
+---
+~
+A SY
+L-
+---
+TIMING DE ENTRADA - ETAPA 1
+
+E se eu quiser deixar um STOP um pouco maior? Qual  o limite mximo
+para o STOP?
+
+O limite mximo  1 box positivo acima desse topo. Isso ocorre porque, se o
+ltimo topo for rompido e ainda fechar 1 box positivo acima, o FPLEME
+certamente estar na cor verde, rompendo o nvel 0,00  ou, possivelmente,
+j rompendo o nvel +4,00.
+
+Essas condigdes DESCARACTERIZAM a Etapa 1.
+
+Lembre-se: O motivo que te fez entrar deve ser o mesmo motivo que te faz
+sair.
+
+Se voc entrou porque a Etapa 1 ocorre quando o FPLEME sai do +4,00 e
+atinge o nvel 0,00, ento, se o movimento se inverter, no faz mais sentido
+permanecer na operaco.
+---
+Exemplo de limite mximo de STOP.
+IRTE
+, of Oo 0 i
+De net
+wat L %, al :
+ae 3) 1
+: ul
+___ E
+a
+A |
+---
+Reforgo: Por isso,  importante NAO vender na base do Renko, mas sim no
+topo do box anterior. Essa estratgia planejada reduz o tamanho do seu
+STOP. Veja:
+Vendendo na base (fundo).
+E AE A
+Uf +
+---
+Vendendo na base (fundo).
+Ey < m1 }
+gl a i
+ET
+=
+---
+TIMING DE ENTRADA - ETAPA 1
+Aguardando e vendendo no topo do negativo anterior:
+y y
+0
+---
+---
+TIMING DE ENTRADA - ETAPA 1
+
+Estudar os conceitos de Etapa 1 e suas aplicages  fundamental para
+refinar suas entradas no mercado. Quanto mais voc praticar esses
+conceitos em replays e aplic-los em diferentes ativos, maior ser sua
+compreenso das nuances e dinmicas de cada cenrio.
+
+Os replays permitem que voc observe o comportamento do mercado em
+detalhes, sem a presso do tempo real, enquanto a prtica em ativos
+variados amplia sua viso e te ajuda a identificar padres recorrentes.
+Lembre-se: consistncia vem da prtica e da repetigo consciente. Quanto
+mais voc dominar essas ferramentas e estratgias, mais preparado estar
+para operar com confianga e tomar decises seguras.
+
+Agora  hora de colocar o aprendizado em aco! Bons estudos#
+# FOLDER: captura_etapa_2 (count=33)
+---
+HI MARA _______
+A VIO
+FPLEMESE
+
+TIMING DE ENTRADA - ETAPA 2
+
+Etapa2
+
+AEtapa 2  uma estratgia de timing de mercado que pode ser identificada
+por meio da ferramenta FPLEME. Seu objetivo $ permitir uma entrada aps
+inicio de um novo ciclo de mercado. Ou seje, se voce no conseguis
+entrar na Etapa 1 ou prefere operar com mais confirmaces antes de tomar
+uma deciso, a Etapa 2 pode ser uma excelente altemativa
+
+Talvez voc esteja se perguntando: Se essa etapa ocorre depois da Etapa 1
+ela no seria uma entrada "atrasada"?
+
+Ns tambm j pensamos assim. No entanto, com o tempo e estudos mais
+aprofundados, percebemos que essa ideia ndo se sustenta. Na verdade, a
+Etapa 2 pode ser uma tima estratgia desde que aplicada no contexto
+certo,
+
+Nesta aula, vamos explorar em detalhes como funciona a Etapa 2e quals
+880 08 cenrios mais favorvels para utlza,
+---
+Etapa 2
+A Etapa 2  uma estratgia de timing de mercado que pode ser identificada
+por meio da ferramenta FPLEME. Seu objetivo  permitir uma entrada aps
+0 incio de um novo ciclo de mercado. Ou seja, se voc no conseguiu
+entrar na Etapa 1 ou prefere operar com mais confirmages antes de tomar
+uma deciso, a Etapa 2 pode ser uma excelente alternativa
+Talvez voc esteja se perguntando: Se essa etapa ocorre depois da Etapa 1,
+ela nao seria uma entrada "atrasada"?
+Ns tambm j pensamos assim. No entanto, com o tempo e estudos mais
+aprofundados, percebemos que essa ideia no se sustenta. Na verdade, a
+Etapa 2 pode ser uma tima estratgia desde que aplicada no contexto
+certo.
+Nesta aula, vamos explorar em detalhes como funciona a Etapa 2 e quais
+so os cenrios mais favorveis para utiliz-la
+Visualizago:
++ Etapa 2 Compradora: A Etapa 2 Compradora ocorre quando a
+ferramenta sai do nivel 4,00 (j positivo) e consegue fechar um box que
+faz a linha do FPLEME alcangar o nivel 8,00.
+12,00
+<a
+IE
+y 4,00
+8,00
+-12,00
+---
+Alm dessa condigo, um complemento importante para a leitura : para
+ser considerada Etapa 2 Compradora, o Shark tambm deve estar azul. Na
+maioria das vezes, quando o mercado estiver em Etapa 2 Compradora, o
+Shark j estar azul, mas  sempre bom conferir. Caso voc tenha entrado
+pela Etapa 2 e o Shark fique vermelho, isso serve como um atalho visual
+para avaliar a sada da operaco.
+12,00
+6,00
+iw
+H/ QU
+\ -2,00
+LAO
+- \ -6,00
+-- \ ? oe -8,00
+Observago:
+Os pontos e condiges apresentados aqui esto baseados na leitura do
+FPLEME com os parmetros originais, sem nenhuma alterago  ou seja,
+no "padro de fbrica", com XR desativado e Modo Rpido desligado (XR ->
+Nao e Modo Rpido -> Nao)
+---
+E Propiedades de strain
+ras valor
+or mn @ No
+RA
+"MODO. RAPIDO
+pera
+REE 010
+Imagem: XR -> Nao
+E Propriedades de Estrategia
+feats valor
+oF sm Ono
+Surco
+MODO RAPIDO
+reve
+Resin on 70
+Imagem: Modo Rapido-> Nao
+---
+Se voc nunca alterou essas configurages no seu FPLEME, pode ficar
+tranquilo, pois j estar configurado exatamente como nas representages
+apresentadas.
+
+Reforgando:
+
++ Existe Etapa 2 Compradora com o FPLEME indo do nvel 8,00 para o
+nivel 12,00?
+
+Resposta: Nao. Nesse caso, no se trata de uma Etapa, pois s pode ser
+considerada Etapa 2 quando o FPLEME sai do nivel 4,00 e vai para o nivel
+8,00.
+
++ Existe Etapa 2 Compradora com o FPLEME indo do nivel 0,00 para o
+nivel 4,002
+
+Resposta: Nao. Da mesma forma, nao se trata de uma Etapa, pois s pode
+ser considerada Etapa 2 quando o FPLEME sai do nivel 4,00 e vai para o
+nivel 8,00
+
+Posicionamento de Ordem na Etapa 2 de Compra
+
+Diferentemente da Etapa 1, em que sabemos que a confirmago ocorrer no
+segundo ou terceiro box positivo, a Etapa 2  mais difcil de prever com
+antecedncia. S conseguimos identific-la no momento em que, de fato,
+acontece.
+
+Assim como na Etapa 1, NUNCA compramos no fechamento do box. O que
+devemos fazer  identificar que houve uma Etapa 2, planejar a entrada no
+trade e posicionar a ordem de forma estratgica.
+
+Veja o passo a passo no exemplo:
+---
+1 - Etapa 2 identificada:
+o 6.308,24
+rer
+vo
+2
+i 2% 205,00
+af 265.37
+ht o
+
+EA
+ie cat 6.268,50
+. = atte
+ew 6.257,00
+359,52
+_ 16.233,00
+_ 16.225,00
+-o~x
+
+1800
+
+/ 1200
+Bono]
+
+fe ad
+Bao]
+
+00
+
+600
+
+an
+
+1200
+
+. 18,00
+---
+2 - Se voc est pensando em compra NUNCA deve comprar no topo do
+box:
+caos
+ss 16.308,24
+MA ey
+roo
+
+Pu ait seo
+
+Y a
+
+ft
+
+recs
+oat tat EA
+ee el iis
+y yi | 625700
+__ 6225.00
+=ax
+
+pa
+
+7 a =e
+<a
+
+7 6,00
+
+50.00 |
+
+oy
+7
+ES
+cape
+---
+3 - Ento se posicione o mais prximo possivel da base do box positivo
+anterior.
+LO
+a 6.30824
+a
+7 am '6.296,81
+1 2% 628900
+4 6.28537
++  Fy  enti
+biel coa
+Q U 6.268,50
+1626249.
+625700
+6.251.06
+6.239,52
+623300
+622018
+6225.00
+Sar
+1800
+1290
+cm
+600
+51.00]
+A
+-4,00
+6,00
+8,00
+12,00
+---
+TIMING DE ENTRADA - ETAPA 2
+Legenda:
++ Trago verde: indica o local mais recomendado para posicionar a ordem
+de entrada.
++ Topo, base e sombra do box positivo:
+Topo
+Base
+---
+Novo exemplo.
+1* - Etapa 2 identificada:
+333.23
+cam
+rm
+Ll
+a (6.289,17
+y PALIO 252057
+Ay a
+621540
+6.19600
+sx70
+-oOx
+1800
+2200
+ee a De
+400
+L am
+00
+ext
+1200
+---
+1 - Etapa 2 identificada
+CERA
+A
+4 y UY" 6.296,50
+ar (6.289,17
+5 LO 52597
+Po NI ow
+625205"
+6.13600
+37700
+-ax
+y
+pA ra
+400
+---
+2 - Se voc est pensando na compra NUNCA deve comprar no topo do
+box:
+ui
+wt, 0 0
+! Ah EY]
+O
+=
+---
+3 - Ento se posicione o mais prximo possvel da base do box positivo
+anterior:
+---
+Segunda opgo de Timing de mercado para Etapa 2
+Existe uma alternativa de Timing de mercado na Etapa 2 com um estilo
+operacional um pouco menos conservador, chamada de Etapa 2.2.
+Em momentos de maior volatilidade, especialmente em ativos naturalmente
+mais volteis, como o Nasdaq, pode fazer sentido aplicar o Timing da Etapa
+2.2.
+Essa segunda opgo consiste em se posicionar na base do prprio box que
+confirmou a Etapa 2, em vez de se posicionar na base do box anterior.
+Exemplo: ES
+pd i
+1 - Etapa 2 identificada -  yA Y
+ty =
+yl
+pa
+laren
+TAS
+cat it
+A i lita: 7
+---
+At este momento, nada mudou, pois a identificago da Etapa 2 continua a
+mesma: ocorre quando o FPLEME sai do nivel 4,00 e alcanca o nivel 8,00.
+2 - Se voc est pensando na compra NUNCA deve comprar no topo do
+box:
+HP
+== ee mm
+1) oT
+100 mA
+i =P
+0
+ais?
+So LA o
+al Ul [hen
+pre y y
+---
+3 - Ento se posicione o mais prximo possvel da base do prprio box
+positivo que confirmou a Etapa 2:
+sit
+Y,
+ie!
+ues | Y
+il
+yg
+Ml 5 i  tf
+Dn ~ _
+Pins ;
+an Y
+0
+y i
+sills aati mile
+| NT;
+rre A AN ARTS
+iii |
+---
+At este momento, nada mudou, pois, independentemente da opgo, voc
+nunca deve comprar no topo do box.
+3 - Ento se posicione o mais prximo possivel da base do prprio box
+positivo que confirmou a Etapa 2:
+il
+Y,
+ie!
+ues | Y
+; nal
+yg
+uh = +}
+Th o
+ty if Sa
+a YA
+AR
+aT
+| NT; 5
+rre A AN ARTS
+BL Ly
+---
+Importante: Uma Etapa 2 dentro de um cenrio sempre ser mais segura do
+que uma Etapa 2 isolada. Mas o que isso significa?
+Priorize operar a Etapa 2 quando ela estiver dentro dos cenrios de PPM ou
+MM, desde que o prego j tenha rompido a The_Wall dentro desse cenrio. O
+ideal  que a The_Wall esteja na cor da tendncia que voc deseja seguir.
+Exemplo: Qual das operages  mais segura? Op. 1 ou Op. 2?
+Ap
+yy
+he
+Opa at ty
+it y i
+i ot
+A OA
+ES at
+rin
+int aye val hi ame
+---
+Resposta: A Op.2  mais segura do que a Op.1, pois representa uma entrada
+de Etapa 2 dentro de um cenrio de Progresso de Prego em MAP (PPM),
+enquanto a Op.1 ocorre em um movimento isolado qualquer.
+
+Essa informaco  valiosa, pois  essencial para escolher uma boa entrada.
+O segredo de um trade bem-sucedido est no cenrio.
+
+Veja novamente:
+
+Na Op.1, no havia um cenrio definido. Alm disso, o prego ainda no tinha
+rompido a The_Wall, o que significa que ela no poderia estar verde para
+complementar a leitura. Tambm no existia uma Progresso de Prego em
+MAP favorvel  compra. A]
+---
+Na Op.2, h uma maior probabilidade de continuidade do movimento. Isso
+nao  um setup e no significa que sempre funcionar exatamente dessa
+forma.
+No entanto,  um excelente filtro, ajudando-nos a buscar trades com uma
+frequncia consistente e uma boa taxa de acerto, o que contribui para um
+bom gerenciamento de risco. A maioria das vezes em que buscamos a
+Etapa 2  porque temos um perfil voltado para trades de tendncia, dentro
+de uma leitura mais conservadora. Por isso,  essencial que o cenrio esteja
+alinhado com nossa perspectiva de timing de mercado.
+m
+4 ;
+
+_ 7 i
+
+= -
+
+Moro
+
+PPM
+lll Ii
+---
+Considerago:  importante ter cautela ao operar em Etapa 2 de compra em
+regides de sobreprego. Isso porque, nessas reas, as tendncias podem
+desacelerar e at encontrar obstculos que podem interromper o
+movimento.
+Como posicionar o Stop em Trades de Etapa 2?
+Para trades em Etapa 2 compradora, independentemente de voc escolher
+entrar no timing de mercado usando o modelo clssico de Etapa 2 ou o
+timing da Etapa 2.2, o stop deve ser posicionado na base de dois corpos de
+boxes positivos anteriores.
+Exemplo com Timing de Etapa 2 *clssico" (quando se posiciona na base do
+box anterior ao box que confirmou a Etapa 2), fazendo a contagem a partir
+do melhor ponto de entrada. z at Musa
+aa
+Lp J we
+" Z sal
+iy A
+trea Tadda cisosica, mal
+py ote y Oy CB
+= ~~" al
+ml
+=0x
+Etapa 2 confirmada mo
+ae Boss]
+A
+---
+O mesmo exemplo, mas agora com Timing de etapa 2.2 (se posicionando
+na base do prprio box que fez a confirmago da Etapa 2), fazendo a
+contagem a partir do ponto do melhor ponto de entrada.
+9 7.
+y
+F 127.810 |
+I! fo 127.673
+1
+Fu 127.439
+Lil 5 127.288 |
+wat aa
+ue A penny e
+ala Y A
+oe oF
+126.459
+12630 |
+| e
+<A
+ey
+rr 000 |
+B -8,00_ |
+---
+Repare nas imagens anteriores que a regra para o stop no mudou. Ele
+sempre ser posicionado na base de dois corpos de boxes positivos
+anteriores.
+Considerages: Tambm  possivel posicionar o STOP contando dois boxes
+anteriores + 1 tick (tick  a variago minima do ativo. Por exemplo, no ndice,
+que se move em incrementos de 5 pontos, o tick do ndice  5).
+Exemplo STOP 2 box + 1 tick:
+hi Jamal
+ft 1907
+y ren
+dy |
+A] a |
+pa rada 24
+N a
+rere Sopas
+AS
+
+ES
+Etapa 2 confirmada 100
+---
+Essa cpgo  usada por algumas pessoas, pois o segundo box contrrio
+posigo s fechar negativo se ultrapassar a mnima do segundo box
+positivo + 1 tick.
+Curiosidade:
++ 1 tick no dlar  0,50
++ 1 tick no Nasdaq  0,25
++ 1 tick no Ouro  0,10
+Agora, vamos analisar a Etapa 2 vendedora:
+Para a Etapa 2 vendedora, aplicam-se exatamente os mesmos conceitos,
+mas agora considerando o lado vendedor da forga. Vamos revisar.
+Etapa 2 vendedora:  considerada uma Etapa 2 vendedora quando a
+ferramenta sai da linha de -4,00 (j4 negativa) e consegue fechar um box que
+faz a linha do FPLEME alcangar o nvel -8,00.
+500 |
+6,00
+4 =- 0.00]
+-4,00
+-6,00
+-8,00
+-12,00
+---
+Alm da condigo anterior, um complemento para a leitura : para ser
+considerada uma etapa 2 vendedora, o Shark tambm deve estar vermelho.
+Praticamente todas as vezes que o mercado estiver em etapa 2 vendedora,
+o Shark estar vermelho. No entanto,  sempre bom conferir. Caso voc
+tenha entrado na operago por etapa 2 e o Shark fique azul, isso  um atalho
+visual para voc sair da operago.
+12,00
+6,00
+\ \
+\ \
+[e
+MEA, -5,00
+/
+-12,00
+Posicionamento de Ordem em Etapa 2 de Venda:
+Diferentemente da Etapa 1, em que sabemos que a confirmago ocorre no
+segundo ou terceiro box negativo, a Etapa 2  mais difcil de prever com
+antecedncia. Ou seja, s saberemos que estamos em Etapa 2 quando ela
+de fato acontecer.
+Assim como na Etapa 1, NUNCA vamos vender no fechamento do box. O
+que devemos fazer : visualizar que a Etapa 2 ocorreu e planejar nossa
+entrada no trade, pendurando a ordem. Veja o passo a passo no exemplo:
+---
+1 - Etapa 2 identificada:
+of of wah) rh 0 "Oy gf! ol
+ie >
+L~ _
+---
+2 - Se voc est pensando na venda NUNCA deve vender no fundo(base)
+do box:
+AAA 127.475
+Nang ee
+A
+l
+~O  126.864
+o Co, rs, PEA
+tit E 3
+ate y un A o
+Ea
+126.235
+BE 125.522 |
+-oOx
+12,00
+6,00
+A _
+0,00
+-6,00
+-12,00
+---
+30 - Ento se posicione o mais prximo possivel do topo do box negativo
+anterior:
+oe
+. 127.475
+
+ees
+127.096 |
+a 126.960
+Y Oo U 126.864
+af i aol oo ut
+Ut onto],
+to. 4 E
+aly y 04 Y Toe
+4 ,
+eno 126.375
+126.235
+i 125.622 |
+-ox
+12,00
+6,00
+= > 50
+aa
+-4,00
+6,00
+. .
+-12,00
+---
+4? - Em relago ao STOP, ele deve ser posicionado no topo de dois corpos
+de box negativos anteriores, contando a partir do melhor ponto de entrada.
+127.887
+127.788
+- = 127.475
+as, 127.375 |
+, uo
+4 126.946
+Thy  126.864
+pol oo u d
+! ae! toa? Sol
+ae if la: Oo eae
+be aig
+Rt 1126375
+126.235
+He 125.622 |
+ES
+12,00
+6,00
+a  0,00
+6,00
+-12/00
+---
+5 - E como ficariam a entrada e o posicionamento do STOP na opgo de
+Etapa 2.2?
+Dica: A diferenga  que a entrada ocorre no topo do prprio box negativo
+que confirmou a Etapa 2, enquanto o STOP deve ser posicionado no topo de
+dois corpos de box negativos anteriores, contando a partir do melhor ponto
+de entrada.
+Exemplo:
+zz
+=_
+gti
+of of A aOR No, Ped
+A sl Oo Tone
+in Oo gt
+<a
+<<
+DO mA A a
+"6,00
+<<
+---
+Considerages: Tambm  possivel utilizar o STOP considerando dois
+boxes negativos anteriores + 1 tick.
+Legenda:
+
++ Sobre o trago vermelho: O trago vermelho indica o local mais adequado
+
+para posicionar a ordem de entrada.
++ Sobre o que  topo, base (fundo) e sombra do box negativo:
+Sombra
+Topo
+Base ( Fundo )
+---
+Importante: Uma Etapa 2 dentro de um cenrio sempre ser mais segura do
+que uma Etapa 2 isolada. Mas por qu?
+Priorize realizar as Etapas 2 dentro dos cenrios de PPM ou MM, desde que
+o prego j tenha rompido a The_wall dentro desse cenrio. O ideal  que a
+The_wall esteja na cor da tendncia que voc deseja operar.
+Exemplo: Qual das operaces  mais segura? Op. 1 ou Op. 2?
+a poet A
+A, tt Op.
+"m AS
+Toate Hal |
+eg
+ws
+TENS
+---
+A Op. 2  mais segura, pois j est dentro de um cenrio PPM, com o prego
+abaixo da The_wall e com a The_wall na cor correspondente ao cenrio de
+venda.
+
+Concluso: Em resumo, a Etapa 2 pode ser uma excelente oportunidade
+dentro de um cenrio bem estruturado, desde que respeite os critrios de
+confirmagao e alinhamento com a tendncia. O segredo est em utilizar os
+filtros corretos, evitar operages isoladas e sempre priorizar a seguranga na
+entrada. Com esse conhecimento, voc ter mais clareza para tomar
+decisdes estratgicas e melhorar sua performance no mercado.
+# FOLDER: captura_fpleme (count=17)
+---
+CORES, NOMENCLATURA E USABILIDADE
+FPLEMES?
+---
+FPLEME $C2
+A ferramenta FPLEME  capaz de ler o fluxo de mercado e transformdo
+em ciclos. Essa funcionalidade permite identificar o inicio e o fim de cada
+movimento, proporcionando um melhor gerenciamento de risco e maior
+seguranga na escolha de trades.
+Compreendendo Niveis, Linhas e Post-its
+Niveis (Etiquetas)
+Na ferramenta FPLEME, existem alguns niveis destacados no lado direito,
+identificados por "etiquetas'
++ +4,00: destacado em verde (imagem 1)
++ -4,00: destacado em vermelho (imagem 1)
++ 0,00: destacado em branco (imagem 2)
++ +8,00 e-8,00: destacados em cinza (imagem 2)
+20
+<a
+600
+ml
+A 0,00
+| +0
+00
+<r}
+1200
+---
+FPLEME $C2: CORES E NOMENCLATURA
+20
+Eal
+600
+\ B 400 |
+Y [ca]
+| =
+-6,00
+o [EM
+20
+Imagem 2
+Linhas
+A ferramenta possui duas linhas principais:
+1.Linha do FPLEME (linha mais fina)
++ Quanto mais alta, maior a forca de compra
++ Quanto mais baixa, maior a forga de venda.
+---
+1.Linha do FPLEME (linha mais fina)
+
++ Quanto mais alta, maior a forca de compra
++ Quanto mais baixa, maior a forca de venda.
+
+58,00
+
+A
+
+RS aso
+58.00
+12,00
+---
+FPLEME $C2: CORES E NOMENCLATURA
+Linha do SHARK (linha mais espessa)
++ Funciona da mesma forma: quanto mais alta, maior a forga de compra, e
+quanto mais baixa, maior a forga de venda.
+2200
+<C|
+N \ B33 _|
+- fom. - ca |
+<<
+Essas duas linhas eram ferramentas separadas no passado, mas
+atualmente so complementares e aparecem juntas no grfico.
+---
+Post-its (Marcages)
+Nas linhas +4,00 e -4,00, existem pequenos retngulos chamados Postits,
+que acompanham a trajetria da Linha do FPLEME.
++ Cores:
+Verde claro (opaco) e verde destacado.
+Vermelho claro (opaco) e vermelho destacado.
+Y y a 1 t =
+---
+FPLEME SC2: CORES E NOMENCLATURA
+A Atengo: Um Postiit, por si s, no  um set-up de entrada ou sada. Sua
+funcionalidade ser explicada parcialmente neste mdulo e aprofundada
+nos mdulos seguintes.
+Post-its na Linha do SHARK
+Os Postits amarelos, presentes na Linha do SHARK, indicam equilibrio e
+possibilitam antecipar uma possvel mudanga de ciclo. Contudo, essa
+mudanga s pode ser confirmada pela coloraco da linha
+
+c=
+A Atengo: Assim como na Linha do FPLEME, os Post:its do SHARK nao
+devem ser usados de forma isolada
+---
+FPLEME SC2: USABILIDADE
+A importncia da ferramenta frente ao ciclo de prego
+O FPLEME  essencial porque observar apenas se o box do Renko  positivo
+ou negativo nao  suficiente para determinar a dirego do mercado. Ele
+ajuda a identificar o incio de grandes movimentos, tornando o uso mais
+eficaz.
+Mudanga de cor da Linha do FPLEME:
++ De verde para vermelho: ocorre quando a linha cruza o nivel +4,00 e
+chega no 0,00.
++ De vermelho para verde: ocorre quando a linha cruza o nivel -4,00 e
+chega no 0,00.
+---
+o a EU e a sa me SS
+
+<r HA =
+Nessa imagem fica bem fcil de visualizar que os niveis +4,00 e -4,00 so os
+niveis onde a linha do FPLEME muda de cor:
+---
+Nessa imagem fica bem fcil de visualizar que os niveis +4,00 e -4,00 sao os
+nveis onde a linha do FPLEME muda de cor.
+AR E A x
+eee
+e le ad > a
+FEES E
+~ of ~ .
+---
+FPLEME SC2: USABILIDADE
+Os Postits nos niveis +4,00 e -4,00 so atalhos visuais que mostram que a
+ferramenta mudou de cor e tocou o nivel 0,00, representando o que
+chamamos de ETAPA 1
+- g- =
+a =
+ETAPA1
+A Etapa 1 marca o inicio de um possivel ciclo comprador ou vendedor.
+A Atengo: O Postit isolado nao  um set-up. Sua interpretago deve ser
+feita em conjunto com outros fatores, explicados parcialmente neste
+mdulo e detalhados nos prximos.
+Concluso sobre os niveis do FPLEME
+1.Se o FPLEME estiver nos nveis -12,00 ou -8,00, ainda no  possivel
+iniciar um ciclo comprador. Isso s acontece no nivel -4,00.
+2.Se o FPLEME estiver nos nveis +12,00 ou +8,00, ainda no  possivel
+iniciar um ciclo vendedor. Isso s acontece no nivel +4,00.
+Alm disso, quando h muita forga direcional, a Linha do FPLEME se torna
+mais espessa, reforgando a intensidade da forga.
+---
+En om
+ie ral =
+EA a 2
+eE Se 1
+A APN P i
+py
+Linha do Shark
+A Linha do SHARK l os mesmos dados que a Linha do FPLEME, mas
+confirma a mudanga de ciclo no mercado. Ela indica se o mercado est em
+um ciclo comprador ou vendedor.
+_ cm
+MAS
+on
+=
+<a
+---
+FPLEME SC2: USABILIDADI
+Post-its amarelos
+Os Postits amarelos na Linha do SHARK representam equilibrio e podem
+antecipar uma mudanga de ciclo. Contudo, essa mudanga s  confirmada
+pela coloraco da linha
+o .00
+A Nota sobre ativos volteis (ex.: Nasdaq):
+Em ativos muito volteis, o ciclo pode mudar de cor antes que o Postit
+indique isso. Nesse caso, o mais importante  a cor da linha, que mostra se
+o ciclo  comprador ou vendedor.
+Colorago na plataforma Ninja Trader
+Na plataforma Ninja Trader:
+* Ciclo comprador  representado pela cor azul (em vez de verde)
++ Ciclo vendedor  representado pela cor rosa (magenta/fcsia, em vez de
+vermelho)
+---
+7
+a tl ae CA tia
+SALSA
+FPLEME na plataforma Ninja Trader
+Comparativo de ciclos de forga
+O comparativo ser essencial para a montagem de cenrios:
+1.Divergncia: analisada no cenrio de comparativo de MAP com MAP
+(MM)
+ND) P PM pl
+/ =
+---
+FPLEME SC2: USABILIDADE
+2. Convergncia: analisada no cenrio de progresso do prego em MAP
+(PPM)
+er SI
+i <a
+ma
+aa
+a
+Convergncia Se
+_ <a
+OS EN
+\ ry Y L om
+L L an |
+LA oe |
+---
+FPLEME SC2: USABILIDADE
+Melhor momento para um trade
+==:
+
+pro :
+
+y PT $
+NOt OE
+O melhor momento  quando h inicio de ciclo em ETAPA 1:
+
++ Niveis +4,00 confirmando o nivel 0,00.
+
++ Niveis -4,00 confirmando o nivel 0,00.
+Nessa condico, as Linhas do FPLEME e do SHARK tero coloraces
+alinhadas, representando a forga do mercado. Esse alinhamento aumenta
+as chances de movimentos fluidos.
+---
+
+AA _ o
+art
+A
+0 PI od
+Nu
+Movimentos lateralizados
+Quando o FPLEME e o SHARK no possuem coloraces alinhadas, os
+movimentos tendem a ser lateralizados. Isso ocorre devido ao
+desalinhamento das forgas no mercado.
+A Atengo: Esse conceito nao  um set-up e no deve ser usado de forma
+isolada. Ele deve ser combinado com a construgo de cenrios, o que ser
+abordado no prximo mdulo.
+# FOLDER: captura_maps (count=20)
+---
+CORES, NOMENCLATURA E USABILIDADE
+FPLEMES?
+---
+MAPS: FUNCIONALIDADE.
+O mapeamento tem como principal fungo trazer um planejamento
+estratgico para o trade. A base de qualquer operacional no mercado
+financeiro se resume em: continuidade do movimento de tendncia,
+descontinuidade do movimento de tendncia e consolidago (tambm
+chamada de congesto ou lateralizago)
+Sem o mapeamento, no entanto, algumas perguntas ficam sem resposta,
+como:
+
++ Como identificar onde os movimentos podem ocorrer?
+
++ Onde as tendncias podem comegar ou terminar?
+
++ Onde h posibilidades de consolidago?
+
++ O que  considerado um prego justo para o mercado?
+
++ Quanto  um prego caro? E quanto  um prego barato?
+Todas essas questes, relacionadas aos efeitos do prego e ao
+comportamento da oferta e demanda, podem ser respondidas, antecipadas
+ou, no mnimo, probabilizadas por meio do mapeamento,
+ONDE ESTAMOS E QUAIS SAO OS CAMINHOS?
+Pode soar meio clich, mas se voc nao sabe onde quer chegar, qualquer
+caminho serve!
+E  isso que o mapeamento ativo busca responder!
+---
+O io de esto de sobrepreco YP preso de equitro- Map O
+em das muito volteis (cautela)
+@ indicativo de regio de subprego O regio intermediria do prego
+em das muito volteis (cautela)
+indicativo de regio de sub prego
+abaixo da maps e de sobre prego
+(> regido de consolidago acima da maps
+---
+[>]
+=]
+=]
+o
+oe AT 5
+E Aa AS
+ag at 7 mares:
+a ea Roy +
+y t= a
+take! o
+pa o
+Jl o
+o
+lo
+lo
+lo
+(ESD = Prego Justo
+Acima da (MABIO) nomeamos as linhas por 81, $2, $3 e S4_
+Abaixo da (389) nomeamos as linhas port , i2 , 3 e ia:
+As linhas (S5, ($6), (87), (S8
+e; (18), (18), e (18: s aparecem quando o mercado est muito voltil
+---
+MAPS: NOMENCLATURA - REFORCANDO O CONCEITO
+Vamos chamar a linha pontilhada central, que fica nas cores azul e laranja, de MAP-
+0.
+Aslinhas acima, vamos chamar de linhas superiores com o prefixo"s e como
+numeral na frente -
+Logo, a primeira linha acima da MAP-0 se chama s1, a seguinte 2, e assim
+por diante at
+Para as linhas a baixo da MAP-0, vale o mesmo raciocnio, porm so as linhas
+inferiores e vamos usar o prefixo
+Desta forma, a primeira linha abaixo da MAP-0 se chama il, 2, e assim
+sucessivamente at,
+2 sama
+gees
+- a Hl fu 525351
+uf il : 5
+A os, . yo =>
+" tt ig" Y, i it iy at E
+j ibe J
+Mh a Y, <a
+= if i ian <=
+Mo
+% mi 10020
+ij
+---
++ Range:
+Os Ranges so representados por essas linhas mais espessas no
+Mapeamento. Essas linhas delimitam a distancia entre o movimento da
+mnima e da mxima do ativo. Essa amplitude, na anlise tradicional,
+chamada de Range. Por isso, essas linhas receberam esse nome, pois
+definem os limites da variago do ativo, ou seja, delimitam sua amplitude.
+Essas linhas servem como pontos de atengo e so usadas como
+referncia de suporte e resistncia. No exemplo apresentado,  possivel
+observar que, praticamente todas as vezes em que o prego alcangou uma
+linha do Range, ele parou e inverteu sua dirego. No entanto, vale destacar
+que essa imagem  apenas um exemplo para facilitar a compreenso e no
+representa um Setup. Isso significa que, embora o Range seja um ponto de
+atenco, no h garantia de que o prego v reverter sempre que toc-lo.
+Essa dinmica ocorre porque o Range est diretamente relacionado
+volatilidade do ativo. Se houver uma mudanga abrupta na volatilidade, o
+mercado precisar ajustar o Range novamente.
+---
++ Problines:
+
+a a
+(( LL
+(  ae
+S A
+
+E esperado que um ativo no ultrapasse facilmente a S4, assim como
+tambm  esperado que ele no ultrapasse a 14.
+Quando isso pode acontecer? Novamente, a resposta : apenas quando o
+ativo passar por uma mudanca abrupta de volatilidade
+Antes mesmo de o Hertz alterar seu nmero, as Problines j estaro
+presentes para indicar, com base na probabilidade, quais sero as
+prximas linhas fortes no mapeamento, caso o prego ultrapasse a S4 ou a
+14,
+As Problines sempre aparecero em pares: comegando com S4 e S5
+(representadas na imagem com setas amarelas). Se a volatilidade
+continuar aumentando, as prximas linhas sero $5 e S6 (representadas
+com setas verdes), e, em seguida, S6 e S7 (representadas com setas
+brancas), podendo chegar at S7 e S8. O mesmo padro ocorre na regio
+inferior do mapeamento: 14 e 15, 15 e 16, 16 e17, e17 e 8.
+---
+MAPS: FUNCOES INTELIGENTES DO MAPEAMENTO
+Interpretago: A interpretaco deve ser: se as Problines esto ativas, isso
+indica uma probabilidade de que o prego alcance essas linhas. Portanto,
+necessrio cautela. Nao antecipe uma venda na S4 ou na 14, pois o extremo
+est mais distante.
+Observaco: Caso a Probline seja ativada, mas o prego no atinja essas
+linhas, isso no significa que ela "errou. Isso apenas indica que ela
+apresentou uma probabilidade, mas o mercado no conseguiu alcangar os
+niveis. Esse comportamento pode, inclusive, indicar que o mercado est
+perdendo forca naquela dirego. Porm, esse aspecto ser analisado com
+maior profundidade no mdulo operacional de cenrios.
+
++ Linha de Compradores e Vendedores ( Pullback_lines ):
+
+e
+it rs Y
+A AS
+SEL (7
+---
+MAPS: FUNGOES INTELIGENTES DO MAPEAMENTO
+
+As linhas dos compradores so representadas na cor verde, enquanto as
+linhas dos vendedores so representadas na cor vermelha. Assim como a
+linha de range, essas linhas funcionam como um atalho visual para
+identificar pontos de atengo no grfico.
+
+Esses niveis indicam onde h interese do mercado. No entanto, para que
+essa informagao seja utilizada de forma operacional, ela deve ser analisada
+dentro de uma construgo de cenrio, nao de forma isolada.
+
+Embora saibamos que nesses niveis existe compradores e vendedores,
+no  possivel determinar se eles iro atuar. Essa confirmago s pode ser
+feita utilizando a ferramenta FPLEME, que mede a atuago dessas forgas no
+mercado.
+
+Portanto, essas linhas no devem ser usadas isoladamente. Alm disso,
+para iniciantes, recomendo ocult-las inicialmente para evitar confuses
+com os outros atalhos visuais.
+---
++ The_Wall (O muro)
+---
++ The_Wall (O muro)
+---
+MAPS: FUNCOES INTELIGENTES DO MAPEAMENTO
+As linhas dos compradores so representadas na cor verde, enquanto as
+linhas dos vendedores so representadas na cor vermelha. Assim como a
+linha de range, essas linhas funcionam como um atalho visual para
+identificar pontos de atengao no grfico.
+Esses nveis indicam onde h interesse do mercado. No entanto, para que
+essa informaco seja utilizada de forma operacional, ela deve ser analisada
+dentro de uma construgo de cenrio, nao de forma isolada.
+Embora saibamos que nesses nveis existem compradores e vendedores,
+no  possvel determinar se eles iro atuar. Essa confirmago s pode ser
+feita utilizando a ferramenta FPLEME, que mede a atuago dessas forgas no
+mercado.
+Portanto, essas linhas no devem ser usadas isoladamente. Alm disso,
+para iniciantes, recomendo ocult-las inicialmente para evitar confuses
+com os outros atalhos visuais.
+
++ The_Wall (O muro)
+---
+MAPS: FUNCOES INTELIGENTES DO MAPEAMENTO
+A The_Wall tem o propsito de dividir: ou o prego est acima da The_Wall,
+ou est abaixo dela. Isso se torna mais evidente quando o mercado possui
+uma diregao clara.
+Caso o prego esteja "atravessando" a The_Wall, significa que o mercado
+est sem uma dirego definida, ou seja, em consolidago ou no final de uma
+tendncia.
+As cores da The_Wall tambm funcionam como um dispositivo de
+seguranca, ajudando a identificar a intensidade do mercado.
+
+a tT SS
+[ELA
+I
+---
+LEN,
+ZF
+---
+A Obs 2 NUN wy
+=f Y ie my tay ES ,
+fit Y A
+Interpretago das cores da The_Wall
++ Verde: Indica alta forga de compra. Nunca considere cenrios de venda
+enquanto a The_Wall estiver verde, pois isso significa ir contra a forga
+dominante do mercado.
+---
+MAPS: FUNCOES INTELIGENTES DO MAPEAMENTO
+
++ Rosa (magenta/fcsia): Indica alta fora de venda. Nunca considere
+cenrios de compra enquanto a The_Wall estiver rosa, pois isso tambm
+significa ir contra a forga dominante do mercado.
+
++ Amarela: Quando est na parte central do MAPA, a cor amarela indica
+lateralizagdo e equilibrio de forgas. Para identificar para qual lado o
+mercado poder seguir,  necessrio usar a ferramenta FPLEME e
+construir o cenrio correto. Quando aparece nos extremos, pode ser
+interpretada como uma possvel oportunidade de reverso.
+
+== ==
+=
+AAN = arm
+---
+NA A e  wae
+l - Va aI tate A EOS, fi
+1 | tit dl PAS E!
+4 # UR Ts
+Porm, The_Wall amarela nos extremos pode ser lido como oportunidade:
+---
+es Y ie
+A mh . PLAT
+
+x
+mn
+Observagao importante:
+No  porque o prego chegou ao extremo e a The_Wall ficou amarela que
+voc deve entrar em operaco imediatamente. Esse  apenas o incio de um
+cenrio de reverso e uma das condices necessrias. Como operar em
+cenrios especficos ser abordado com mais profundidade nos prximos
+mdulos.
+---
+---
+MAPS: FUNCOES INTELIGENTES DO MAPEAMENTO
+Consideraces e Aconselhamentos:
+
+A primeira vez que vi um MAPA criado pelo Ferno, minha reagao foi tentar
+"setupzar". Ou seja, eu acreditava que bastava vender em qualquer ponto ao
+chegar em uma regio de sobrepreco ou comprar em qualquer lugar ao
+alcangar uma regio de subpreco.
+
+Com o tempo e com a prtica, aprendi que no  assim que funciona. O
+MAPA  o destino,  a rota correta, mas as ferramentas quantitativas
+(FPLEME e VX) so fundamentais para conduzir esse caminho. O sucesso
+no trade est 80% relacionado ao MAPA, mas ainda h 20% a serem
+aprendidos, e esses 20% tambm so extremamente importantes.
+Portanto, no utilize o MAPA de forma isolada. Quando o prego alcangar
+uma regio estratgica, a construco de cenrios ser indispensvel para
+orientar suas decisdes.
+# FOLDER: captura_mm (count=19)
+---
+MM
+A  wp+map_ _____
+FPL=mME=S"
+---
+Anteriormente, fol destacada a importncia do cenrio de Progresso de
+
+Prego em MAP (PPM). Com esse cenrio,  possivel comprender para
+
+qual lado o mercado est demonstrando maior forca. O cenrio PPM.
+
+corre com muita frequncia.
+
+Agora, falaremos sobre o cenrio MAP com MAP (MM). Esse cenrio
+
+acontece com uma frequncia menor e ser utlizado apenas quando o
+
+cenrio PPM nao for aplicvel.
+
+Normalmente, os movimentos do cenrio MAP com MAP no so to
+
+expressivos quanto os do Progresso de Prego em MAP, pois costumam
+
+ocorrer em momentos de lateralizago do mercado. No entanto,
+
+importante ter conhecimento desse cenrio, pois ele ainda  vlido para
+
+uma compreenso completa do comportamento do mercado.
+
+No cenrio MAP com MAP, o comparativo  feito entre uma MAP e ela
+
+mesma. Por exemplo: MAP Central (MO) com a prpria MAP Central (MO),
+
+respeitando a mesma sequncia de ciclos.
+
+Portanto, toda anlise no cenrio MAP com MAP precisa seguir uma
+
+sequncia de ciclos e realizar os comparativos correspondentes. Veja o
+
+exemplo abaixo:
+
+Exemplo para venda
+
++ Ponto inicial: Escolha o lado que voc deseja analisar. Por exemplo, se
+
+o ativo est na MAP Central e ela est laranja, o foco ser analisar a
+forga de venda, pois o objetivo  vender.
+---
+1: Sempre  necessrio esperar por uma referncia, ou seja pelo menos um
+topo. Nesse topo de referncia, Shark precisa vrar vermelho, indicando o
+inicio do primeio ciclo vendedor.
+
+: ACA
+---
+2": Sempre  necessrio esperar a formaco de pelo menos um fundo, e o
+Shark precisa virar azul, indicando o inicio de um primeiro ciclo comprador.
+SY
+
+y '
+0 0
+AA
+---
+---
+MM
+
+4*: 0 segundo ciclo vendedor deve estar mais baixo do que o anterior.
+
+5: Para uma venda, o segundo ciclo vendedor deve estar na mesma MAP
+do ciclo de referncia. Por exemplo: MAP 0 com MAP 0, 11 com 11,12 com i2,
+ou at mesmo nas superiores, como s3 com s3, s2 com s2, etc.
+
+6: No momento da entrada da operago, a The_Wall deve estar lateral ou a
+favor do lado que voce deseja (amarela ou rosa).
+
+Anica diferenga entre o cenrio de Progresso de Prego em MAP (PPM) e o
+cenrio MAP com MAP (MM)  que, no MM, o prego no progride nas MAPS
+e continua retornando para a mesma MAP. Por esse motivo, ele  chamado
+de MAP com MAP.
+
+Conforme mencionado anteriormente, o cenrio MAP com MAP  mais
+fraco do que o cenrio Progresso de Prego em MAP. Isso pode ser
+facilmente observado na imagem abaixo, onde o movimento no PPM.
+avangou significativamente mais do que os dois movimentos no MM
+---
+===
+RSS o >
+Y
+Ja a |
+7  cml
+---
+Recomendaces:
+
+1 O cenrio MAP com MAP fica mais seguro quando a diferenga de
+
+inclinago entre os ciclos for mais evidente. Por exemplo:
+
+Esse caso no  recomendado poque os nveis dos ciclos esto iguais.
+
+ee yh
+
+As == MANOR
+
+A O
+AN
+
+s A
+---
++ Caso recomendado: Quando os nveis dos ciclos esto mais baixos.
+AA
+im | vil
+fi a ey TA 1
+AAA dl
+it y MN,
+LR tL
+5535
+(P50 7
+---
+2 O cenrio MAP com MAP vendedora  mais eficaz para movimentos a
+favor da tendncia, ou seja, da MAP O para baixo. Isso porque, ao tentar
+operar na regio de sobreprego, existe a possibilidade de o ativo ainda estar
+em uma rea de distribuigo, o que pode gerar uma certa dificuldade para
+que o movimento de queda ocorra. Para reverses,  mais seguro aguardar
+o cenrio de Progresso de Prego em MAP (PPM).
+Ento evite MAP com MAP no estremo:
+ZZ
+_ ts,
+LA SA
+
+Fat faks S170] VED om
+
++ L t +
+
+| 17
+
+l i t {\f >
+Esse exemplo mostra o prego indo ao extremo e destaca a dificuldade que o
+ativo apresenta para cair. Isso ocorre porque, alm das forgas nao estarem
+favorveis para a venda, a The Wall ainda est verde. Portanto, esse  um
+trade que no deve ser realizado na venda.
+---
+Exemplos em Compra:
+
+Ponto Inicial: Escolha o lado que voc deseja analisar. Por exemplo, se o
+
+ativo est na MAP central e ela est azul, eu quero analisar a forga de
+
+compra, pois estou interessado em comprar.
+
+1: Sempre  necessrio esperar ter uma referncia, ou seja, pelo menos um
+
+fundo, e nesse fundo de referncia o Shark deve virar azul, indicando o incio
+
+do primeiro ciclo comprador.
+ApS
+(} | 4
+---
+2: Sempre  necessrio esperar formar pelo menos um topo, e o Shark
+deve virar vermelho, mostrando o inicio do primeiro ciclo vendedor.
+
+Wi
+
+|
+---
+3: Prepare-se para entrar no segundo ciclo comprador.
+(
+a |
+AS
+---
+4: O segundo ciclo comprador deve estar mais alto do que o ciclo anterior.
+5: Para uma compra, o segundo ciclo comprador deve estar na mesma
+MAP do ciclo de referncia. Por exemplo: MAP 0 com MAP O, s1 com s1, s2
+com s2, ou at mesmo as inferiores, como 1 com i1, i2 com 12, etc.
+
+6: No momento de entrada na operago, a The_Wall deve estar lateral ou a
+favor do lado que voc deseja operar (Amarela ou Verde)
+---
+Recomendaces:
+1 O cenrio MAP com MAP  mais seguro quando a diferenga de
+inclinago entre os ciclos  mais evidente. Observe o exemplo abaixo.
+Esse caso no  recomendado poque os nveis dos ciclos esto iguais: y,
+
+AA
+
+>
+2
+DT T
+---
++ Caso recomendado: Quando os nveis dos ciclos esto mais altos:
+5
+A
+O PEA "Y
+| | Lar
+AN Y
+tM! Yt
+7
+AN |
+---
+2 O cenrio MAP com MAP compradora  mais eficiente para movimentos
+a favor da tendncia, ou seja, da MAP 0 para cima. Isso ocorre porque, ao
+tentar operar na regio de subprego, o ativo pode ainda estar em uma rea
+de acumulago, o que pode gerar uma certa dificuldade para o movimento
+conseguir subir. Para reverses,  mais seguro aguardar o Progresso de
+Prego em MAP.
+Ento evite MAP com MAP no estremo:
+S
+=
+ati
+i] th.
+gS
+SS 0 y
+1,
+i
+---
+2 O cenrio MAP com MAP compradora  mais eficiente para movimentos
+a favor da tendncia, ou seja, da MAP 0 para cima. Isso ocorre porque, ao
+tentar operar na regio de subprego, o ativo pode ainda estar em uma rea
+de acumulaco, o que pode gerar uma certa dificuldade para o movimento
+conseguir subir. Para reverses,  mais seguro aguardar o Progresso de
+Preco em MAP.
+Ento evite MAP com MAP no estremo:
+SS NJ
+
+MRR
+ght
+yt,
+57 i
+A
+i
+---
+O exemplo acima mostra o prego indo ao extremo inferior e destaca a
+dificuldade que o ativo apresenta para subir. Isso ocorre porque, alm das
+forgas no estarem to favorveis para a compra, a The_Wall ainda est
+rosa. Ela at tentou ficar amarela, mas no se sustentou. Portanto, esse
+um trade que no deve ser realizado na compra.
+# FOLDER: captura_ppm (count=52)
+---
+PROGRESSAO DE PRECO EM MAPS
+FPLEMES?
+---
+No universo da anlise de mercado, compreender o comportamento do
+prego e identificar sua progresso de forma estruturada  essencial para
+tomadas de deciso mais assertivas. Os mtodos de Cenrios de
+Progresso de Prego em MAPs (PPM) e MAPs com MAPs (MM) foram
+desenvolvido para fornecer um mapa claro e objetivo da movimentago do
+mercado.
+
+Ao longo deste material, vamos explorar como os cenrios so utilizados
+para direcionar o trader na construgo de Trades mais seguros e alinhados
+s forgas do mercado.
+
+Os cenrios so fundamentais para a compreenso do mercado.
+
+Antes de abordarmos os cenrios,  importante entender que o mercado
+passa por diferentes fases, conforme descrito na literatura clssica:
+
+Fases fundamentais : Acumulaco, incio de alta e alta forte para ciclos
+compradores e Distribuico, inicio de baixa e baixa forte.
+---
+Disfbuico. _ _ _
+a y ADS
+At yt y DN N
+e, SS ES : eu
+nt iin Inicio de Alta i  a _ _ A Dr
+. ob, a AA ee 4
+Re, acunstcio JUAN]
+---
+Fases complementares: Reacumulaco e Redistribuigo.
+PA >
+5 a}
+a 6, E SSS E
+A, Off;  nieto de Alta E
+A cats - .
+cumuecio: FEAR
+---
+AR ad
+ot 05 Baixa for
+
+1%, a
+ft oe See es
+0, A ==
+Acumulagio | fa] Reacumulago
+---
+Acumulago
+
+Definigo:
+
+Uma acumulago bem-sucedida pode ser o ponto de partida para o inicio de
+uma tendncia de alta. Ela geralmente ocorre aps um perodo de declnio
+no mercado (baixa forte), quando os pregos do ativo esto em nveis baixos
+e so considerados abaixo do valor justo de mercado. Uma acumulago
+s pode ser confirmada se, posteriormente, houver movimentos que
+indiquem o inicio de uma alta, seguidos por uma alta forte (que sero
+exemplificados mais adiante).
+
+Neste momento, investidores mais bem informados comegam a adquirir os
+ativos, percebendo que o mercado est subvalorizado.
+
+Caractersticas:
+
++ MAPS: Normalmente, esse movimento ocorre em i3, 4 oui5, variando de
+acordo com a volatilidade do ativo. Quanto maior a volatilidade, mais
+inferior  a rea de acumulaco. Por exemplo:
+
+No Dlar, a acumulago geralmente ocorre em i2, i3 ou i4.
+
+No ndice, que possui maior volatilidade, costuma-se encontrar
+acumulaco em 3, i4 ou is.
+
+o No Nasdaq, com volatilidade ainda mais elevada, a acumulago
+normalmente aparece em id, 5 ou 6
+
++ The Wall (do grfico): A acumulago ocorre contra o movimento de
+tendncia de baixa, o que significa que os sintomas de acumulagao
+surgem enquanto a The_Wall ainda est rosa (magenta/fcsia)
+
+Se a acumulago for bem-sucedida, a The Wall comegar a lateralizar at
+ficar amarela. O prego deve ento permanecer acima da The_Wall e da MAP
+central. Caso isso nao acontega, significa que a acumulago no foi bem-
+sucedida, resultando em uma redistribuigo.
+---
+e Precos estveis: Aps um perodo de queda acentuada, os pregos dos
+ativos tendem a se estabilizar, deixando o ativo em consolidaco.
+Durante essas consolidaces,  possivel observar cenrios de MAP com
+MAP (MM) e Progresso de Prego em MAP (PPM).
+
+fy sti, lo
+_ Au  do] a
+i, = Ti ES ;
+fim be _E . (10)
+r ot at e ~~ |
+il UN wor Tord sel gl
+Exemplo
+---
+Incio de Alta
+
+Definigo:
+
+A maioria dos investidores comega a perceber a recuperago do mercado.
+Contudo, ainda nao h uma confianga slida por parte do pblico menos
+informado.
+
+Caractersticas:
+
++ MAPS: 0 inicio de alta pode ocorrer em qualquer rea inferior do MAPA,
+desde que o prego esteja acima de i4. Isso porque 4  o ponto em que
+um ativo normaliza a queda. Abaixo de i4, o ativo ainda est muito
+voltil, o que torna arriscado considerar um movimento de alta.
+---
+PPM
+
+Gradualmente, o preco comega a formar fundos mais altos nas MAPS, o que
+chamamos de Progresso de Prego em MAPS. Exemplo: um fundo em i3
+seguido de um novo fundo em it.
+
++ The_Wall (do grfico): No incio de alta, o prego geralmente estar
+levemente acima cu abaixo da linha da The_Wall, tentando subir para a
+parte positiva das MAPS. Durante esse processo, a The_Wall comecar a
+mudar de cor, saindo do rosa (magenta/fcsia) para o amarelo.
+
++ Pregos Progredindo em MAPS: Durante os incios de alta, s  possivel
+observar cenrios de Progresso de Prego em MAP (PPM). Nesse
+estgio, o cenrio de MAP com MAP no se aplica, pois, caso isso
+estivesse acontecendo, ainda se trataria de um movimento de
+acumulagao.
+
+= o, bette)
+ate re qe
+~ te
+"  ZA pan
+cia ASA ELL i
+ne
+Exemplo
+---
+to
+---
+Alta Forte
+
+Definigo:
+
+Aalta forte  a ltima etapa de um movimento de alta. Essa fase
+caracterizada por um aumento significativo nos pregos dos ativos, muitas
+vezes impulsionado pela especulago e pelo otimismo exagerado. Nesse
+momento, a entrada de investidores menos experientes, influenciados pelo
+entusiasmo da midia e pela euforia do mercado, acelera ainda mais o
+crescimento dos pregos.
+
+Caractersticas:
+
++ MAPS: A alta forte pode ocorrer em qualquer regido superior do MAPA,
+ou seja, da MAP central para cima. Gradualmente, o prego vai formando
+fundos mais altos nas MAPS, e, com frequncia, acelera ao romper a S2.
+Esse movimento tende a se prolongar at atingir a regio de sobreprego,
+momento em que a alta comega a desacelerar.
+
++ The_Wall (do grfico): A The_Wall nao pode estar rosa
+(magenta/fcsia). Caso esteja, no se pode considerar o movimento
+como uma alta forte. Normalmente, em uma alta forte, o prego estar
+acima da linha da The_Wall, tentando permanecer na parte positiva das
+MAPS. Embora no seja obrigatrio, a colorago verde da The_Wall
+indica uma forga ainda maior para o movimento.
+
++ Pregos Progredindo em MAPs: Nas altas fortes,  possvel observar
+cenrios de Progresso de Prego em MAP (PPM) e tambm de MAP com
+MAP, a partir da MAP central (MO)
+---
+PPM
+> O a
+Alta torte fg 7
+nl att
+" _ LS,
+Fe ss
+o AN >
+el) Poo ~~ 4
+E NT el
+S E
+TNT
+ny PPM
+Observagao:
+E se a acumulago no conseguir gerar o inicio de alta nem a alta forte?
+Quando isso acontece,  porque a forga vendedora ainda predomina. Esse
+fenmeno  chamado de Redistribuigo.
+Aredistribuigo ocorre quando h uma lateralizago no meio do caminho,
+mas, aps esse perodo, o movimento continua em dirego  baixa.
+---
+Alta forte  it i To
+is *
+> MN t it __ PPM _ an
+---
+Ser uma Acumulaco ? Vd
+---
+e  chamado de: - BNO
+---
+Distribuigo
+
+Definigo:
+
+Se ocorrer uma distribuigo bem-sucedida, este fenmeno pode ser o ponto
+de partida para uma tendncia de baixa. Ela geralmente ocorre aps um
+perodo de alta no mercado (alta forte), quando os pregos dos ativos esto
+em nveis elevados e considerados acima do valor justo de mercado. S
+pode ser considerada uma distribuigo se, aps esse movimento, surgirem
+os movimentos de inicio de baixa e baixa forte (que sero exemplificados
+mais adiante).
+
+Caractersticas:
+
++ MAPS: Normalmente, esse movimento est localizado em s3, s4 ou s5,
+Isso pode variar de acordo com a volatilidade do ativo. Quanto maior a
+volatilidade, mais superior ser a rea de distribuigo. Por exemplo:
+
++ No Dlar, a distribuigo normalmente ocorre em s2, s3, s4.
+
++ No ndice, que  mais voltil, ela geralmente acontece em s3, s4, s5.
+
++ J no Nasdaq, que  ainda mais voltil, a distribuigo costuma ocorrer
+em 4,15, 16.
+
+The_Wall (do grfico): A distribuigo ocorre contra o movimento de
+tendncia de alta. Portanto, os sinais de distribuigo aparecem enquanto
+a The_Wall ainda est verde.
+
+Se a distribuigo for bem-sucedida, a The_Wall comecar a lateralizar at
+
+ficar amarela. Nesse caso, o prego deve permanecer abaixo da The_Wall e
+abaixo da MAP central. Caso contrrio, significa que a distribuigo no foi
+bem-sucedida, sendo caracterizada como uma reacumulaco.
+
++ Pregos estveis: Aps um perodo de alta acentuada, os pregos dos
+ativos tendem a se estabilizar, deixando o ativo em consolidaco.
+Durante essas consolidaces,  possvel identificar cenrios de MAP.
+com MAP (MM) e de Progresso de Prego em MAP (PPM),
+---
+na PR a i a
+a thy, ee
+fo wt ota r~
+Inicio de Baixa
+Definigo:
+A maioria dos investidores comega a perceber que os pregos podem estar
+altos. Contudo, ainda no h uma confianga concreta por parte do pblico
+desinformado.
+Caractersticas:
+
++ MAPS: Esse movimento pode ocorrer em qualquer parte superior do
+MAPA, desde que esteja abaixo de 54. O nivel s4  o ponto em que um
+ativo "normaliza a alta; acima desse nivel, ainda no  recomendado
+pensar em queda, pois o ativo permanece muito voltil. Aos poucos, o
+prego comega a formar topos mais baixos nas MAPS, caracterizando o
+chamado Progresso de Prego em MAPS. Por exemplo: um topo em s3,
+seguido por um novo topo em s1.
+---
+ae
+gt sti al
+a (Un
+is 0,
+ry ba o itt :
+1 ott e E :
+---
+PPM
+
++ The_Wall (do grfico): Normalmente, em um inicio de baixa, o prego
+estar ligeiramente acima ou abaixo da linha da The_Wall, tentando
+descer para a parte negativa das MAPS. Durante esse movimento, a
+The_Wall tende a mudar de cor, passando do verde para o amarelo.
+
++ Pregos Progredindo em MAPS (PPM): Nos incios de baixa,  possvel
+observar apenas cenrios de Progresso de Prego em MAP (PPM). O
+cenrio de MAP com MAP no  aplicvel, pois, caso esteja ocorrendo,
+ainda seria considerado uma distribuico.
+
+PPM re
+| a > fticio ie Baixe Of
+q e HL,
+y, Ns Gi '
+A Our
+---
+on   A
+---
+Baixa Forte
+
+Definigo:
+
+A fase de baixa forte  a ltima etapa do movimento de forga de baixa.
+caracterizada por uma queda excessiva nos pregos dos ativos, muitas vezes
+impulsionada pela especulago e pelo pessimismo exegerado.
+
+Neste momento, a entrada de investidores menos experientes, influenciados
+pelo pessimismo da mdia e pelo pnico do mercado, acelera ainda mais a
+queda dos pregos.
+
+Caractersticas:
+
++ MAPS: Esse movimento pode ocorrer em qualquer parte inferior do
+MAPA, ou seja, da MAP central para baixo. Gradualmente, o prego
+comega a formar topos mais baixos nas MAPS e, normalmente, pode
+acelerar com o rompimento da i2. Esse movimento tende a se estender
+at a regido de subprego. Ao atingir a regio de subprego, a baixa
+comega a desacelerar.
+
++ The_Wall (do grfico): A The_Wall no pode estar verde; caso esteja,
+no se pode considerar uma baixa forte. Geralmente, em uma baixa
+forte, o prego estar abaixo da linha da The_Wall e tentar permanecer
+na parte negativa das MAPS. No  obrigatrio, mas, se a The_Wall ficar
+vermelha, indica ainda mais forga no movimento.
+
++ Pregos Progredindo em MAPS: Nas baixas fortes,  possivel observar
+cenrios de Progresso de Prego em MAP (PPM), bem como cenrios de
+MAP com MAP a partir da MAP central (MO).
+---
+E it! ty ; Baixa forte
+---
+i,
+PO,
+AL
+a te a" ain
+fu  be
+uy E
+vole
+UN 7 NH
+thet a ni
+y U E
+ou
+Observagao: E se a distribuico nao conseguir gerar o inicio de baixa nem a
+baixa forte?
+Quando isso acontece,  porque a forca de compra ainda  predominante.
+Esse fenmeno  chamado de Reacumulaco. A Reacumulago ocorre
+quando h uma lateralizago no meio do caminho, mas, aps essa
+lateralizaco, o movimento volta a subir, retomando a tendncia de alta.
+---
+Ser uma Distribuigo ? o Sa,
+co 7 = ag
+---
+on Zee
+
+fo nto iso 4 coma > GLE
+
+et Reacumulaci
+LEA
+
+_
+
+Sa
+---
+Progresso de Prego em MAP (PPM)
+
+O cenrio de Progresso de Prego em MAP  uma das maneiras mais
+eficazes de identificar a forga do mercado e determinar a dirego correta a
+seguir.
+
+Esse cenrio consegue explicar qualquer padro grfico existente. Por
+exemplo, o Progresso de Prego em MAP pode antecipar padres de
+reverso, como topo duplo, cunha, ombro-cabega-ombro, figura diamante,
+fundo arredondado, entre outros. Mas por que esses padres podem gerar
+revers5es? A resposta  que a reverso no est no padro em si, mas sim
+na forma como o prego progride nas MAPS. Isso ficar claro com os
+exemplos a seguir.
+
+O problema dos padres grficos tradicionais  que eles so subjetivos,
+devido as varias posibilidades de formago dos desenhos, fazendo com
+que o padro possa ser interpretado de diferentes maneiras a cada
+momento. J no cenrio de Progresso de Prego em MAP, o movimento
+fixo e previsivel, o que traz maior consistncia e permite um planejamento
+mais preciso para o futuro.
+
+No exemplo a seguir, temos a figura de um topo duplo, que gerou uma
+reverso no prego. Mas por que isso aconteceu?
+---
+AS
+SN
+DA A
+_ iil} hes 1
+
+nnn mene ele gg oo WN gall ll i | 0,00
+---
+Sok
+a _ 12,00
+fsa
+ll | UL  A
+A
+Vamos analisar as ferramentas.
+Toda anlise de Progresso de Preco em MAP segue a sequncia abaixo:
+Ponto Inicial: Escolha o lado que deseja analisar. Por exemplo, se o ativo
+est em sobrepreco, e voc deseja vender, deve analisar a forga de venda.
+---
+1 Regra: Sempre aguarde ter uma referncia, ou seja, pelo menos um topo.
+Nesse topo de referncia, o Shark deve virar vermelho, indicando o incio de
+um ciclo vendedora.
+a
+| i
+
+=Zy _
+ah
+AN
+AN
+m7
+---
+2 ia
+WW
+Atal Hs.
+Se
+---
+2 Regra: Aguarde a formaco de pelo menos um fundo, e o Shark virar azul,
+sinalizando o incio de um ciclo comprador.
+(==
+DA SN
+Zw |
+m EN
+EN i
+| = RS | : -
+all
+att...
+---
+ane
+A
+---
+SN
+po
+---
+4 Regra: O segundo ciclo vendedor deve estar em um nivel mais baixo do
+que o primeiro ciclo vendedor.
+42
+- +p
+
+e hf A NY
+
+A mu) Wh :
+
+-
+
+Z Y E . AN
+
+
+
+es
+
+> FA ;
+---
+---
+5 Regra: Para realizar uma venda, o segundo ciclo vendedor deve estar em
+uma MAP mais baixa do que a MAP do ciclo de referncia. Uma maneira
+fcil de verificar isso  observando o VX, que deve estar em queda.
+| OL ee
+tN
+Z INN
+Y aS
+HS yl
+PX Vb
+---
+---
+6 Regra: No momento da entrada na operaco, a The_Wall deve estar
+lateralizada ou a favor do lado que voc deseja (Amarela ou Rosa).
+ZA
+3 r
+EA GA)
+E ES
+<=
+i
+sae ee
+---
+| PRIS ==
+---
+Viso completa:
+La ys rn 5 i=
+SAD 610 y AA |
+JA] SAT ys
+pus, th ! 4
+Y,
+A. Ne Aan 2
+hal = __
+ana ma
+---
+NO
+---
+Viso completa:
+
+
+UN AL or
+
+Oh ast? 870, <
+e NON
+=
+i TTT mm
+Jl | | i
+---
+by re a
+a Bm a -
+T
+| AA
+a ii
+---
+Exemplos que no atendem s regras:
+Observe que os exemplos que no seguem as regras apresentam
+movimentos com menores chances de sucesso.
+Neste caso, o preco j no est mais progredindo nas MAPs a favor do lado
+desejado, o que resulta em um mercado lateral.
+
+uy
+
+we, te OT Ta a 5
+SA ld CO AAA
+Nn A
+y UIAF SR re 7 7
+---
+---
+Na situaco abaixo a The_wall ainda estava verde.
+-- e A , t
+O 4
+ZAYAS
+---
+Alta
+---
+Essa mesma leitura feita para venda tambm pode ser aplicada a compra.
+No caso de compra:
+
+Ponto Inicial: Escolha o lado que deseja analisar. Por exemplo, se o ativo
+est em subprego, voc deve analisar a forga de compra, pois seu objetivo
+comprar.
+
+12 Regra: Sempre espere ter uma referncia, ou seja, pelo menos um fundo.
+Nesse fundo de referncia, o Shark deve virar azul, indicando o inicio de um
+primeiro ciclo comprador.
+
+2? Regra: Sempre espere formar pelo menos um topo, com o Shark virando
+vermelho, indicando o incio de um primeiro ciclo vendedor
+
+3? Regra: Esteja sempre preparado para entrar no segundo ciclo comprador.
+4? Regra: O segundo ciclo comprador deve estar mais alto do que o anterior.
+5? Regra: Para uma compra, o segundo ciclo comprador deve ocorrer em
+qualquer MAP mais alta do que a MAP do ciclo de referncia. Uma maneira
+fcil de identificar isso  pelo VX, que estar subindo. Por exemplo: i2 e i1.
+6? Regra: No momento de entrada na operago, a The_Wall deve estar
+lateral ou favorvel ao lado desejado (amarela ou verde)
+---
+Exemplo:
+: Hi y
+% LU IAE ARO de XS
+2 ics O A A A
+o LA,
+AN AN q
+A
+. Crna TT :
+AAA
+il
+e -
+---
+PPM
+
+O operacional de Progresso de Prego em MAPS (PPM) oferece uma
+abordagem clara e estruturada para compreender e operar no mercado com
+maior preciso. Ao analisar o comportamento do prego em relago as
+MAPS,  possvel identificar movimentos consistentes, planejar entradas e
+sadas e tomar decises mais assertivas. Essa metodologia permite no
+apenas maior organizago na leitura do mercado, mas tambm uma
+estratgia slida para maximizar resultados.
+---
+PPM VENDA CHECKLIST
+(OU REGRESSAO DE PREGO EM MAP)
+Aguarde a formaco de uma referncia (pelo
+O] menos um topo) e verifique se o Shark virou
+vermelho, indicando o inicio de um ciclo
+vendedor.
+Aguarde a formaco de pelo menos um fundo e
+E] confirme que o Shark virou azul, sinalizando o
+inicio de um ciclo comprador.
+O Prepare-se para entrar no segundo ciclo
+vendedor.
+Verifique se o segundo ciclo vendedor est
+O] em nivel mais baixo do que o primeiro ciclo
+vendedor.
+Confirme que o segundo ciclo vendedor est
+O em uma MAP mais baixa do que a MAP do ciclo
+de referncia (dica: o VX deve estar em
+queda).
+O No momento da entrada, certifique-se de que
+a The_Wall est lateralizada ou a favor da
+operagao (Amarela ou Rosa).
+---
+PPM COMPRA CHECKLIST
+(OU PROGRESSAO DE PRECO EM
+MAP)
+Espere ter uma referncia: pelo menos um fundo,
+E] com o Shark virando azul, indicando o inicio de
+um primeiro ciclo comprador.
+Aguarde a formaco de um topo, com o Shark
+E] virando vermelho, sinalizando o inicio de um
+primeiro ciclo vendedor.
+O Prepare-se para entrar no segundo ciclo
+comprador.
+O O segundo ciclo comprador deve estar mais
+alto do que o anterior.
+Para uma compra, o segundo ciclo comprador
+[|_| deve ocorrer em uma MAP mais alta do que a
+MAP do ciclo de referncia.
+No momento da entrada, a The_Wall deve
+|_| estar lateral ou favorvel ao lado desejado
+(amarela ou verde).
+# FOLDER: captura_vx (count=23)
+---
+CORES, NOMENCLATURA E USABILIDADE
+FPLEMES?
+---
+VX M2
+
+Dias de forte tendncia, por incrvel que parega, so os dias que mais
+causam loss para traders, que tentam operar contra a tendncia ou que
+tentam encontrar o topo ou fundo do dia. No procure por topos ou fundos.
+Aproveite a tendncia e opere a seu favor.
+
+e IM a UE
+
+As barras do VX crescendo ou decrescendo sinalizam a dirego do
+mercado (compra ou venda).
+---
+VX M2: CORES
+O barras crescentes acima da MAP 0 (MAP Central) -
+agresso compradora predominante
+O sinalizagao de movimento de contra tendncia
+barras decrescentes abaixo da MAP 0 (MAP Central) -
+agresso vendedora predominante
+MEA nivel limite de venda que o VX pode chegar
+MH nvel limite de compra que o VX pode chegar
+---
+VX M2: NOMENCLATURA
+
+lll perl mil | = gin
+Acima da Map0 nomeamos as linhas por s1 | s2 | s3 | s4 e s5.
+E abaixo da Map0 nomeamos as linhas por i1 | i2 | i3 | 14 e i5.
+Assim como na ferramenta MAPs FPLEME.
+---
+O as
+---
+alo a Toa pel
+Imagem 1
++ Rompimento das Linhas Horizontais
+As linhas horizontais ficam mais espessas quando as linhas verticais as
+ultrapassam. Essa espessura nas linhas horizontais indica que o prego
+conseguiu romper aquela determinada linha. (Imagem 1)
+Ou seja, se a linha horizontal for rompida pelas linhas verticais, ela ficara
+mais espessa, indicando que o prego rompeu a MAP correspondente. Veja
+mais exemplos abaixo: (Imagem 2)
+---
+AAA
+AR
+<a
+---
+1 all
+---
+VX M2: USABILIDADE
+tt = e  tn rth 4
+itt
+(3.50 7.00]
+e.
+| es |
+e He tee
+Imagem 2
+---
+(6283.50)
+Imagem 2
++ Sobre o Saldo
+Ese o prego no grfico tentar romper uma linha, por exemplo a S3, mas as
+barras verticais no romperem a linha horizontal e a linha horizontal no
+ficar mais especa? Ento nao vai romper a MAP. Veja o exemplo abaixo
+(imagem 3):
+---
+Ia TALLA
+
+LA 0 ty" TH Lub +
+
+mm a fy mm 1 | ine
+A, rae TO a!
+O on ee
+---
+---
+_ yey he da Lil
+my ANO PU Po  UN, 7
+HAS SA
+4 Wo = Q_AIHXI E
+gn TES  -
+[3.50] 7.00]
+.
+
+| | | + I qe o "I mii
+Imagem 3
+Quando as barras verticais no conseguem romper as linhas horizontais,
+isso indica falta de forga. O saldo de agresso, que  o principal responsvel
+pelo movimento do prego, nao est sendo suficiente. Veja mais exemplos de
+no rompimentos no exemplo abaixo: (Imagem 4)
+---
+po
+ptt
+i y 1h, mi aT ye! i
+Imagem 4
+---
+Imagem 4
+
+Repare, na imagem acima, como o prego no grfico nao conseguiu
+ultrapassar a S1 e nem romper para baixo da 11.
+
++ Considerages e Aconselhamentos
+O rompimento ou nao rompimento da MAP, analisado por meio da parte
+quantitativa do VX, nunca deve ser usado de forma independente.
+Isso porque o VX vai alm dessa funcionalidade: ele tambm oferece uma
+maneira de visualizar a MAP de forma mais intuitiva para a interpretago
+humana.
+---
+Ao observar o VX, voc est vendo a MAP de um novo ponto de vista, o que
+permite uma leitura mais clara e eficiente, especialmente no que diz respeito
+as divergncias ou convergncias da MAP.
+eau
+po - Il
+---
+TA
+My  A ait
+---
+VX M2: USABILIDADE
++ The_Wall do VX
+A The_Wall do grfico e a The_Wall do VX so a mesma ferramenta, mas
+apresentadas sob diferentes perspectivas e com coloraces distintas.
+A The_Wall do VX utiliza as prprias MAPs como referncia comparativa:
++ Quando a The_Wall do VX est mais inclinada para cima em relago a
+MAP, ela fica verde.
++ Quando est mais inclinada para baixo em relaco a MAP, ela fica rosa
+(magenta ou fcsia).
++ Post-its amarelos indicam uma mudanga de cor, ou seja, uma mudanga
+na direco da The_Wall.
+.
+Esses post-its amarelos ajudam a manter a interpretaco de um cenrio j
+estabelecido e fornecem uma viso antecipada do que pode acontecer com
+a The_Wall plotada no grfico.
+---
+VX M2: USABILIDADE
+e i Y
+sl Oud)
+O i]
+.
+YS PTL
+e os
+ul
+Q 1
+Pr
+i
+li
+ities
+---
+eT
+LUNN Lg
+E possvel identificar quando a The_Wall do grfico est ultrapassando uma
+MAP por meio da The_Wall do VX.
+---
+A
+5 a
+[3.50 [7.00 13.69]
+
+0 all ll _ _ A ll
+rai : we A
+Tambm  possvel visualizar o saldo necessrio para o rompimento da
+The_Wall.
+---
+ES
+an
+e
+---
+7 A
+e Post-its Amarelos na The_Wall
+Os post-its amarelos na The_Wall indicam mudangas na direco da
+ferramenta. Essa informago  fundamental para manter a leitura do cenrio
+atual e antecipar possiveis movimentos futuros da The_Wall exibida no
+grfico.
+# FOLDER: hertz (count=29)
+---
+O nmero do Hertz traz uma percepco muito importante, que vai alm de
+simplesmente indicar qual Renko devemos utilizar
+
+Essa informago tambm  diretamente proporcional  volatiidade do
+mercado, Mas o que isso significa?
+
+Quanto maior for o nmero do Hertz, mais voltil  aquele ativo.
+
+Vamos comparar a seguinte sequncia de ativos: Dlar, Indice, SEP500 e
+NASDAQ, utlizando o grfico de 5 minutos.
+TE
+
+f =
+Y
+
+Anotando as frequncias no Dlar
+
+Frequncia Macro: 168 er
+
+Frequncia Conforto: 10R am
+
+Frequncia Sniper: 6R
+
+A
+---
+> DITA
+"44
+Anotando as frequncias no ndice ae
+Frequncia Macro: 31R
+Frequncia Conforto: 19R cm]
+Frequncia Sniper: 12R wwe
+Pr pl
+Mais y ayy y
+Anotando as frequncias no S&P 500 eo]
+Frequncia Macro: 338
+Frequncia Conforto: 21R 21
+Frequncia Sniper: 13R
+5 a 181
+---
+AGD =
+A
+poll nd A al
+\ eM
+My /
+
+RO SS E
+
+Frequncia Macro: 71R i
+
+Frequneia Confort: 44R El
+
+Frequncia Sniper: 27 nom
+
+0 que  possivel notar comparando Dlar, ndice, S&P500 e NASDAQ,
+oc
+
+pense pe eel case on entinerntnetseretes acs
+ocio acre ec
+conjunto inteiro das frequncias, ou seja, todas as frequncias (conforto,
+macro e sniper) aumentam conforme o ativo muda. Por exemplo, ao.
+aaa
+[Mere 20 also DOE METE
+(Rae CMON A TENSES I NS OT
+ES a Enh EMT OSL a
+aaa
+NERDS RETO aro Pond
+ES MIC REIN COTE eS ttc nA SCRUM
+Bec pee eater eee
+---
+Quando se trata de mercado futuro (como Dlar, ndice, DI, SEP500,
+NASDAQ, Ouro, Gas ou moedas gerais listadas na CME), que possui um alto.
+grau de alavancagem, operar qualquer ativo pode se tornar bastante
+desafiador quando o Hertz aponta mais de 30R na Frequncia de Conforto
+no grfico de 5 minutos,
+
+Caso um ativo apresente uma Frequncia de Conforto acima de 30R no
+grfico de 5 minutos, nossa recomendago  simples:
+
+Mude de ativo naquele dia. Escolha um ativo mais tranquilo. Existem
+dezenas de ativos operveis que podem oferecer o mesmo potencial
+financeiro e a mesma leitura, mas de forma mais fcil e segura para extrait
+dinheiro do mercado,
+
+Observago:
+
+Cuidado ao tentar enganar o Hertz. Uma forma de reduzir o Renko de um
+ativo  alterar a mediao de 5 minutos para 1 minuto. Dessa forma, o
+conjunto das frequncias ser reduzido,
+
+Entretanto,  preciso cautela. Alterar o grfico, por exemplo, de S6R para
+24R, para encontrar um Renko menor, no significa que o mercado ficar
+mais lento. O mercado continuar voltil, pois, no grfico de 5 minutos, a
+Frequncia de Conforto permanece alta,
+
+Portanto, reduzir o tempo de medigo de 5 minutos para 1 minuto pode
+ajudar a encontrar um Renko mais adequado ao seu stop. Contudo, isso
+do elimina o principal alerta que o Hertz est indicando: Cuidado, este
+ativo est muito voltil e complexo para ser operado neste momento.
+---
+Exemplo
+Grfico Smin
+O
+l eel ie
+sane ene
+
+f a
+a
+Grfico 1min
+Mera
+porn ON ne
+| ea
+==
+Volatiidade alta significa movimentos repentinos e fora de uma cadncia
+previsivel. Esses movimentos podem dificultar tanto a letura quanto a
+execuedo de operacdes, tomando o mercado mals ariscado e complexo.
+---
+Reconhecer os momentos de alta volatilidade  essencial para ajustar sua
+estratgia e proteger seu capital. O Hertz  uma ferramenta valiosa para
+identificar essas condiges, ajudando voc a decidir quando  mais seguro
+operar ou quando  melhor observar e aguardar o mercado se estabiliza.
+Use essas informagdes a seu favor para agir de forma mais consciente e
+eficiente em suas operages.
+---
+DVIDAS?
+
+s entrar em contato com o nosso suporte, ele funciona de segunda a
+sexta das 9hs 18h.
+
+Os canals oficiais do nosso suporte so:
+
+WhatsApp: +55 16 99772 1929
+
+E-mail: suporte@fpleme.com.br
+
+Estamos & disposigo para te atender
+---
+HERTZ
+CONSIDERACES
+FPLEME?
+---
+O nmero do Hertz traz uma percepgo muito importante, que vai alm de
+simplesmente indicar qual Renko devemos utilizar.
+
+Essa informagao tambm  diretamente proporcional a volatilidade do
+mercado. Mas o que isso significa?
+
+Quanto maior for o nmero do Hertz, mais voltil  aquele ativo.
+
+Vamos comparar a seguinte sequncia de ativos: Dlar, ndice, S&P500 e
+NASDAQ, utilizando o grfico de 5 minutos.
+SEE
+Anotando as frequncias no Dlar
+
+Frequncia Macro: 16R e
+
+Frequncia Conforto: 10R 0
+
+Frequncia Sniper: 6R
+---
+f  4
+xm
+Anotando as frequncias no Indice 7
+Frequncia Macro: 31R
+Frequncia Conforto: 19R <a
+Frequncia Sniper: 12R an
+rn ee ; ne ad
+yl POS dr Vo ol Wy
+Aer Nv
+Anotando as frequncias no S&P 500 3 |
+Frequncia Macro: 33R
+Frequncia Conforto: 21R 2]
+Frequncia Sniper: 13R |
+13
+---
+==
+para ar seg
+ah pr
+po av ~ weeny
+ay
+\ ev =
+My
+f |
+
+Anotando as frequncias no Nasdaq zw
+
+Frequncia Macro: 71R
+
+Frequncia Conforto: 44R cn
+
+Frequncia Sniper: 27R 1
+
+O que  possvel notar comparando Dlar, ndice, S&P500 e NASDAQ,
+respectivamente?
+
+possivel perceber que esses ativos esto em uma sequncia na qual o
+Hertz aumenta gradativamente a cada ativo. Esse aumento ocorre no
+conjunto inteiro das frequncias, ou seja, todas as frequncias (conforto,
+macro e sniper) aumentam conforme o ativo muda. Por exemplo, ao
+comparar a Frequncia de Conforto do Dlar com a do ndice, voc notar
+que a frequncia do ndice  maior. Da mesma forma, ao comparar as
+frequncias macro ou sniper, ver que elas tambm so maiores.
+
+Quanto maior for o nmero apresentado no conjunto indicado pelo Hertz,
+mais voltil ser o ativo. Em algumas situages, ativos com o Hertz muito
+alto tornam-se praticamente inoperveis. Isso ocorre porque eles se
+tornam extremamente volteis, e o stop calculado com base em um Renko
+de 30R, por exemplo, pode ficar muito grande.
+---
+Quando se trata de mercado futuro (como Dlar, ndice, DI, SEP500,
+NASDAQ, Ouro, Gs ou moedas gerais listadas na CME), que possui um alto
+grau de alavancagem, operar qualquer ativo pode se tornar bastante
+desafiador quando o Hertz aponta mais de 30R na Frequncia de Conforto
+no grfico de 5 minutos.
+
+Caso um ativo apresente uma Frequncia de Conforto acima de 30R no
+grfico de 5 minutos, nossa recomendaco  simples:
+
+Mude de ativo naquele dia. Escolha um ativo mais tranquilo. Existem
+dezenas de ativos operveis que podem oferecer o mesmo potencial
+financeiro e a mesma leitura, mas de forma mais fcil e segura para extrair
+dinheiro do mercado.
+
+Observago:
+
+Cuidado ao tentar enganar o Hertz. Uma forma de reduzir o Renko de um
+ativo  alterar a medigo de 5 minutos para 1 minuto. Dessa forma, o
+conjunto das frequncias ser reduzido.
+
+Entretanto,  preciso cautela. Alterar o grfico, por exemplo, de 56R para
+24R, para encontrar um Renko menor, nao significa que o mercado ficar
+mais lento. O mercado continuar voltil, pois, no grfico de 5 minutos, a
+Frequncia de Conforto permanece alta.
+
+Portanto, reduzir o tempo de medigo de 5 minutos para 1 minuto pode
+ajudar a encontrar um Renko mais adequado ao seu stop. Contudo, isso
+no elimina o principal alerta que o Hertz est indicando: Cuidado, este
+ativo est muito voltil e complexo para ser operado neste momento.
+---
+Grfico 5min
+e Ween A
+f f=
+
+o E
+Grfico min
+
+1
+Volatilidade alta significa movimentos repentinos e fora de uma cadncia
+previsivel. Esses movimentos podem dificultar tanto a leitura quanto a
+execugo de operages, tornando o mercado mais arriscado e complexo.
+---
+Reconhecer os momentos de alta volatilidade  essencial para ajustar sua
+estratgia e proteger seu capital. O Hertz  uma ferramenta valiosa para
+identificar essas condiges, ajudando voc a decidir quando  mais seguro
+operar ou quando  melhor observar e aguardar o mercado se estabilizar.
+Use essas informaces a seu favor para agir de forma mais consciente e
+eficiente em suas operages.
+---
+LL. _rvas
+Magro Ateo lsu nal com- CPF: 001957 50-81
+
+HERTZ: USABILIDADE
+Como vimos anteriormente, uma das funges do Hertz  converter o
+grfico temporal em grfico atemporal.
+Qual grfico temporal deve ser inserido no Hertz para ele fornecer o
+numero ideal para o Day Trade?
+Day Trade consiste em operages que so iniciadas e encerradas no
+mesmo dia.
+Embora existam varias referncias literrias, no h um consenso nico
+sobre qual tempo fixo deve ser usado para o Day Trade. Geralmente,
+utilizam-se intervalos entre 1 minuto e 15 minutos.
+Para padronizar a leitura e a linguagem na FPLEME, recomendamos o uso
+do grfico de 5 minutos para operages de Day Trade.
+Observago: As frequncias mais utilizadas no Day Trade so a Frequncia
+de Conforto e a Frequncia Sniper.
+Exemplo: ndice (INDFUT) no grfico de 5 minutos utilizando a Frequncia
+de Conforto.
+Nota importante: No mercado brasileiro, geralmente utilizamos o contrato
+perptuo (tambm conhecido como "srie histrica) para regular o Hertz
+de ativos futuros. Os contratos perptuos so aqueles que terminam com
+*FUT, como, por exemplo, INDFUT e DOLFUT.
+Alm disso, geralmente utilizamos o contrato cheio para regular o Hertz.
+Por isso, no exemplo da imagem 1, o ativo selecionado  o INDFUT, e no o
+WINFUT. Essa escolha ocorre porque o clculo no contrato cheio  mais
+rpido, facilitando o processamento para a maioria dos computadores.
+---
+do grfico de 5 minutos para operages de Day Trade.
+
+Observago: As frequncias mais utilizadas no Day Trade so a Frequncia
+de Conforto e a Frequncia Sniper.
+
+Exemplo: ndice (INDFUT) no grfico de 5 minutos utilizando a Frequncia
+de Conforto.
+
+Nota importante: No mercado brasileiro, geralmente utilizamos o contrato
+perptuo (tambm conhecido como "srie histrica) para regular o Hertz
+de ativos futuros. Os contratos perptuos so aqueles que terminam com
+*FUT, como, por exemplo, INDFUT e DOLFUT.
+
+Alm disso, geralmente utilizamos o contrato cheio para regular o Hertz.
+Por isso, no exemplo da imagem 1, o ativo selecionado  o INDFUT, e no o
+WINFUT. Essa escolha ocorre porque o clculo no contrato cheio  mais
+rpido, facilitando o processamento para a maioria dos computadores.
+---
+
+Imagem 1
+Para operar, utilizamos o WINFUT, que  o contrato mini. Nesse caso, basta
+mudar o grfico para o WINFUT e inserir o nmero fornecido pelo Hertz. No
+exemplo acima, o nmero indicado  17R. (Imagem 2)
+
+ex]
+Imagem 2
+---
+O grfico perptuo, aqueles com final FUT, era, inicialmente, utilizado
+apenas para estudos e anlises. Antigamente, nao era possivel operar
+diretamente por ele. Contudo, hoje, isso j  possivel. Para isso, basta clicar
+com o boto direito do mouse e ativar a opgo Cross Order. Com essa
+opco ativada, voc pode visualizar o contrato FUT e operar no contrato
+vigente. No exemplo da imagem abaixo, o contrato vigente  o WINZ24.
+(Imagem 3)
+
+importante destacar que, apesar do exemplo mostrado ser no INDFUT,
+essas configuraces e ensinamentos se aplicam a TODOS os ativos
+futuros, como DOLFUT, INDFUT, DI1FUT, entre outros
+
+Imagem 3
+---
+Imagem 3
+
+Agora, o grafico est configurado na frequncia indicada, em Renko, e com
+o Cross Order ativado. Depois que o grfico j estiver ajustado para Renko,
+no h mais necessidade de consultar o Hertz novamente, pois sua fungo
+j ter sido concluida.
+---
+Observago: No mercado global, utilizando a plataforma Ninja Trader, no
+necessrio ativar a opgo Cross Order, pois essa funcionalidade j
+configurada automaticamente. Assim, voc no ver o contrato FUT no
+mercado global.
+
+Ainda assim, isso nao  um problema. No exemplo mostrado, o contrato de
+dezembro de 2024 est em uso. Mesmo assim,  possivel visualizar meses
+anteriores, assim como em um grfico perptuo.
+---
+anteriores, assim como em um grfico perpetuo.
+y a
+WK , mE
+O re
+pp
+
+Qual grfico temporal deve ser inserido no Hertz para obter o nmero
+adequado para o Swing Trade?
+Swing Trade refere-se a operages que se iniciam em um dia e sao.
+encerradas em dias, semanas, meses ou at mesmo em at 4 anos.
+Embora existam diversas referncias literrias, no h consenso sobre qual
+tempo grfico fixo utilizar no Swing Trade. Geralmente, o intervalo mais
+usado varia entre grficos de 1440 minutos (equivalente a 1 dia) e 60
+minutos.
+Para padronizar a leitura e a linguagem na FPLEME, recomendamos o uso
+do grfico de 60 minutos para operages de Swing Trade.
+---
+Qual grfico temporal deve ser inserido no Hertz para obter o nmero
+adequado para o Buy and Hold?
+
+Buy and Hold  uma estratgia em que as operaces so iniciadas em um
+dia e permanecem abertas por pelo menos 5 anos.
+
+Assim como no Swing Trade, no h consenso nico entre referncias
+literrias para a escolha de um tempo grfico fixo no Buy and Hold.
+Normalmente, utilizam-se grficos Mensais, Semanais ou Dirios.
+
+Na FPLEME, no temos uma padronizaco para o tempo grfico no Buy
+and Hold, ento recomendamos que seja utilizado o que  amplamente
+padronizado no mercado: Mensal, Semanal ou Dirio.
+---
+O Hertz  uma ferramenta que transforma o grfico temporal em um
+grfico atemporal. Isso facilita para a mquina probabilizar o mercado,
+pois os dados so contnuos e no esto limitados a uma barra temporal
+Exemplo:
+Aa |
+a
+---
+PA
+Observago: Existem varios grficos atemporais, mas por que utilizamos o
+Renko?
+
+Resposta: Dentro das posibilidades de grficos atemporais, utilizamos o
+grfico Renko porque ele possui apenas duas representaces visuais:
+movimento para cima ou para baixo. Diferentemente do grfico "P, por
+exemplo, que tambm  um grfico atemporal e  usado na leitura de fluxo.
+O grfico "P* apresenta representages laterais, alm dos movimentos para
+cima e para baixo. Na anlise de fluxo, essa lateralizago  comumente
+chamada de grfico de canal. Essa caracterstica no  ideal para a
+mquina, pois adiciona uma varivel a mais para ser calculada.
+---
+Voltando ao Hertz: alm das funcionalidades j citadas, ele tambm
+utilizado para minimizar as lateralizages, chamadas de zperes,
+permitindo visualizar um grfico mais limpo e direcional. Por isso, no
+utilizamos qualquer Renko, mas sim o Renko ajustado pelo Hertz para ser
+utilizado.
+Alm disso, o Hertz tambm oferece uma viso da velocidade do ativo, um
+conceito que ser explicado mais adiante no tpico de usabilidade.
+HERTZ: NOMENCLATURA
+Ao adicionar o Hertz a qualquer grfico temporal, ele fornece trs
+informaces representadas no lado direito da ferramenta:
+
+Hertz na plataforma Profit
+---
+Hertz na plataforma Profit
+eee .
+ee ir
+Hertz na plataforma Ninja Trader
+Observe que a ferramenta  composta por 3 linhas, uma superior, uma
+intermediria e uma inferior. Vamos agora entender cada uma delas e o
+que elas representam.
+---
+Compreendendo a Linha Intermediria (Frequncia de Conforto):
+
+A linha intermediria, localizada entre as linhas superior e inferior,
+chamada de Frequncia de Conforto. Essa frequncia representa a melhor
+tradugo do tempo grfico que voc escolheu. Por exemplo, se voc optar
+por um grfico de 5 minutos, a Frequncia de Conforto reflete essa
+sensago ao operar no tempo selecionado.
+
+No final da linha, h um nmero dentro de um retngulo, semelhante a uma
+etiqueta. No exemplo da imagem, o nmero apresentado  14. Este nmero
+no  fixo e muda conforme a negociagao (volatilidade) do mercado.
+
+Esse nmero  o valor que voc deve configurar no grfico Renko. Por
+exemplo, se o nmero mostrado for 14, voc usar o 14R para operar.
+Compreendendo a Linha Inferior (Frequncia Sniper):
+
+A linha inferior, localizada abaixo da linha intermediria,  chamada de
+Frequncia Sniper. Ela  ideal para quem busca uma viso mais
+microscpica do mercado.
+
+Observago: Isso no quer dizer que um renko pequeno vai ser rpido, o
+que acontece  que diminuindo o renko voc est fragmentando o
+movimento em renkos menores, logo est tendo essa a sensago que
+mercado est andando mais. Por exemplo: existem Small caps que o renko
+pequeno, mas o prego da aco no anda quase nada. Ento uma coisa
+nno est associada a outra, falaremos mais sobre isso no tpico de
+considerages.
+---
+Assim como na linha Intermediria, no final da linha Inferior h um nmero
+dentro de uma etiqueta. No exemplo da imagem, o numero apresentado
+9. Este valor tambm muda conforme a movimentago do mercado.
+
+Se voc quiser operar usando a Frequncia Sniper, basta usar o nmero
+exibido na etiqueta laranja. Por exemplo, se o nmero for 9, voc
+configurar o 9R no Renko.
+
+Compreendendo a Linha Superior (Frequncia Macro):
+
+Alinha superior, localizada acima da linha intermediria,  chamada de
+Frequncia Macro. Essa frequncia  destinada a quem busca uma viso
+macroscpica do movimento, sendo ideal para analisar regies no mapa
+de forma mais ampla.
+
+Observago: Essa leitura  especialmente til para identificar os extremos
+dos ativos, j que os extremos no grfico macro tendem a ser mais
+duradouros devido a sua viso de longo prazo.
+
+No final da linha, tambm h um nmero dentro de uma etiqueta. No
+exemplo da imagem, o nmero exibido  23. Esse valor nao  fixo e muda
+conforme a negociago do mercado.
+
+Importante: A desvantagem da Frequncia Macro  que o Renko se toma
+maior, o que implica stops e alvos tambm maiores. Por isso, ela
+raramente  usada para entradas e sadas, sendo mais comum utilizarmos
+para mapeamentos.
+
+Se voc optar por usar a Frequncia Macro, utilize o nmero exibido na
+etiqueta. Por exemplo, se o nmero for 23, voc configurar o 23R no
+Renko.
+---
+Dvida: O nmero do Hertz mudou enquanto eu estava em operago. O
+que fazer?
+
+Resposta: Nao h problema. Essa mudanga pontual no comprometer
+sua leitura, pois o Hertz possui uma tolerncia para essas variages.
+Contudo, assim que possivel, atualize o grfico para a frequncia correta.
+Na prxima aula, falaremos sobre a usabilidade do Hertz.
+
+Bons estudos!

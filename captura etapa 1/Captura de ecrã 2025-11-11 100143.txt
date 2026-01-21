@@ -1,8 +1,1 @@
-TIMING DE ENTRADA - ETAPA 1
-
-Nessa situação, com o Shark ainda azul, os preços tendem a lateralizar, a
-menos que a linha do Shark passe a ficar vermelha futuramente.
-
-Veja: o movimento de Etapa 1 com o vermelho acinzentado (opaco) foi me
-lateral, enquanto o movimento de Etapa 1 com o vermeiho destacado foi
-mais fluido.
+TIMING DE ENTRADA - ETAPA 1 Nessa situago, com o Shark ainda azul, os precos tendem a lateralizar, a menos que a linha do Shark passe a ficar vermelha futuramente. Veja: o movimento de Etapa 1 com o vermelho acinzentado (opaco) foi m lateral, enquanto o movimento de Etapa 1 com o vermeiho destacado foi mais fluido. 
